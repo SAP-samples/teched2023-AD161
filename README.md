@@ -1,10 +1,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD161)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD161)
 
-# AD262 - Create Extensions to SAP S/4HANA Using ABAP Cloud and SAP Build 
+# AD161 - Build Full-Stack Applications with Pro-Code Tools
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called •	AD262 Create Extensions to SAP S/4HANA Using ABAP Cloud and SAP Build 
+This repository contains the material for the SAP TechEd 2022 session called AD161 - Build Full-Stack Applications with Pro-Code Tools
 
 ## Overview
 
