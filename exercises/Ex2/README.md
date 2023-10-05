@@ -64,7 +64,10 @@ For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
 For the **Annotation Value**, select **$now** from the dropdown list.
 The entity is updated with the new annotations.
 
-![](/exercises/Ex2/images/ConversationsAnnotation.png)
+![](/exercises/Ex2/images/ConversationsAnnotations.png)
+
+
+
 
 
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
