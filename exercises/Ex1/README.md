@@ -6,7 +6,7 @@ Open your browser and launch the so-called "lobby" using the following URL:
 ```URL
 https://lcapteched-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby
 ```
-You should see the central entry for low-code / no-code development on SAP BTP.
+You should see the central entry for SAP Build development on SAP BTP.
 
 ![](/exercises/Ex1/images/Lobby.png)
 
