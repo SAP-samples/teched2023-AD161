@@ -10,11 +10,11 @@ You should see the central entry for SAP Build development on SAP BTP.
 
 ![](/exercises/Ex1/images/Lobby.png)
 
-Click on the "Create" button and select tile "Build an Application". 
+Click on the **Create** button and select tile **Build an Application**. 
 
 ![](/exercises/Ex1/images/BuildApplication.png)
 
-On the next sreen, select the tile "SAP Build Code".
+On the next sreen, select the tile **SAP Build Code**.
 
 ![](/exercises/Ex1/images/BuildCode.png)
 
