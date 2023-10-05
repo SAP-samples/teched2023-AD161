@@ -98,36 +98,26 @@ The UrgencyCode entity is updated with the new properties.
 
 ![](/exercises/Ex2/images/UrgencyCodeProperties.png)
 
-## Exercise 2.5 Add Conversations Entity
-Create the Conversations entity including its properties, annotations, and aspects.
+## Exercise 2.5 Add Urgency Entity
+Create the Urgency entity based on the UrgencyCode Enum.
 
 In the CDS Graphical Modeler, click **Add Entity**.
-Change the tile's title to **Conversations**.
-![](/exercises/Ex2/images/ConversationsEntity.png)
+Change the tile's title to **Urgency**.
 
-Click icon (Show Details), a new Conversations editor opens on the right-hand side.
-In the Conversations editor, click the **Properties** tab.
+![](/exercises/Ex2/images/UrgencyEntity.png)
 
-Click **+** (Add property):
-1. For the **Name** column, enter the value **timestamp**, for the **Type** column, enter **DateTime**.
-2. For the **Name** column, enter **author**.
-3. For the **Name** column, enter **message**.
-4. For the rest of the columns, leave the default values.
+Click icon (Show Details), a new Urgency editor opens on the right-hand side.
+In the Urgency editor, click the **Properties** tab.
 
-The entity is updated with the new properties.
+Change the **ID** property to code.
+Change the **UUID** type, to the previously created **UrgencyCode**.
+For the rest of the columns, leave the default values.
 
-![](/exercises/Ex2/images/ConversationsProperties.png)
+The entity is updated with the new property.
 
-In the Conversation editor, click the **Annotations** tab.
-Click **+** (Add) next to the **author**.
-1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
-2. For the **Annotation Value**, select **$user** from the dropdown list.
-   
-Click **+** (Add) next to the **timestamp**.
-1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
-2. For the **Annotation Value**, select **$now** from the dropdown list.
+![](/exercises/Ex2/images/UrgencyProperties.png)
 
-The entity is updated with the new annotations.
+
 
 
 
