@@ -98,6 +98,39 @@ The UrgencyCode entity is updated with the new properties.
 
 ![](/exercises/Ex2/images/UrgencyCodeProperties.png)
 
+## Exercise 2.5 Add Conversations Entity
+Create the Conversations entity including its properties, annotations, and aspects.
+
+In the CDS Graphical Modeler, click **Add Entity**.
+Change the tile's title to **Conversations**.
+![](/exercises/Ex2/images/ConversationsEntity.png)
+
+Click icon (Show Details), a new Conversations editor opens on the right-hand side.
+In the Conversations editor, click the **Properties** tab.
+
+Click **+** (Add property):
+1. For the **Name** column, enter the value **timestamp**, for the **Type** column, enter **DateTime**.
+2. For the **Name** column, enter **author**.
+3. For the **Name** column, enter **message**.
+4. For the rest of the columns, leave the default values.
+
+The entity is updated with the new properties.
+
+![](/exercises/Ex2/images/ConversationsProperties.png)
+
+In the Conversation editor, click the **Annotations** tab.
+Click **+** (Add) next to the **author**.
+1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
+2. For the **Annotation Value**, select **$user** from the dropdown list.
+   
+Click **+** (Add) next to the **timestamp**.
+1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
+2. For the **Annotation Value**, select **$now** from the dropdown list.
+
+The entity is updated with the new annotations.
+
+
+
 
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
 
