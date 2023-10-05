@@ -55,7 +55,7 @@ Click **+** (Add property):
 2. For the **Name** column, enter **author**.
 3. For the **Name** column, enter **message**.
 4. For the rest of the columns, leave the default values.
-5. 
+
 The entity is updated with the new properties.
 
 ![](/exercises/Ex2/images/ConversationsProperties.png)
