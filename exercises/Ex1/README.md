@@ -37,16 +37,19 @@ Fill in the fields as shown as below:
 You can provide any descriptive text if you want.  
 Confirm with a click on **Create**.
 
-After the SAP Business Application Studio has created your environment you should see a screen like this (depending on whether your dev space has already started, this might take several minutes to come up). Make sure you select the **Home** tab (you might see **Guided Development** first):
-![](/exercises/ex1/images/LCAP_01.png)
+From the list of projects, select incident_managementXXX and navigate to the storyboard in SAP Business Application Studio.
+![](/exercises/Ex1/images/ProjectLink.png)
 
-Now we can build our project and use SAP-opinionated technologies such as CAP (Cloud Application Programming Model), Fiori Elements and MDK (Mobile Development Kit) for our purposes without thinking about how to structure our project and being able to concentrate on the tasks to solve rather than spending time to think about project setup and wiring up technologies.
+After the SAP Business Application Studio has created your environment you should see a screen like this (depending on whether your dev space has already started, this might take several minutes to come up).
+![](/exercises/Ex1/images/ProjectCreated.png)
+
+Now we can build our project and use SAP-opinionated technologies such as CAP (Cloud Application Programming Model), Fiori Elements for our purposes without thinking about how to structure our project and being able to concentrate on the tasks to solve rather than spending time to think about project setup and wiring up technologies.
 
 In the next step we will create a data model.
 
 ## Summary
 
-You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be later used to be deployed to the SAP HANA database we will use. Note that you have not seen any CAP related commands or syntax.
+You've now created an incident management project with a default Processor service that is ready for modeling based on CAP (Cloud Application Programming model).
 
-Continue to - [Exercise 1.5](../ex1.5/README.md)
+Continue to - [Exercise 2](../Ex2/README.md)
 
