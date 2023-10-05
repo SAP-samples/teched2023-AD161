@@ -1,4 +1,4 @@
-# Exercise 1 - Create a project
+# Exercise 1 - Create a Project
 
 In this exercise, we will create incident_management project in the new low-code perspective in the SAP Business Application Studio.
 
