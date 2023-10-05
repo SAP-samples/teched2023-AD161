@@ -2,10 +2,6 @@
 
 In this exercise, we will create incident_management project in the new low-code perspective in the SAP Business Application Studio.
 
-
-From the list of projects, select incident_management and navigate to the storyboard in SAP Business Application Studio.
-
-
 Open your browser and launch the so-called "lobby" using the following URL:
 ```URL
 https://lcapteched-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby
@@ -22,9 +18,9 @@ On the next sreen, select the tile "SAP Build Code".
 
 ![](/exercises/Ex1/images/BuildCode.png)
 
-![](/exercises/ex1/images/lobby_03.png)
-
 A dialog appears where you can enter the following name for your project. As we plan to deploy our project it is important to stick to the naming convention here.  
+
+![](/exercises/Ex1/images/FullStack.png)
 
 **DO NOT USE YOUR OWN PROJECT NAME**  
 
@@ -37,11 +33,9 @@ Where XXX is the user number that was assigned to you. Please make sure that you
 Fill in the fields as shown as below:
 1. **Namespace**	teched
 2. **Service Name**	Processor
-
+   
 You can provide any descriptive text if you want.  
 Confirm with a click on **Create**.
-
-
 
 After the SAP Business Application Studio has created your environment you should see a screen like this (depending on whether your dev space has already started, this might take several minutes to come up). Make sure you select the **Home** tab (you might see **Guided Development** first):
 ![](/exercises/ex1/images/LCAP_01.png)
