@@ -10,6 +10,7 @@ Click the **Import** tab, click  (Import from other models) and select **Common 
 From the dialog box, select the **sap.common.CodeList** checkbox.
 The data type is imported to the model.
 
+![](/exercises/Ex2/images/ImportCodeList.png)
 
 
 
