@@ -10,7 +10,7 @@ From the CDS Graphical Modeler editor's top right toolbar, click the (Show Detai
 Click the **Import** tab, click **+** (Import from other models) and select **Common Types**.
 From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other defaults.
 
-The data type is imported to the model.
+The data type is imported to the model, it will be used later as a property in Urgency entity.
 
 ![](/exercises/Ex2/images/ImportCodeList.png)
 
@@ -99,10 +99,11 @@ The UrgencyCode entity is updated with the new properties.
 ![](/exercises/Ex2/images/UrgencyCodeProperties.png)
 
 ## Exercise 2.5 Add Urgency Entity
-Create the Urgency entity based on the UrgencyCode Enum.
+Create the Urgency entity based on the UrgencyCode Enum, and add CodeList aspect.
 
 In the CDS Graphical Modeler, click **Add Entity**.
 Change the tile's title to **Urgency**.
+Again, the **ID** property is created for you. This time however we will change it.
 
 ![](/exercises/Ex2/images/UrgencyEntity.png)
 
@@ -118,43 +119,14 @@ The entity is updated with the new property.
 ![](/exercises/Ex2/images/UrgencyProperties.png)
 
 
+In the Urgency editor, click the **Aspects** tab.
+Select the **sap.common.CodeList** aspect checkbox.
+
+The entity is updated with the new aspect.
+
+![](/exercises/Ex2/images/UrgencyAspect.png)
 
 
-
-
-We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
-
-Create your first data model ( = entity ) which is the one that contains all the properties that should pop up in the UI apps to create and view registrations for expenditures. Note that the ID property as a key is already created for you for convenience reasons. One can choose to keep it or change / delete it, we keep it.
-
-Entity Name: Capex
-
-| Property Name | Property Type | Key Property
-| ----------- | ----------- | - |
-| ID | UUID | X |
-| description | String |   |
-| totalcost | Integer |   |
-
-![](/exercises/ex1/images/LCAP_02.png)
-
-
-We will now add another entity. This time we will create a **Category** entity, which will contain some categories in which a Capex request will fall. This time in the same editor, press the **Add Entity** button at the top, move the box anywhere where you like on the canvas and then type in the name **Category**. Then click on the header of the box, this will invoke a menu to the right. Select the **Edit** button:
-
-![](/exercises/ex1/images/LCAP_02-01.png)
-
-Now enter the following:
-
-Entity Name: Category
-
-| Property Name | Property Type |
-| ----------- | ----------- |
-| ID | Integer | X |
-| name | String |   |
-
-Again, the **ID** property is created for you. This time however, make sure you change its property type from **UUID** to **Integer**.
-
-Now the data model will look like this:
-
-![](/exercises/ex1/images/LCAP_03.png)
 
 We will now create a relationship (association) between the entities to indicate category for a capex request.
 
