@@ -20,7 +20,6 @@ On the next sreen, select the tile **SAP Build Code**.
 
 A dialog appears where you can enter the following name for your project. As we plan to deploy our project it is important to stick to the naming convention here.  
 
-![](/exercises/Ex1/images/FullStack.png)
 
 **DO NOT USE YOUR OWN PROJECT NAME**  
 
@@ -36,6 +35,8 @@ Fill in the fields as shown as below:
    
 You can provide any descriptive text if you want.  
 Confirm with a click on **Create**.
+
+![](/exercises/Ex1/images/FullStack.png)
 
 From the list of projects, select incident_managementXXX and navigate to the storyboard in SAP Business Application Studio.
 ![](/exercises/Ex1/images/ProjectLink.png)
