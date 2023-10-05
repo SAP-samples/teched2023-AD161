@@ -20,12 +20,19 @@ Change the tile's title to **Incidents**.
 Note that the ID property as a key is already created for you for convenience reasons. One can choose to keep it or change / delete it, we keep it.
 ![](/exercises/Ex2/images/Incidents.png)
 
-Click icon (Show Details),a new Incidents editor opens on the right-hand side.
+Click icon (Show Details), a new Incidents editor opens on the right-hand side.
 In the Incidents editor, click the **Properties** tab, and then Click **+** (Add property).
 For the **Name** column, enter the value **title**.
 For the rest of the columns, leave the default values.
 The entity is updated with the new property.
-![](/exercises/Ex2/images/Incidents.png)
+
+![](/exercises/Ex2/images/IncidentsProperties.png)
+
+In the Incidents editor, click the **Annotations** tab.
+Click  **+** (Add) next to the title.
+For the **Annotation Target**, select **title** from the dropdown-list.
+For the **Annotation Value**, enter **Title**.
+The entity is updated with the new annotations.
 
 
 
