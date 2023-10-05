@@ -69,9 +69,6 @@ The entity is updated with the new annotations.
 
 
 
-
-
-
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
 
 Create your first data model ( = entity ) which is the one that contains all the properties that should pop up in the UI apps to create and view registrations for expenditures. Note that the ID property as a key is already created for you for convenience reasons. One can choose to keep it or change / delete it, we keep it.
