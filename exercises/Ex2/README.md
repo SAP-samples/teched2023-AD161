@@ -134,7 +134,7 @@ In the dialog box, fill in the following values:
    
 The Incidents entity is updated with the new relationship to Conversations.
 
-![](/exercises/Ex2/images/IncidentsConversationRelationship.png)
+![](/exercises/Ex2/images/IncidentsConversationsRelationship.png)
 
 1. Select the Incidents entity and click (Add Relationship) icon.
 2. An arrow appears. Drag the arrow to the **Urgency** entity.
@@ -153,4 +153,4 @@ The Incidents entity is updated with the new relationship to Urgency.
 
 You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be later used to be deployed to the SAP HANA database we will use. Note that you have not seen any CAP related commands or syntax.
 
-Continue to - [Exercise 1.5](../ex1.5/README.md)
+Continue to - [Exercise 3](../Ex3/README.md)
