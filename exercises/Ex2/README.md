@@ -61,12 +61,13 @@ The entity is updated with the new properties.
 ![](/exercises/Ex2/images/ConversationsProperties.png)
 
 In the Conversation editor, click the **Annotations** tab.
-1. Click **+** (Add) next to the **author**.
-   a. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
-   b. For the **Annotation Value**, select **$user** from the dropdown list.
-2. Click **+** (Add) next to the **timestamp**.
-   a. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
-   b. For the **Annotation Value**, select **$now** from the dropdown list.
+Click **+** (Add) next to the **author**.
+1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
+2. For the **Annotation Value**, select **$user** from the dropdown list.
+   
+Click **+** (Add) next to the **timestamp**.
+1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
+2. For the **Annotation Value**, select **$now** from the dropdown list.
 
 The entity is updated with the new annotations.
 
