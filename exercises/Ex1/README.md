@@ -8,7 +8,7 @@ https://lcapteched-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lob
 ```
 You should see the central entry for low-code / no-code development on SAP BTP.
 
-![](/exercises/ex1/images/lobby_01.png)
+![](/exercises/Ex1/images/Lobby.png)
 
 Click on the "Create" button and select tile "Build an Application". 
 
