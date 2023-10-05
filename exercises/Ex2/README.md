@@ -5,8 +5,9 @@ We will also test the service and see whether it runs or not.
 ## Exercise 2.1 Import CodeList to Data Model
 
 In the storyboard, click on an entity under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
+
 From the CDS Graphical Modeler editor's top right toolbar, click the (Show Details) icon.
-Click the **Import** tab, click  (Import from other models) and select **Common Types**.
+Click the **Import** tab, click **+** (Import from other models) and select **Common Types**.
 From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other defaults.
 The data type is imported to the model.
 
