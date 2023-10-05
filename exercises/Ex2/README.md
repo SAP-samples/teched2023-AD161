@@ -12,6 +12,16 @@ The data type is imported to the model.
 
 ![](/exercises/Ex2/images/ImportCodeList.png)
 
+## Exercise 2.1 Add Incidents Entity
+Create the Incidents entity including its properties, annotations, and aspects.
+
+In the CDS Graphical Modeler, click **Add Entity**.
+Change the tile's title to Incidents.
+Click  (Show Details).
+A new Incidents editor opens on the right-hand side.
+
+
+
 
 
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
