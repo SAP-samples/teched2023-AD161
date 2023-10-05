@@ -109,9 +109,9 @@ Change the tile's title to **Urgency**.
 Click icon (Show Details), a new Urgency editor opens on the right-hand side.
 In the Urgency editor, click the **Properties** tab.
 
-Change the **ID** property to code.
-Change the **UUID** type, to the previously created **UrgencyCode**.
-For the rest of the columns, leave the default values.
+1. Change the **ID** property to code.
+3. Change the **UUID** type, to the previously created **UrgencyCode**.
+3. For the rest of the columns, leave the default values.
 
 The entity is updated with the new property.
 
