@@ -34,8 +34,7 @@ For the **Annotation Target**, select **title** from the dropdown-list.
 For the **Annotation Value**, enter **Title**.
 The entity is updated with the new annotations.
 
-
-
+![](/exercises/Ex2/images/IncidentsAnnotation.png)
 
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
 
