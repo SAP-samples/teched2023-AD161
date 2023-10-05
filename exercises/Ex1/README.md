@@ -2,17 +2,8 @@
 
 In this exercise, we will create incident_management project in the new low-code perspective in the SAP Business Application Studio.
 
-3.2.	From the landing page, click Create and select Build an Application.
-4.	Select the SAP Build Code tile and then the Full-Stack Application tile.
-5.	Fill in the fields as shown in the table below:
-Property	Value
-Project Name	incident_management
-Description	Incident Management Application
-Namespace	sap.capire.incidents
-Service Name	ProcessorService
-Dev Space	Full Stack Cloud Application
-6.	Click Create.
-7.	From the list of projects, select incident_management and navigate to the storyboard in SAP Business Application Studio.
+
+From the list of projects, select incident_management and navigate to the storyboard in SAP Business Application Studio.
 
 
 Open your browser and launch the so-called "lobby" using the following URL:
