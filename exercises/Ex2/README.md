@@ -96,6 +96,8 @@ In the UrgencyCode editor, click the **Properties** tab.
     
 The UrgencyCode entity is updated with the new properties.
 
+![](/exercises/Ex2/images/UrgencyCodeProperties.png)
+
 
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
 
