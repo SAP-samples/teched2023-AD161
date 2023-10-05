@@ -73,8 +73,28 @@ The entity is updated with the new annotations.
 
 ![](/exercises/Ex2/images/ConversationsAnnotations.png)
 
+## Exercise 2.4 Add UrgencyCode Enum
 
+In the CDS Graphical Modeler, click **+** and then select **Add Enum** from the dropdown list.
+Change the tile's title to **UrgencyCode**.
 
+![](/exercises/Ex2/images/UrgencyCodeEnum.png)
+
+If not already open, click (Show Details) icon to open the **UrgencyCode** editor on the right-hand side.
+
+In the UrgencyCode editor, click the **Properties** tab.
+1. Select the **String** radio button.
+2. Click **+** (Add property)   
+3. For the **Enum Symbol** column, enter **High**.
+4. For the **Enum Value** column, enter **H**.
+5. Click **+** (Add property).   
+6. For the **Enum Symbol** column, enter **Medium**.
+7. For the **Enum Value** column, enter **M**.
+8. Click **+** (Add property).   
+9. For the **Enum Symbol** column, enter **Low**.
+10. For the **Enum Value** column, enter **L**.
+    
+The UrgencyCode entity is updated with the new properties.
 
 
 We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
