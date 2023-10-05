@@ -119,28 +119,35 @@ The entity is updated with the new property.
 ![](/exercises/Ex2/images/UrgencyProperties.png)
 
 
-In the Urgency editor, click the **Aspects** tab.
-Select the **sap.common.CodeList** aspect checkbox.
+## Exercise 2.6 Add Entity Relationship
 
-The entity is updated with the new aspect.
+Create associations between Incidents to Conversations and Urgency. An incident includes urgency, and multiple conversations.
 
-![](/exercises/Ex2/images/UrgencyAspect.png)
+1. Select the **Incidents entity** and click (Add Relationship) icon.
+2. An arrow appears. Drag the arrow to the **Conversations** entity.
+The **New Relationship** dialog box opens.
+In the dialog box, fill in the following values:
+1. For **Type**, select **Composition**.
+2. For **Multiplicity**, select **To-Many**.
+3. For the rest of the fields, leave the default values.
+4. Click **Create**.
+   
+The Incidents entity is updated with the new relationship to Conversations.
 
+![](/exercises/Ex2/images/IncidentsConversationRelationship.png)
 
+1. Select the Incidents entity and click (Add Relationship) icon.
+2. An arrow appears. Drag the arrow to the **Urgency** entity.
+The **New Relationship** dialog box opens.
+In the dialog box, fill in the following values:
+1. For **Type**, select **Association**.
+2. For **Multiplicity**, select **To-One**.
+3. For the rest of the fields, leave the default values.
+4. Click **Create**.
+   
+The Incidents entity is updated with the new relationship to Urgency.
 
-We will now create a relationship (association) between the entities to indicate category for a capex request.
-
-Click on the header area of the **Capex** entity and click "Add Relationship" in the menu that appears:
-
-![](/exercises/ex1/images/LCAP_04.png)
-
-Associate your **Capex** entity with the **Category** entity by dropping the arrow on the **Category** box and then take over the suggested values as they are really what we need here: a **to one association** from **Capex** to **Category**:
-
-![](/exercises/ex1/images/LCAP_05.png)
-
-Our data model should now look like this:
-
-![](/exercises/ex1/images/LCAP_06.png)
+![](/exercises/Ex2/images/IncidentsUrgencyRelationship.png)
 
 ## Summary
 
