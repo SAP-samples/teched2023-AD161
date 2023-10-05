@@ -55,7 +55,7 @@ The entity is updated with the new properties.
 
 ![](/exercises/Ex2/images/ConversationsProperties.png)
 
-In the Incidents editor, click the **Annotations** tab.
+In the Conversation editor, click the **Annotations** tab.
 Click  **+** (Add) next to the title.
 For the **Annotation Target**, select **title** from the dropdown-list.
 For the **Annotation Value**, enter **Title**.
