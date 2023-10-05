@@ -16,10 +16,16 @@ The data type is imported to the model.
 Create the Incidents entity including its properties, annotations, and aspects.
 
 In the CDS Graphical Modeler, click **Add Entity**.
-Change the tile's title to Incidents.
-Click  (Show Details).
-A new Incidents editor opens on the right-hand side.
+Change the tile's title to **Incidents**.
+Note that the ID property as a key is already created for you for convenience reasons. One can choose to keep it or change / delete it, we keep it.
+![](/exercises/Ex2/images/Incidents.png)
 
+Click icon (Show Details),a new Incidents editor opens on the right-hand side.
+In the Incidents editor, click the **Properties** tab, and then Click **+** (Add property).
+For the **Name** column, enter the value **title**.
+For the rest of the columns, leave the default values.
+The entity is updated with the new property.
+![](/exercises/Ex2/images/Incidents.png)
 
 
 
