@@ -12,7 +12,7 @@ You should see the central entry for low-code / no-code development on SAP BTP.
 
 Click on the "Create" button and select "Business an Application". 
 
-![](/exercises/ex1/images/lobby_02.png)
+![](/exercises/ex1new/images/BuildApplication.png)
 
 On the next sreen, choose the entry for "Pro Developers".
 
