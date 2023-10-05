@@ -1,54 +1,68 @@
-# Exercise 1.5 - Reference an S/4 HANA Cloud Service in your Data Model
+# Exercise 2 - Create a Data Model with CDS Graphical Modeler
 
-In this exercise, we will add an S/4 HANA Cloud service, the Business Partner to our project and associate it with our Capex model
+In this exercise, we will use the new low-code perspective in the SAP Business Application Studio to create a service that persists our business data and exposes the data as an OData service for our consuming applications later on.
+We will also test the service and see whether it runs or not.
+## Exercise 2.1 Import CodeList to Data Model
 
-## Exercise 1.5.1 Discover an S/4 HANA Cloud Service and add it to your Data Model
+In the storyboard, click on an entity under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
+From the CDS Graphical Modeler editor's top right toolbar, click the (Show Details) icon.
+Click the **Import** tab, click  (Import from other models) and select **Common Types**.
+From the dialog box, select the **sap.common.CodeList** checkbox.
+The data type is imported to the model.
 
-On **Home** press "+" on the **External Data Models** tile. This opens the so-called **Service Center** on the left hand side.
 
-There you can see a choice of **SAP Systems**. Technically these are destinations to OData Services in your backend system that an administrator has set up for you. These can be services from an S/4 HANA system or from other SAP backend systems.
 
-In the lower part of the screen you can also see that there are APIs from **SAP API Business Hub** available. However, unlike the ones that are under **SAP Systems** these don't come with connectivity to the backends, so we stick with **SAP Systems**.
 
-Choose **API_BUSINESS_PARTNER**
+We will first create our persistence by adding a data model to our project. You can use the **Data Models** tile for that.
 
-You can now see the details of the chosen Service, its entities and the properties for each entity, as well general data about the service.
+Create your first data model ( = entity ) which is the one that contains all the properties that should pop up in the UI apps to create and view registrations for expenditures. Note that the ID property as a key is already created for you for convenience reasons. One can choose to keep it or change / delete it, we keep it.
 
-![](/exercises/ex1.5/images/LCAP_151.png)
+Entity Name: Capex
 
-Press on the **Add External Data Model** in the upper right corner of the screen.
+| Property Name | Property Type | Key Property
+| ----------- | ----------- | - |
+| ID | UUID | X |
+| description | String |   |
+| totalcost | Integer |   |
 
-This adds the chosen Service to you project.
+![](/exercises/ex1/images/LCAP_02.png)
 
-Return to **Home**, after a couple of seconds the new Service will show up, its 43 entities are shown.
 
-![](/exercises/ex1.5/images/LCAP_152.png)
+We will now add another entity. This time we will create a **Category** entity, which will contain some categories in which a Capex request will fall. This time in the same editor, press the **Add Entity** button at the top, move the box anywhere where you like on the canvas and then type in the name **Category**. Then click on the header of the box, this will invoke a menu to the right. Select the **Edit** button:
 
-You can now close the left pane of the service center by clicking the highlighted button in the image above
+![](/exercises/ex1/images/LCAP_02-01.png)
 
-## Exercise 1.5.2 Associate a Business Partner Entity with the Capex Entity
+Now enter the following:
 
-On **Home** under **Data Models** press on the **Capex** entry to get back into the graphical modeler.
+Entity Name: Category
 
-Here invoke the **Add Relationship** function on **Capex** again.
+| Property Name | Property Type |
+| ----------- | ----------- |
+| ID | Integer | X |
+| name | String |   |
 
-![](/exercises/ex1.5/images/LCAP_153.png)
+Again, the **ID** property is created for you. This time however, make sure you change its property type from **UUID** to **Integer**.
 
-This is to create a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in another namespace than our own Capex and Category entities.
+Now the data model will look like this:
 
-Therefore, drag the end of line of the relationship to an empty space on the canvas and click the mouse button.
+![](/exercises/ex1/images/LCAP_03.png)
 
-A new dialog will come up. From the dropdown choose **Target Entity Type** **API_BUSINESS_PARTNER-A_BusinessPartner**. Change the suggested **Property Name** to **BusinessPartner**. Leave all the other suggestions (**Association** and **To-One**) as they are and press **Create**
+We will now create a relationship (association) between the entities to indicate category for a capex request.
 
-![](/exercises/ex1.5/images/LCAP_154.png)
+Click on the header area of the **Capex** entity and click "Add Relationship" in the menu that appears:
 
-You will now see the final data model:
+![](/exercises/ex1/images/LCAP_04.png)
 
-![](/exercises/ex1.5/images/LCAP_155.png)
+Associate your **Capex** entity with the **Category** entity by dropping the arrow on the **Category** box and then take over the suggested values as they are really what we need here: a **to one association** from **Capex** to **Category**:
 
+![](/exercises/ex1/images/LCAP_05.png)
+
+Our data model should now look like this:
+
+![](/exercises/ex1/images/LCAP_06.png)
 
 ## Summary
 
-You've now added a reference to a data model / service in an S/4 HANA Cloud backend system to your new data model.
+You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be later used to be deployed to the SAP HANA database we will use. Note that you have not seen any CAP related commands or syntax.
 
-Continue to - [Exercise 2](../ex2/README.md)
+Continue to - [Exercise 1.5](../ex1.5/README.md)
