@@ -30,7 +30,7 @@ On **Storyboard** under **Data Models** click **Open in Graphical Modeler** to g
 
 Here invoke the **Add Relationship** function on **Incidents** again.
 
-![](/exercises/ex1.5/images/LCAP_153.png)
+![](/exercises/Ex3/images/LCAP_153.png)
 
 This is to create a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in another namespace than our own Capex and Category entities.
 
