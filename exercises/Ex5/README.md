@@ -1,21 +1,52 @@
-# Exercise 3 - Create a service (API)
+# Exercise 5 - Create a Service (API)
 
 After the creation of the data model ( persistence layer ) we will now select what to expose to the outside world as an API. This API can then be consumed by UI apps, workflows, etc.. For this we will add several entities to a service. CAP will expose this service automatically as a full blown OData service.
 
-## Create new service entities
+## Create New Service Entities
 
-Go back to the **Home** tab in the Application Studio.
+Go back to the **Storyboard** tab in SAP Business Application Studio.
 
-Your home tab displays the two new entities and the external one in your model and the corresponding sample data. You can easily navigate back to the Data Model Editor by clicking on of the entities if you like.
+In the **Storyboard**, from the Services tile, click the **ProcessorService** and select **Open in Graphical Modeler**.
+The CDS Graphical Modeler opens.
 
-On **Home** add a new **Service** (it is actually a service entity).
+From the toolbar, click **Add Entity** and click **Entity1**.
+The **Select Projection Type** dialog box opens.
+Select the **Incidents entity**, make sure that the **Enable draft editing** checkbox is selected, and click **OK**.
+The Incidents entity appears in the CDS Graphical Modeler.
 
-The Service Editor appears and asks you to create a service. Choose  **LCAPXXX.Capex** as a **Type** where again XXX is the number of your user. Then the **Name** should be automatically filled with **Capex** derived from the type. In the list of properties you can see all of them selected, leave it like this and confirm with a click on **Create**.
+![](/exercises/Ex5/images/Incidentsprojection.png)
 
-What you have now done is exposed your data model **Capex** as a service entity **Capex** 1:1. In technical (CAP) terms you have created a service entity as a projection on the Capex entity.
+From the toolbar, click **Add Entity** and click **Entity1**.
+The **Select Projection Type** dialog box opens.
+Select the **Conversations** entity, clear the **Enable draft editing** checkbox, and click **OK**.
+The Conversations entity appears in the CDS Graphical Modeler.
+
+![](/exercises/Ex5/images/conversationsprojections.png)
+
+From the toolbar, click **Add Entity** and click **Entity1**.
+The **Select Projection Type** dialog box opens.
+Select the **Urgency** entity, clear the **Enable draft editing** checkbox, and click **OK**.
+The Urgency entity appears in the CDS Graphical Modeler.
+
+![](/exercises/Ex5/images/urgencyprojections.png)
+
+From the toolbar, click **Add Entity** and click **Entity1**.
+The **Select Projection Type** dialog box opens.
+Select the **A_BusinessPartner** entity, clear the **Enable draft editing** checkbox, and click **OK**.
+1. Rename the the **A_BusinessPartner** to **Customers**.Unchecl 
+2. Click icon **Show Details**, and select **Projection** tab.
+3. Uncheck **all properties**, and select the following properties:
+   a. BusinessPartner
+   b. Customer
+   c. FirstName
+   d. LastName
+
+Go back to the storyboard and make sure that the ProcessorService contains the 4 entities you just added.
+
+![](/exercises/Ex5/images/customersprojections.png)
+
 
 ![](/exercises/ex3/images/LCAP_32.png)
-
 
 Add another entity and repeat the step to create another service entity. This time select the type **LCAPXXX.Category** and find the name **Category** after selection. Click **Create**
 
@@ -27,25 +58,6 @@ Add a third entity, this time choose **API_BUSINESS_PARTNER.A_BusinessPartner**.
 - **LastName**
 
 Also change the **Name** to be **BusinessPartner**
-
-![](/exercises/ex3/images/LCAP_33.png)
-
-## Enable Draft Editing for Capex
-
-There is an important part we still have to do for the particular **Capex** entity: Mark it for **Draft Editing**. This means that the service entity supports storing incomplete or wrong data in a draft which is only exposed to the user that created the entity while the entity is not active and not visible for other users. This is an important UX feature: If there are applications where there are mandatory fields or validations for a field (e.g. an email field should contain a valid email address) and the user is not able to resolve these issues before the timeout of the operation (for example because the user needs to attend a meeting before finishing) without a draft mode, all the data would get lost. Drafts make sure that all the data that is entered gets saved in a draft and only when the data is complete and validated the data is turned into a real active object. 
-
-Activate **Draft Editing** for the **Capex** entity by marking the corresponding checkbox on the property panel:
-
-![](/exercises/ex3/images/LCAP_34.png)
-
-You can also see the 3 service entities that you created and the associations in the above picture.
-
-Please note that the associations will be provided automatically, based on the definition in the data model.
-
-Close the Service Editor and navigate back to **Home** tab.
-
-You should have two entities in the Date Model and three service entities in the Service box.
-
 ## Summary
 You have now added a service to your project. Essentially, this service will expose your data model as an OData V4, RESTful API to your application.
 
