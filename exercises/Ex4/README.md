@@ -5,7 +5,7 @@ We will now populate our data model with some sample data so that we can test ou
 - sample data that is really only used to test the services and applications that you create and that should not be part of a productive deployment
 
 Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity and select **Add Sample Data**.
-The Sample Data Editor opens. We will add sample data for the 4 entities.
+The Sample Data Editor opens.
 
 From the editor, select **Urgency**.
 Change the **Mock Data** switch to **Off** and enter 3 as the number of rows.
