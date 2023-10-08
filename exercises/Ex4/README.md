@@ -1,4 +1,4 @@
-# Exercise 2 - Add some sample data
+# Exercise 4 - Add some sample data
 
 We will now populate our data model with some sample data so that we can test our service. Note, that even though it says sample data, the data can be of two types:
 - fixed values that are part of you application and should be deployed along with the application. An example could be the data for **Category** if there is only a fixed set of categories that cannot be changed
