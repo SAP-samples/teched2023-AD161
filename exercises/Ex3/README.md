@@ -22,15 +22,13 @@ This adds the chosen Service to you project.
 
 Return to **Storyboard**, after a couple of seconds the new Service will show up on the **External Resources** tile.
 
-![](/exercises/ex1.5/images/LCAP_152.png)
+![](/exercises/Ex3/images/bpinstoryboard.png)
 
-You can now close the left pane of the service center by clicking the highlighted button in the image above
+## Exercise 3.5.2 Associate a Business Partner Entity with the Incidents Entity
 
-## Exercise 1.5.2 Associate a Business Partner Entity with the Incidents Entity
+On **Storyboard** under **Data Models** click **Open in Graphical Modeler** to get back into the graphical modeler.
 
-On **Home** under **Data Models** press on the **Capex** entry to get back into the graphical modeler.
-
-Here invoke the **Add Relationship** function on **Capex** again.
+Here invoke the **Add Relationship** function on **Incidents** again.
 
 ![](/exercises/ex1.5/images/LCAP_153.png)
 
