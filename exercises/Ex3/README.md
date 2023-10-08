@@ -15,20 +15,18 @@ In the lower part of the screen you can also see that there are APIs from **SAP 
 Choose **API_BUSINESS_PARTNER**
 
 You can now see the details of the chosen Service, its entities and the properties for each entity, as well general data about the service.
-
-![](/exercises/ex1.5/images/LCAP_151.png)
-
 Press on the **Add External Data Model** in the upper right corner of the screen.
-
 This adds the chosen Service to you project.
 
-Return to **Home**, after a couple of seconds the new Service will show up, its 43 entities are shown.
+![](/exercises/Ex3/images/businesspartner.png)
+
+Return to **Storyboard**, after a couple of seconds the new Service will show up on the **External Resources** tile.
 
 ![](/exercises/ex1.5/images/LCAP_152.png)
 
 You can now close the left pane of the service center by clicking the highlighted button in the image above
 
-## Exercise 1.5.2 Associate a Business Partner Entity with the Capex Entity
+## Exercise 1.5.2 Associate a Business Partner Entity with the Incidents Entity
 
 On **Home** under **Data Models** press on the **Capex** entry to get back into the graphical modeler.
 
