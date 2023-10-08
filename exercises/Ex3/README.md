@@ -42,7 +42,7 @@ A new dialog will come up. From the dropdown choose **Target Entity Type** **API
 
 You will now see the final data model:
 
-![](/exercises/ex1.5/images/LCAP_155.png)
+![](/exercises/Ex3/images/bprelationshipcreated.png)
 
 
 ## Summary
