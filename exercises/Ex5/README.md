@@ -61,4 +61,4 @@ Also change the **Name** to be **BusinessPartner**
 ## Summary
 You have now added a service to your project. Essentially, this service will expose your data model as an OData V4, RESTful API to your application.
 
-Continue to - [Exercise 4](../ex4/README.md)
+Continue to - [Exercise 6](../Ex6/README.md)
