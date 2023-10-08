@@ -1,18 +1,16 @@
-# Exercise 3 - Reference an S/4 HANA Cloud Service in your Data Model
+# Exercise 3 - Reference an S/4HANA Cloud Service in your Data Model
 
-In this exercise, we will add an S/4 HANA Cloud service, the Business Partner to our project and associate it with our incident management model
+In this exercise, we will add an S/4HANA Cloud service, the Business Partner to our project and associate it with our incident management model
 
-## Exercise 3.1 Discover an S/4 HANA Cloud Service and add it to your Data Model
+## Exercise 3.1 Discover an S/4HANA Cloud Service and add it to your Data Model
 
 From the **Storyboard** press "+" on the **External Resources** tile. This opens the **Service Center** on the left hand side.
 
 ![](/exercises/Ex3/images/externalresources.png)
 
-There you can see a choice of **SAP Systems**. Technically these are destinations to OData Services in your backend system that an administrator has set up for you. These can be services from an S/4 HANA system or from other SAP backend systems.
+There you can see a choice of **SAP System**. Technically these are destinations to OData Services in your backend system that an administrator has set up for you. These can be services from an S/4HANA system or from other SAP backend systems.
 
-In the lower part of the screen you can also see that there are APIs from **SAP API Business Hub** available. However, unlike the ones that are under **SAP Systems** these don't come with connectivity to the backends, so we stick with **SAP Systems**.
-
-Choose **API_BUSINESS_PARTNER**
+Expand **SAP System > lcapteched** and select **API_BUSINESS_PARTNER**.
 
 You can now see the details of the chosen Service, its entities and the properties for each entity, as well general data about the service.
 Press on the **Add External Data Model** in the upper right corner of the screen.
@@ -47,6 +45,6 @@ You will now see the final data model:
 
 ## Summary
 
-You've now added a reference to a data model / service in an S/4 HANA Cloud backend system to your new data model.
+You've now added a reference to incidents data model a customer relationship from a service in an S/4HANA Cloud backend system.
 
-Continue to - [Exercise 2](../ex2/README.md)
+Continue to - [Exercise 4](../Ex4/README.md)
