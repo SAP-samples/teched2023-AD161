@@ -30,15 +30,15 @@ On **Storyboard** under **Data Models** click **Open in Graphical Modeler** to g
 
 Here invoke the **Add Relationship** function on **Incidents** again.
 
-![](/exercises/Ex3/images/LCAP_153.png)
+![](/exercises/Ex3/images/addbprelationship.png)
 
-This is to create a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in another namespace than our own Capex and Category entities.
+This is to create a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in another namespace than our own Incidents entity.
 
 Therefore, drag the end of line of the relationship to an empty space on the canvas and click the mouse button.
 
-A new dialog will come up. From the dropdown choose **Target Entity Type** **API_BUSINESS_PARTNER-A_BusinessPartner**. Change the suggested **Property Name** to **BusinessPartner**. Leave all the other suggestions (**Association** and **To-One**) as they are and press **Create**
+A new dialog will come up. From the dropdown choose **Target Entity Type** **API_BUSINESS_PARTNER-A_BusinessPartner**. Change the suggested **Property Name** to **customer**. Leave all the other suggestions (**Association** and **To-One**) as they are and press **Create**
 
-![](/exercises/ex1.5/images/LCAP_154.png)
+![](/exercises/Ex3/images/incidentcustomerrelationship.png)
 
 You will now see the final data model:
 
