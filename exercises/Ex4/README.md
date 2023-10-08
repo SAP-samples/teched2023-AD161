@@ -54,7 +54,7 @@ From the editor, select **Conversations** and click **Import**.
 From the file selection dialog box that opens, select the 'conversations.csv' file that you created.
 The data is added.
 
-![](/exercises/Ex4/images/conversationsssample.png) 
+![](/exercises/Ex4/images/conversationssample.png) 
 
 ## Summary
 
