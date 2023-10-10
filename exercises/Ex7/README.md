@@ -15,7 +15,6 @@ Click **Next**.
 
 ![](/exercises/Ex7/images/UIApplicationDetails.png)
 
-
 In the next step you can choose the technology you want to use to create your new UI app. You have a choice between "template based, responsive application" representing Fiori elements (FE) and "Mobile centric, freestyle application" representing the Mobile Development Kit (MDK).
 
 For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
