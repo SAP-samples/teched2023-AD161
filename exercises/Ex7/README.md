@@ -7,11 +7,15 @@ After the creation of the service with several entities, we will create a list r
 Go back to the **Storyboard** tab in the SAP Business Application Studio.
 From **UI Applications** in the storyboard, click + (Add UI).
 A UI Application wizard opens.
+
 For the **UI Application Details**, enter **Incidents** for the **Display Name**.
 The Application Name field is filled in automatically.
 Click **Next**.
+
 For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
+
 For the **UI Application Template**, select **List Report Page** and click **Next**.
+
 For the **Data Objects**, select the following values:
 
 For **Main entity**	select **Incidents**.
