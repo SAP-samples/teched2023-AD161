@@ -14,12 +14,23 @@ In the descr field, enter Low, Medium and High accordingly.
 
 ![](/exercises/Ex4/images/urgencysampledata.png)  
 
-From the editor, select **A_BusinessPartner**
-This time change the **Mock Data** switch to **On** and enter 5 as the number of rows.  Now there are 5 entries created and the data with it, you should see something like this:
+Now we will **import** data from a file to **A_BusinessPartner** entity.
+Using a local text editor, create a local file called `customers.txt`.
+Add the following content to the file and save it locally:
+
+BusinessPartner,FirstName,LastName
+1001036,Daniel,Watts
+1001038,Stormy,Weathers
+1001039,Sunny,Sunshine
+
+Rename your local file to `customers.csv`.
+From the editor, select **A_BusinessPartner** and click **Import**.
+From the file selection dialog box that opens, select the 'customers.csv' file that you created.
+The data is added.
 
 ![](/exercises/Ex4/images/bpsampledata.png)  
 
-Now we will import data from a file to **Incidents** entity.
+Now we will **import** data from a file to **Incidents** entity.
 Using a local text editor, create a local file called `incidents.txt`.
 Add the following content to the file and save it locally:
 
