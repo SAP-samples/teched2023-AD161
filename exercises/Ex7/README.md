@@ -55,34 +55,23 @@ You can now see the details of this page. Expand the **Columns** under **Table**
 
 ![](/exercises/Ex7/images/listcolumns.png)
 
-Click on the **urgency_code** column and change its label to **Urgency**, so the label looks nicer. 
+Under **Table > Columns**, select **urgency_cod** and make the following updates on the right:
 
-For **Text** field, select **urgency/descr**.
+1. Change the **Label** to **Urgency** and press **Enter**, so the label looks nicer. 
 
-For **Text Arrangement** field, select **Text Only**, this will configure the list to show the description of the urgency instead of its code.
+2. For **Text** field, select **urgency/descr**.
+
+3. For **Text Arrangement** field, select **Text Only**, this will configure the list to show the description of the urgency instead of its code.
 
 ![](/exercises/Ex7/images/urgencycolumn.png)
 
-Under Table > Columns, select urgency_code and make the following updates on the right:
-Change the value of the Label input field to Urgency and press Enter.
-Click  next to the Label input field to generate a translatable text key and click Apply.
-For the Text input field, select urgency/descr.
-For the Text Arrangement input field, select Text Only.
-Under Table > Columns, select status_code and make the following updates on the right:
-Change the value of the Label input field to Status and press Enter.
-Click  next to the Label input field to generate a translatable text key and click Apply.
-For the Text input field, select status/descr.
-For the Text Arrangement field, select Text Only.
-For the Criticality field, select status/criticality.
-Select Table > Columns, click , and select Add Basic Columns.
-In the dialog box that opens, select customer_ID and click Add.
-Select the customer_ID column and click  (Move up) to move the column under the Title column.
-Under Table > Columns, select customer_ID and make the following updates on the right:
-Change the value of the Label input field to Customer and press Enter.
-Click  next to the Label input field to generate a translatable text key and click Apply.
-For the Text input field, select customer/name.
-For the Text Arrangement field, select Text Only.
+Select the **customer_BusinessPartner** column and click  (Move up) to move the column under the Title column.
 
+Under **Table > Columns**, select **customer_BusinessPartner**.
+
+Change the **Label** to **Customer** and press **Enter**, again to make it look nicer.
+
+ ![](/exercises/Ex7/images/customercolumn.png)
 
 
 
@@ -90,9 +79,6 @@ For the Text Arrangement field, select Text Only.
 
 ![](/exercises/ex4/images/LCAP_48.png)
 
-Click on the **category_ID** column and change its label to **category**, so the label looks nicer. Then under **Text** select **category/name**, this will configure the list to show the name of the category instead of its id.
-
-![](/exercises/ex4/images/LCAP_48_2.png)
 
 Click on the **BusinessPartner_BusinessPartner** column on the left, and change its label to **BusinessPartner**, again to make it look nicer
 
