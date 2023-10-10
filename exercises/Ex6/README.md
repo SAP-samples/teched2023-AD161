@@ -1,4 +1,4 @@
-# Exercise 5 - Preview your service and application
+# Exercise 6 - Preview your service and application
 
 We now have a service, we can now preview with sample data and live data without having to deploy to the cloud. 
 
