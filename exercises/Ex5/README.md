@@ -33,6 +33,8 @@ The Urgency entity appears in the CDS Graphical Modeler.
 From the toolbar, click **Add Entity** and click **Entity1**.
 The **Select Projection Type** dialog box opens.
 Select the **A_BusinessPartner** entity, clear the **Enable draft editing** checkbox, and click **OK**.
+The Customers entity appears in the CDS Graphical Modeler.
+
 1. Rename the the **A_BusinessPartner** to **Customers**.
 2. Click icon **Show Details**, and select **Projection** tab.
 3. Uncheck **all properties**, and select the following properties:
@@ -44,8 +46,13 @@ Select the **A_BusinessPartner** entity, clear the **Enable draft editing** chec
    c. FirstName
    
    d. LastName
+   
+
+ ![](/exercises/Ex5/images/customersprojection.png)  
 
 Go back to the storyboard and make sure that the ProcessorService contains the 4 entities you just added.
+
+ ![](/exercises/Ex5/images/processorservice.png)  
 
 ![](/exercises/Ex5/images/customersprojections.png)
 
