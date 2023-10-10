@@ -1,6 +1,6 @@
 # Exercise 6 - Preview your service
 
-We now have a service, we can now preview with sample data and live data without having to deploy to the cloud. 
+We now have a service, we can preview it with sample data and with live data without having to deploy to the cloud. 
 
 ## Preview with Sample Data
 
