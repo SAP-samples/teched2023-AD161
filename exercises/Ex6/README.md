@@ -8,6 +8,7 @@ From the left handed activity bar, click icon **Run Configurations**.
 The run configuration editor opens.
 
 Click the default run configuration: **Run incident_managementXXX-1**.
+
 In the opened editor **OData** section the **Mock Data** is selected.
 
 From the **Run Configurations** view, click icon **Run Module**.
