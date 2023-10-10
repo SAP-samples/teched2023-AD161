@@ -70,6 +70,14 @@ Change the **Label** to **Customer** and press **Enter**, again to make it look 
 
  ![](/exercises/Ex7/images/customercolumn.png)
 
+Select **Table**, for the **Initial Load** field, select **Enabled**.
+
+This enables an initial load of data and the user does not need to click the Go button.
+
+
+3. For **Text Arrangement** field, select **Text Only**, 
+Click on Page Map in the top left to navigate back to the List Report in the Page Map editor.
+
 ## Adjust the Object Page of your UI Application and add Value Helps
 
 Now press **Page Map** on the upper part of the editor to be taken back to the page map. Now edit the **Object Page**. Expand the **Fields** under **Form** in the **General Information** section. You can now see all the properties that were automatically added to the form.
