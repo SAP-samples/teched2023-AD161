@@ -14,7 +14,7 @@ The **Select Projection Type** dialog box opens.
 Select the **Incidents entity**, make sure that the **Enable draft editing** checkbox is selected, and click **OK**.
 The Incidents entity appears in the CDS Graphical Modeler.
 
-![](/exercises/Ex5/images/Incidentsprojection.png)
+![](/exercises/Ex5/images/incidentsprojection.png)
 
 From the toolbar, click **Add Entity** and click **Entity1**.
 The **Select Projection Type** dialog box opens.
