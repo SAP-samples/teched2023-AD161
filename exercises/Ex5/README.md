@@ -28,7 +28,7 @@ The **Select Projection Type** dialog box opens.
 Select the **Urgency** entity, clear the **Enable draft editing** checkbox, and click **OK**.
 The Urgency entity appears in the CDS Graphical Modeler.
 
-![](/exercises/Ex5/images/urgencyprojections.png)
+![](/exercises/Ex5/images/urgencyprojection.png)
 
 From the toolbar, click **Add Entity** and click **Entity1**.
 The **Select Projection Type** dialog box opens.
