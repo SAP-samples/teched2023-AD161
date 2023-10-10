@@ -36,6 +36,8 @@ Now switch back to the tab that has the Business Application Studio with your pr
 
 To get there first press the **Stop Preview** button.
 
+![](/exercises/Ex6/images/stoppreview.png)  
+
 From the left handed activity bar, click icon **Run Configurations**.
 The run configuration editor opens.
 
