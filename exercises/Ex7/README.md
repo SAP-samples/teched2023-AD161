@@ -1,12 +1,27 @@
-# Exercise 4 - Create a List Report UI Application based on Fiori elements
+# Exercise 7 - Create a List Report UI Application based on Fiori elements
 
 After the creation of the service with several entities, we will create a list report with an object page based on the Fiori elements technology.
 
 ## Create a new UI Application
 
-Go back to the **Home** tab in the Application Studio. (Note: If you accidentally closed all the tabs you can find your **Home** tab by clicking on the **Project Explorer** icon on the left hand-side and click **Home**.)
+Go back to the **Storyboard** tab in the SAP Business Application Studio.
+From **UI Applications** in the storyboard, click + (Add UI).
+A UI Application wizard opens.
+For the **UI Application Details**, enter **Incidents** for the **Display Name**.
+The Application Name field is filled in automatically.
+Click **Next**.
+For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
+For the **UI Application Template**, select **List Report Page** and click **Next**.
+For the **Data Objects**, select the following values:
 
-Press **+**  under **User interfaces**
+For **Main entity**	select **Incidents**.
+For **Navigation entity** select **None**.
+Click **Finish**.
+
+A List Report UI is added to the project and displayed in the storyboard.
+A Page Map editor opens for developing the UI.
+
+
 
 ![](/exercises/ex4/images/LCAP_41.png)
 
