@@ -9,7 +9,6 @@ The run configuration editor opens.
 
 Click the default run configuration: **Run incident_managementXXX-1**.
 
-Preview the service in one of the following ways:
 From the Run Configurations view, click icon **Run Module**.
 
 ![](/exercises/Ex6/images/runwithmock.png)
