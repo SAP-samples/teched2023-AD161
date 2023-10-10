@@ -22,7 +22,7 @@ If you don't get a new tab, please check whether there is a blocker running in y
 A preview of the service opens and the ProcessorService appears in the list of services on the right-hand side.
 From the **Customers** raw, click icon **View as code** to preview the list of customers with the sample data.
 
-Customers sample data are displayed.
+Customers sample data is displayed.
 The data is queried and exposed using OData V4. Please note that this service is run from an in-memory database that is automatically spun up for you during the preview, so any modification to the data will not persisted.
 
 ![](/exercises/Ex6/images/customermockresults.png)  
