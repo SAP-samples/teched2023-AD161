@@ -46,11 +46,47 @@ While we could now already start testing our UI application and would get a nice
 
 ## Adjust the List Page of your UI Application
 
-Click **list Report** Page in the page map.
+From the Page Map editor, select the **List Report** tile and click the pencil icon **Configure Page**.
 
-![](/exercises/ex4/images/LCAP_47.png)
+![](/exercises/Ex7/images/configurelistreport.png)
+
 
 You can now see the details of this page. Expand the **Columns** under **Table** and see the properties of your service entity. It looks like this:
+
+![](/exercises/Ex7/images/listcolumns.png)
+
+Click on the **urgency_code** column and change its label to **Urgency**, so the label looks nicer. 
+
+For **Text** field, select **urgency/descr**.
+
+For **Text Arrangement** field, select **Text Only**, this will configure the list to show the description of the urgency instead of its code.
+
+![](/exercises/Ex7/images/urgencycolumn.png)
+
+Under Table > Columns, select urgency_code and make the following updates on the right:
+Change the value of the Label input field to Urgency and press Enter.
+Click  next to the Label input field to generate a translatable text key and click Apply.
+For the Text input field, select urgency/descr.
+For the Text Arrangement input field, select Text Only.
+Under Table > Columns, select status_code and make the following updates on the right:
+Change the value of the Label input field to Status and press Enter.
+Click  next to the Label input field to generate a translatable text key and click Apply.
+For the Text input field, select status/descr.
+For the Text Arrangement field, select Text Only.
+For the Criticality field, select status/criticality.
+Select Table > Columns, click , and select Add Basic Columns.
+In the dialog box that opens, select customer_ID and click Add.
+Select the customer_ID column and click  (Move up) to move the column under the Title column.
+Under Table > Columns, select customer_ID and make the following updates on the right:
+Change the value of the Label input field to Customer and press Enter.
+Click  next to the Label input field to generate a translatable text key and click Apply.
+For the Text input field, select customer/name.
+For the Text Arrangement field, select Text Only.
+
+
+
+
+
 
 ![](/exercises/ex4/images/LCAP_48.png)
 
