@@ -40,12 +40,10 @@ The Customers entity appears in the CDS Graphical Modeler.
 3. Uncheck **all properties**, and select the following properties:
    
    a. BusinessPartner
+    
+   b. FirstName
    
-   b. Customer
-   
-   c. FirstName
-   
-   d. LastName
+   c. LastName
 
  ![](/exercises/Ex5/images/customersprojection.png)  
  
