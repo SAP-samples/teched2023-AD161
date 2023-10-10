@@ -50,12 +50,11 @@ From the Page Map editor, select the **List Report** tile and click the pencil i
 
 ![](/exercises/Ex7/images/configurelistreport.png)
 
-
 You can now see the details of this page. Expand the **Columns** under **Table** and see the properties of your service entity. It looks like this:
 
 ![](/exercises/Ex7/images/listcolumns.png)
 
-Under **Table > Columns**, select **urgency_cod** and make the following updates on the right:
+Under **Table > Columns**, select **urgency_code** and make the following updates on the right:
 
 1. Change the **Label** to **Urgency** and press **Enter**, so the label looks nicer. 
 
