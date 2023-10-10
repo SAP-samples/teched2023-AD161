@@ -53,10 +53,13 @@ The Customers entity appears in the CDS Graphical Modeler.
 6. From the Projection tab, click + icon (Add calculated property).
 7. In the dialog box that opens, enter the following values:
 
-   a.  For **Name**, enter name
+   a. For **Name**, enter name
+   
    b. For **Type**, enter String
+   
    c. For Expression field, enter **FirstName || ' ' || LastName**
-   d. Click OK.
+   
+   d. Click **OK**.
 
  ![](/exercises/Ex5/images/calculatedfield.png)  
  
