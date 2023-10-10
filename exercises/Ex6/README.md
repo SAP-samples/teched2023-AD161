@@ -10,7 +10,7 @@ The run configuration editor opens.
 Click the default run configuration: **Run incident_managementXXX-1**.
 In the opened editor **OData** section the **Mock Data** is selected.
 
-From the Run Configurations view, click icon **Run Module**.
+From the **Run Configurations** view, click icon **Run Module**.
 
 ![](/exercises/Ex6/images/runwithmock.png)
 
@@ -20,7 +20,7 @@ After a couple of seconds a new browser tab will be opened and you will see a sc
 
 If you don't get a new tab, please check whether there is a blocker running in your browser. If so, please allow the domain of the Business Application Studio to open a new tab.
 
-A preview of the service opens and the ProcessorService appears in the list of services on the right-hand side.
+A preview of the service opens and the **ProcessorService** appears in the list of services on the right-hand side.
 From the **Customers** raw, click icon **View as code** to preview the list of customers with the sample data.
 
 Customers sample data is displayed.
@@ -37,6 +37,7 @@ To get there first press the **Stop Preview** button.
 
 From the left handed activity bar, click icon **Run Configurations**.
 The run configuration editor opens.
+
 Click the run configuration: **API_BUSINESS_PARTNER**.
 In the opened editor **OData** section the **Live Data** is selected.
 
@@ -50,9 +51,9 @@ After a couple of seconds a new browser tab will be opened and you will see a sc
 
 If you don't get a new tab, please check whether there is a blocker running in your browser. If so, please allow the domain of the Business Application Studio to open a new tab.
 
-A preview of the service opens and the ProcessorService appears in the list of services on the right-hand side.
+A preview of the service opens and the **ProcessorService** appears in the list of services on the right-hand side.
 From the **Customers** raw, click icon **View as code** to preview the list of customers.
-This time you will get a lot more data than before, it is the real business partner data from the S/4 backend
+This time you will get a lot more data than before, in addition the names are different, it is the real business partner data from the S/4 HANA backend
 
 ![](/exercises/Ex6/images/customerliveresults.png)  
 
