@@ -1,58 +1,33 @@
 # Exercise 5 - Preview your service and application
 
-We now have a running service and a UI application on top of it, we can now preview both without having to deploy to the cloud. Actually, we could have done that already earlier, at the point where we had created the service. However, to save some time, we are only doing it here to preview all that we have done so far in one go.
+We now have a service, we can now preview with sample data and live data without having to deploy to the cloud. 
 
 ## Preview with Sample Data
 
-On the **Home** screen you find a **Preview** button in the upper right corner. There are 2 options: **With Sample Data** and **With Live Data**. We will try both of them out.
+From the left handed activity bar, click icon **Run Configurations**.
+The run configuration editor opens.
 
-First we will choose **With Sample Data**. This option only uses the sample data that we have created in an earlier setup. It uses this sample data for the category as well as for the business partner. Remember the business partner comes with automatic connectivity to an S/4 HANA Cloud system and data for the service could retrieved from there as well. With the sample option however, the data is served from our local business partner data that we generated.
+Click the default run configuration: **Run incident_managementXXX-1**.
 
-![](/exercises/ex5/images/LCAP_51.png)  
+Preview the service in one of the following ways:
+From the Run Configurations view, click icon **Run Module**.
 
-A **Task Preview** tab will pop up in the lower part of the screen preparing the preview. After a couple of seconds a new browser tab will be opened and you will see a screen like this:
+![](/exercises/Ex6/images/runwithmock.png)
 
-![](/exercises/ex5/images/LCAP_52.png)  
+After a couple of seconds a new browser tab will be opened and you will see a screen like this:
 
-( If you don't get a new tab, please check whether there is a blocker running in your browser. If so, please allow the domain of the Business Application Studio to open a new tab )
+![](/exercises/Ex6/images/previewlaunchpad.png) 
 
-From here you can navigate to the various artifacts of your project. You can see to all things concerning the service on the right, for example to the metadata resource of your API and check out the three service entities we created and of which we already populated two with sample data.
+If you don't get a new tab, please check whether there is a blocker running in your browser. If so, please allow the domain of the Business Application Studio to open a new tab.
 
-Click on the button next to **Categroies** to open the API which provides the list of Capex entires in your database in a new browser tab.
+A preview of the service opens and the ProcessorService appears in the list of services on the right-hand side.
+From the **Customers** raw, click icon **View as code** to preview the list of customers with the sample data.
 
-![](/exercises/ex5/images/LCAP_52_2.png)
-
+Customers sample data are displayed.
 The data is queried and exposed using OData V4. Please note that this service is run from an in-memory database that is automatically spun up for you during the preview, so any modification to the data will not persisted.
 
-Now do the same for **BusinessPartner**. This will show you something like this:
+![](/exercises/Ex6/images/customermockresults.png)  
 
-![](/exercises/ex5/images/LCAP_53.png)  
-
-The data might not be formatted in such a nice way as you can see it on the above picture where a browser plug in formatted it. However, you will essentially see a similar JSON structure and the data in it reflects what we had generated as sample data for the business partner. The JSON adheres to the OData V4 specification.
-
-Now switch back to the Application Preview tab and press on the **My List Report** tile. A new browser tab will be opened and it contains our Fiori elements list report application. It will look like this:
-
-![](/exercises/ex5/images/LCAP_54.png)  
-
-There are no entries in this list as we have neither provided sample data for the capex entity, not have we created any data ourselves yet. Let's change that. Press the **Create** button on the upper right above the empty list.
-
-You will then see the form as we created it, it has 2 sections, a dropdown for the categories and a value help for the business partner. Check the dropdown for its contents and select an entry:
-
-![](/exercises/ex5/images/LCAP_55.png)
-
-Now also press the value help for the business partner. It will show you the 3 generated entries from the sample data:
-
-![](/exercises/ex5/images/LCAP_56.png)
-
-Again pick one of them. Then back in the form enter some data for the other fields like  **totalcost** and **description**.
-
-Notice how it says "Draft updated" in the bottom right corner of the screen every time you have entered a value in one of the fields. As stated before, the data that is entered by you will be persisted in a draft which is only available to you and no one else until you finally press **Create** which will only save your data as a real object only when all the validations are without errors and all the mandatory values have been provided.
-
-![](/exercises/ex5/images/LCAP_57.png)
-
-Now press the **<** button in the upper left corner of the screen next to the SAP sign. This will take you back to the list page. Press **Go** and you should see the entry that you just created.
-
-![](/exercises/ex5/images/LCAP_58.png)
 
 ## Preview with Live Data
 
