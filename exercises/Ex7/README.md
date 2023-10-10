@@ -74,9 +74,7 @@ Select **Table**, for the **Initial Load** field, select **Enabled**.
 
 This enables an initial load of data and the user does not need to click the Go button.
 
-
-3. For **Text Arrangement** field, select **Text Only**, 
-Click on Page Map in the top left to navigate back to the List Report in the Page Map editor.
+ ![](/exercises/Ex7/images/tableload.png)
 
 ## Adjust the Object Page of your UI Application and add Value Helps
 
