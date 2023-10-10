@@ -65,8 +65,6 @@ Under **Table > Columns**, select **urgency_cod** and make the following updates
 
 ![](/exercises/Ex7/images/urgencycolumn.png)
 
-Select the **customer_BusinessPartner** column and click  (Move up) to move the column under the Title column.
-
 Under **Table > Columns**, select **customer_BusinessPartner**.
 
 Change the **Label** to **Customer** and press **Enter**, again to make it look nicer.
