@@ -49,22 +49,6 @@ The Customers entity appears in the CDS Graphical Modeler.
 
  ![](/exercises/Ex5/images/customersprojection.png)  
  
-5. Add a calculated name property to Customers that concatenates the firstName and the lastName.
-6. From the Projection tab, click + icon (Add calculated property).
-7. In the dialog box that opens, enter the following values:
-
-   a. For **Name**, enter name
-   
-   b. For **Type**, enter String
-   
-   c. For Expression field, enter **FirstName || ' ' || LastName**
-   
-   d. Click **OK**.
-
- ![](/exercises/Ex5/images/calculatedfield.png)  
- 
-A new calculated name field that concatenates the firstName and lastName is added to the Customers entity.
-
 Go back to the storyboard and make sure that the ProcessorService contains the 4 entities you just added.
 
  ![](/exercises/Ex5/images/processorservice.png)  
