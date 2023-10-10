@@ -9,8 +9,11 @@ From **UI Applications** in the storyboard, click + (Add UI).
 A UI Application wizard opens.
 
 For the **UI Application Details**, enter **Incidents** for the **Display Name**.
-The Application Name field is filled in automatically.
+
+For the **Data Source** select **ProcessorService**
 Click **Next**.
+
+![](/exercises/Ex7/images/UIApplicationDetails.png)
 
 For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
 
