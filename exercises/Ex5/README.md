@@ -54,22 +54,7 @@ Go back to the storyboard and make sure that the ProcessorService contains the 4
 
  ![](/exercises/Ex5/images/processorservice.png)  
 
-![](/exercises/Ex5/images/customersprojections.png)
-
-
-![](/exercises/ex3/images/LCAP_32.png)
-
-Add another entity and repeat the step to create another service entity. This time select the type **LCAPXXX.Category** and find the name **Category** after selection. Click **Create**
-
-Again we have exposed our **Category** data model 1:1. The types of service entities make a lot of sense if for example you want to create a new UI form to maintain Capex data and in the UI's **Category** field you want to expose a value help / dropdown of all the categories. That's actually what we are going for! In such a case you need a different entity for what you want to present in the value help and that's why we expose **Category** as well.
-
-Add a third entity, this time choose **API_BUSINESS_PARTNER.A_BusinessPartner**. The Business Partner entity comes with a lot of properties though, a lot of these we don't really need for our application and therefore, we don't want to expose them all in the new service. Therefore, we will just select some of them. To get to this, first uncheck the first entry in the list, the **<all properties>** property. Now select the properties:
-- **Business Partner**
-- **FirstName**
-- **LastName**
-
-Also change the **Name** to be **BusinessPartner**
 ## Summary
-You have now added a service to your project. Essentially, this service will expose your data model as an OData V4, RESTful API to your application.
+You have now added a Processor Service to your project. Essentially, this service will expose your data model as an OData V4, RESTful API to your application.
 
 Continue to - [Exercise 6](../Ex6/README.md)
