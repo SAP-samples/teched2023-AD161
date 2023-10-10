@@ -71,18 +71,6 @@ Change the **Label** to **Customer** and press **Enter**, again to make it look 
 
  ![](/exercises/Ex7/images/customercolumn.png)
 
-
-
-
-
-![](/exercises/ex4/images/LCAP_48.png)
-
-
-Click on the **BusinessPartner_BusinessPartner** column on the left, and change its label to **BusinessPartner**, again to make it look nicer
-
-![](/exercises/ex4/images/LCAP_48_3.png)
-
-
 ## Adjust the Object Page of your UI Application and add Value Helps
 
 Now press **Page Map** on the upper part of the editor to be taken back to the page map. Now edit the **Object Page**. Expand the **Fields** under **Form** in the **General Information** section. You can now see all the properties that were automatically added to the form.
