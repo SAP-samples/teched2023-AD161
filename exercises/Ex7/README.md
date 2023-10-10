@@ -15,9 +15,19 @@ Click **Next**.
 
 ![](/exercises/Ex7/images/UIApplicationDetails.png)
 
+
+In the next step you can choose the technology you want to use to create your new UI app. You have a choice between "template based, responsive application" representing Fiori elements (FE) and "Mobile centric, freestyle application" representing the Mobile Development Kit (MDK).
+
 For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
 
+Some background that you can choose to skip reading:
+Both create responsive apps that can be used on mobile devices and on desktops, however it is fair to say that with FE users rather start with desktops and MDK apps rather with mobile. Both adhere to templates, however in the MDK case it is a copy template that can be changed in whatever way the user wants to. FE is more restricted with respect to changes to the template, however the resulting app always adheres to the newest Fiori guidelines and comes with a lot of functionality out of the box.
+
+![](/exercises/Ex7/images/templateresponsive.png)
+
 For the **UI Application Template**, select **List Report Page** and click **Next**.
+
+![](/exercises/Ex7/images/listreport.png)
 
 For the **Data Objects**, select the following values:
 
@@ -25,39 +35,13 @@ For **Main entity**	select **Incidents**.
 For **Navigation entity** select **None**.
 Click **Finish**.
 
-A List Report UI is added to the project and displayed in the storyboard.
-A Page Map editor opens for developing the UI.
+![](/exercises/Ex7/images/dataobjects.png)
 
+And there you go, with just 4 steps you have created a complete UI app on top of your service entity. After some seconds you will see the new UI app showing up in the **UI Applications** tile on the **Storyboard** tab. After some more seconds an editor pops up to the side which shows the pages that are generated for the UI app, the so-called **Page Map**.
 
+![](/exercises/Ex7/images/UIInStoryboard.png)
 
-![](/exercises/ex4/images/LCAP_41.png)
-
-Now enter a display Name **My List Report** or another name of your liking. The **application name** should be defaulted with a technical version of your display name without spaces, so it becomes for example **MyListReport**.
-
-![](/exercises/ex4/images/LCAP_42.png)
-
-In the next step you can choose the technology you want to use to create your new UI app. You have a choice between "template based, responsive application" representing Fiori elements (FE) and "Mobile centric, freestyle application" representing the Mobile Development Kit (MDK). Choose **Template based, responsive application** on the left.
-
-![](/exercises/ex4/images/LCAP_43.png)
-
-Some background that you can choose to skip reading:
-Both create responsive apps that can be used on mobile devices and on desktops, however it is fair to say that with FE users rather start with desktops and MDK apps rather with mobile. Both adhere to templates, however in the MDK case it is a copy template that can be changed in whatever way the user wants to. FE is more restricted with respect to changes to the template, however the resulting app always adheres to the newest Fiori guidelines and comes with a lot of functionality out of the box.
-
-**Press Next**
-
-Next up you have a choice of templates, choose the **List Report Object Page**.
-
-![](/exercises/ex4/images/LCAP_44.png)
-
-As a last step choose the (service) entity on which the new app should be created. Choose **Capex**. Then press **Finish**
-
-![](/exercises/ex4/images/LCAP_45.png)
-
-And there you go, with just 4 steps you have created a complete UI app on top of your service entity. After some seconds you will see the new UI app showing up in the **User Interface** box on the **Home** tab. After some more seconds an editor pops up to the side which shows the pages that are generated for the UI app, the so-called page map.
-
-![](/exercises/ex4/images/LCAP_46.png)
-
-We now have a fully functional list report and and object page. Both pages are automatically populated with all the fields from our CapexFlat service entity apart from the ones that don't make sense: the ID field which contains a UUID is not included, as showing UUIDs to humans is not a good user experience.
+We now have a fully functional list report and and object page. Both pages are automatically populated with all the fields from our Incidents service entity apart from the ones that don't make sense: the ID field which contains a UUID is not included, as showing UUIDs to humans is not a good user experience.
 
 While we could now already start testing our UI application and would get a nice application, we will optimize the UI at a couple of places.
 
