@@ -122,7 +122,9 @@ On the dialog, switch the **Display as Dropdown** option off, then press **Add C
 
 ![](/exercises/Ex7/images/customervaluehelp.png)
 
-Noe we will add the **Conversations** section is next to the **General Information**.
+## Add Conversation section to the Object Page
+
+Now we will add the **Conversations** section is next to the **General Information**.
 Select **Sections**, click + (Add Sections), and select **Add Table Section**.
 
 In the dialog box that opens, perform the following steps:
@@ -137,13 +139,6 @@ Select **Conversations > Table > Columns**, click + icon , and select **Add Basi
 In the dialog box that opens, select **author**, **timestamp**, **message**, and click **Add**.
 
 ![](/exercises/Ex7/images/conversationsaddcolumns.png)
-
-
-
-Select **Conversations > Table** and make the following updates on the right:
-For the **Creation Mode: Name** input field, select **Inline**.
-
-
 
 Close the Page Editor and navigate back to **Storyboard** tab.
 
