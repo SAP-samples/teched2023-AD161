@@ -79,7 +79,7 @@ This enables an initial load of data and the user does not need to click the Go 
 ## Adjust the Object Page of your UI Application and add Value Helps
 
 Now press **Page Map** on the upper part of the editor to be taken back to the page map.
-From the **Page Map** editor, select the **IncidentsObjectPage** tile.
+From the **Page Map** editor, select the **IncidentsObjectPage** tile and click the pencil icon **Configure Page**.
 
  ![](/exercises/Ex7/images/objectpage.png)
 
@@ -95,7 +95,7 @@ Then in the panel that opens on the right, under **Label** change the text to **
 For **Text** property select the value **urgency/descr**. 
 For **Text Arrangement** property select the value **Text Only**. 
 
-Then below under **Display Type** select **Value Help**
+Then below under **Display Type** select **Value Help**.
 
 ![](/exercises/Ex7/images/urgencycolumn.png)
 
@@ -114,19 +114,33 @@ Then in the panel that opens on the right, under **Label** change the text to **
 For **Text** property select the value **customer_BusinessPartner**. 
 For **Text Arrangement** property select the value **Text Only**. 
 
-Then below under **Display Type** select **Value Help**
+Then below under **Display Type** select **Value Help**.
 
 [](/exercises/Ex7/images/customercolumn.png)
 
-
 On the dialog, switch the **Display as Dropdown** option off, then press **Add Column** and select **FirstName**. Then do the same and add **LastName**. Finally press **Apply**
 
-![](/exercises/ex4/images/LCAP_49_4.png)
+![](/exercises/Ex7/images/customervaluehelp.png)
 
-Close the Page Editor and navigate back to **Home** tab.
+Noe we will add the **Conversations** section is next to the **General Information**.
+From the Page Map editor, select the IncidentsObjectPage tile, alternatively, click the Start button below.
+Click  (Configure Page).
+Select Sections, click  (Add Sections), and select Add Table Section.
+In the dialog box that opens, perform the following steps:
+Fill in Conversations as the Label, click , click Apply.
+Select conversations as the Value Source.
+Click Add.
+Select Conversations > Table > Columns, click  , and select Add Basic Columns. In the dialog box that opens, select author, timestamp, message, and click Add.
+Select Conversations > Table and make the following updates on the right:
+For the Type input field, select ResponsiveTable.
+For the Creation Mode: Name input field, select Inline.
+Result
+Conversations Section
+
+Close the Page Editor and navigate back to **Storyboard** tab.
 
 ## Summary
 You have now added a new UI application to your project
 
-Continue to - [Exercise 5](../ex5/README.md)
+Continue to - [Exercise 8](../Ex8/README.md)
 
