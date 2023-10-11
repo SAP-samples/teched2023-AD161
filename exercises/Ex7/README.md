@@ -116,26 +116,34 @@ For **Text Arrangement** property select the value **Text Only**.
 
 Then below under **Display Type** select **Value Help**.
 
-[](/exercises/Ex7/images/customercolumn.png)
+[](/exercises/Ex7/images/customercolumnpage.png)
 
 On the dialog, switch the **Display as Dropdown** option off, then press **Add Column** and select **FirstName**. Then do the same and add **LastName**. Finally press **Apply**
 
 ![](/exercises/Ex7/images/customervaluehelp.png)
 
 Noe we will add the **Conversations** section is next to the **General Information**.
-From the Page Map editor, select the IncidentsObjectPage tile, alternatively, click the Start button below.
-Click  (Configure Page).
-Select Sections, click  (Add Sections), and select Add Table Section.
+Select **Sections**, click + (Add Sections), and select **Add Table Section**.
+
 In the dialog box that opens, perform the following steps:
-Fill in Conversations as the Label, click , click Apply.
-Select conversations as the Value Source.
-Click Add.
-Select Conversations > Table > Columns, click  , and select Add Basic Columns. In the dialog box that opens, select author, timestamp, message, and click Add.
-Select Conversations > Table and make the following updates on the right:
-For the Type input field, select ResponsiveTable.
-For the Creation Mode: Name input field, select Inline.
-Result
-Conversations Section
+Fill in **Conversations** as the **Label**, click **Apply**.
+Select **conversations** as the **Value Source**.
+Click **Add**.
+
+![](/exercises/Ex7/images/conversationaddsection.png)
+
+Select **Conversations > Table > Columns**, click + icon , and select **Add Basic Columns**.
+
+In the dialog box that opens, select **author**, **timestamp**, **message**, and click **Add**.
+
+![](/exercises/Ex7/images/conversationsaddcolumns.png)
+
+
+
+Select **Conversations > Table** and make the following updates on the right:
+For the **Creation Mode: Name** input field, select **Inline**.
+
+
 
 Close the Page Editor and navigate back to **Storyboard** tab.
 
