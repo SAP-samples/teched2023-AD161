@@ -78,27 +78,46 @@ This enables an initial load of data and the user does not need to click the Go 
 
 ## Adjust the Object Page of your UI Application and add Value Helps
 
-Now press **Page Map** on the upper part of the editor to be taken back to the page map. Now edit the **Object Page**. Expand the **Fields** under **Form** in the **General Information** section. You can now see all the properties that were automatically added to the form.
+Now press **Page Map** on the upper part of the editor to be taken back to the page map.
+From the **Page Map** editor, select the **IncidentsObjectPage** tile.
 
-For both, the association properties for the categoy and the business partner, we now want to change the label and enable value helps for them. 
+ ![](/exercises/Ex7/images/objectpage.png)
 
-To do this, first select property **category_id**, then in the panel that opens on the right, under **Label** change the text to **category**. Then below under **Display Type** select **Value Help**
+Select **Header** section, for the **Title** input field, select **title**, so that incident title will be located in the header.
 
-![](/exercises/ex4/images/LCAP_49.png)
+ ![](/exercises/Ex7/images/headertitle.png)
+ 
+Select the **General Information** to update urgency and customer fields with label and value help.
 
-On the dialog, choose **name** for **Value Description Property** and then under **Text Arrangement** choose **Text Only**. Leave the **Display as Dropdown** option switched on and press **Apply**
+From **General Information > Form > Fields**, select **urgency_code**.
 
-![](/exercises/ex4/images/LCAP_49_2.png)
+Then in the panel that opens on the right, under **Label** change the text to **Urgency** and press enter.
+For **Text** property select the value **urgency/descr**. 
+For **Text Arrangement** property select the value **Text Only**. 
 
-With this we have chosen to make to category field a dropdown (because it has a small number of entries the list doesn't get too long), to only show the name of the category and not its id. With the **Text Arrangement** option it would have been possible to also show its id in different orders of name and id.
+Then below under **Display Type** select **Value Help**
 
-After you have closed the dialog, still on the panel under **Text** select **category/name**, also press the button next to the field in the **Text Arrangement** box. This makes sure that not only the list in the dropdown shows the name and not an id but also in the field when an entry was selected, the pressing the button takes over the setting from the value help for the field as well.
+![](/exercises/Ex7/images/urgencycolumn.png)
 
-![](/exercises/ex4/images/LCAP_49_3.png)
+On the dialog, fill **Urgency** in **Label** field, choose **descr** for **Value Description Property** and then under **Text Arrangement** choose **Text Only**.
 
-Now we will also carry out similar steps for the Business Partner. Only this time we will create a full blown value help instead of a dropdown because we expect the list of business partners from the backend to be too huge to handle in a dropdown.
+Leave the **Display as Dropdown** option switched on and press **Apply**.
 
-Select property **BusinessPartner_BusinessPartner**, then in the panel on the right, under **Label** change the text to **BusinessPartner**. Then below under **Display Type** select **Value Help** again.
+ ![](/exercises/Ex7/images/urgencyvaluehelp.png)
+
+Now we will also carry out similar steps for the customer column.
+Only this time we will create a full blown value help instead of a dropdown because we expect the list of customers from the backend to be too huge to handle in a dropdown.
+
+From **General Information > Form > Fields**, select **customer_BusinessPartner**.
+
+Then in the panel that opens on the right, under **Label** change the text to **Customer** and press enter.
+For **Text** property select the value **customer_BusinessPartner**. 
+For **Text Arrangement** property select the value **Text Only**. 
+
+Then below under **Display Type** select **Value Help**
+
+[](/exercises/Ex7/images/customercolumn.png)
+
 
 On the dialog, switch the **Display as Dropdown** option off, then press **Add Column** and select **FirstName**. Then do the same and add **LastName**. Finally press **Apply**
 
