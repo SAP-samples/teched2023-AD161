@@ -27,44 +27,32 @@ The deployment is composed of 3 steps that are available from the **Task Explore
 To start the deployment, perform the following steps:
 From the activity bar, click icon **Task Explorer**.
 
-Expand the Deploy section, select Deploy incident_management, and click .
-A build starts and then the Cloud Foundry Sign In and Targets editor opens.
-Enter your username and password and click Sign in.
-In the Cloud Foundry Target section, select your organization and space and click Apply.
-The deployment starts and progress can be tracked in the Terminal.
+Expand the **Deploy** section, select **Deploy incident_managementXXX**, and click icon **Run**.
 
+![](/exercises/Ex10/images/deployconfiguration.png)  
 
+A build starts and then the **Cloud Foundry Sign In and Targets editor** opens.
 
-Switch back to the **Home** tab.
-
-Now that the project is developed, click **Deploy** on the "Home" screen. You are then asked to log on to a Cloud Foundry account in BTP.
-
-![](/exercises/ex7/images/LCAP_74.png)  
-
-Press the **Log In** button
-
-![](/exercises/ex7/images/LCAP_75.png)  
-
-Then in the new screen enter:
 - the Cloud Foundry Endpoint **https://api.cf.eu10-004.hana.ondemand.com** . **Note**: that the system recommends the URL https://api.cf.eu10.hana.ondemand.com make sure you manually enter the **-004** part behind **eu10** !
 
-![](/exercises/ex7/images/LCAP_75-1.png)  
-
 - choose **SSO Passcode** as the authentication method
+
 - press the link **Open a new browser page to generate your SSO passcode**
+
+![](/exercises/Ex10/images/logincf.png)  
 
 This opens a new page, with a temporary passcode created for you user.
 
 - press the button right to it in order to copy the passcode to the clipboard as indicated here:
 
-![](/exercises/ex7/images/LCAP_75-2.png)
+![](/exercises/Ex10/images/passcode.png)  
 
 - paste the copies passcode into the field **Enter your SSO Passcode** back on the screen before.
 - press **Sign In**
 
 After a couple of seconds a new screen opens like this:
 
-![](/exercises/ex7/images/LCAP_75-3.png)    
+![](/exercises/Ex10/images/spaceselection.png)  
 
 Here:
 
@@ -72,7 +60,7 @@ Here:
 - choose the space **dev**
 - Press **Apply**
 
-It is then confirmed in the lower right corner that you have logged on. Now the deployment starts and in the lower part of the screen a new tab **Task: Deploy** appears.
+The deployment starts and progress can be tracked in the Terminal.
 It will now take several minutes for the application to be deployed.
 
 ## Check what's going on behind the scenes: The code of the project
@@ -95,19 +83,14 @@ You can see that it contains almost 200 lines. This file was automatically creat
 
 ## Check the running service and UI after deplyomemnt
 
-Meanwhile the deployment might be finished. If it is you will see a URL in the task tab. Also when you press the **Deploy** button at the top you will also see an entry **View last deployed**. This link will from now on always be available in your project.
+Once Deploy is complete, copy or clik on the URL that appears at the end of the Terminal logs under **Project OverviewURL**.
+For example, https://<myaccount>.launchpad.cfapps.<myregion>.hana.ondemand.com/lcapincident_managemenXXt.incident_managementLaunchpad-1.0.0
 
-![](/exercises/ex7/images/LCAP_78.png)
+![](/exercises/Ex10/images/linktoapp.png)
 
-Press either of them. This will take you to this page:
-
-![](/exercises/ex7/images/LCAP_79.png)
+Click the **Incidents** tile to open the application with a list of incidents.
 
 It looks very much like the preview page from last chapter. Indeed it is almost the same page, only that now everything is deployed to a an account in the BTP. Again you can click on the service links on the right and / or the UI application.
-
-If you enter the **My List Report** application and press the **Create** button, you get the same features like in preview mode, only that the business partner is now always served from the S/4 HANA Cloud system in the back:
-
-![](/exercises/ex7/images/LCAP_710.png)
 
 ## Summary
 
