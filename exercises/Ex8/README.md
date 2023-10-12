@@ -1,4 +1,4 @@
-# Exercise 6 - Add Application Logic to the Application
+# Exercise 8 - Add Application Logic to the Application
 
 ## The additional Scenario
 
