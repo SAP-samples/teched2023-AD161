@@ -2,25 +2,39 @@
 In this excercise we will add a logic of automatic urgency determination.
 Customer may forget to select the urgency when creting an incident, so whenever an "urgent" appears in the title the incident will automaticaly marked as urgent.
 
-## Update Incident from Incident's Title
+## Update Incident from Incident's Subject
 
 From the **Storyboard**, select the **ProcessorService** and click **Open in Graphical Modeler**.
 The CDS Graphical Modeler opens.
 
-Select the **Incidents** entity and click icon (Add Logic).
+Select the **Incidents** entity and click icon **Add Logic**.
 
-The Add Application Logic dialog box opens.
+![](/exercises/Ex8/images/addapplicationlogic.png)
+
+The **Add Application Logic** dialog box opens.
 From the dialog box:
-For the Service Entity field, make sure that the ProcessorService.incidents value is selected.
-For the Name field, enter changeUrgencyDueToSubject for the value.
-Click Add.
+
+For the **Service Entity** field, make sure that the **ProcessorService.incidents** value is selected.
+
+For the **Name** field, enter **changeUrgencyDueToSubject** for the value.
+
+Click **Add**.
+
+![](/exercises/Ex8/images/applicationlogicdialog.png)
+
 The application logic editor opens.
-From the CONFIGURATION tab of the application logic editor, select the following options:
-In the Phase section, select Before.
-In the Standard Event section, select both, Create and Update.
-Click Open Code Editor > Application Logic.
+From the **CONFIGURATION** tab of the application logic editor, select the following options:
+
+In the **Phase** section, select **Before**.
+
+In the **Standard Event** section, select both, **Create** and **Update**.
+
+Click **Open Code Editor > Application Logic**.
+
+![](/exercises/Ex8/images/applicationlogiceditor.png)
+
 The application logic handler file opens.
-In the 'changeUrgencyDueToSubject.js' file, after the comment Your code here, add the following content:
+In the **'changeUrgencyDueToSubject.js'** file, after the comment Your code here, add the following content:
 
 const incident = request.data;
 if (incident.title?.toLowerCase().includes("urgent")) {
@@ -29,37 +43,8 @@ if (incident.title?.toLowerCase().includes("urgent")) {
         descr: "High"
       };
 }
-Now we need to add the logic part. 
-For this, on the **Home** page, in the **Service** tile choose the **Capex**  again. On the graphical modeler, invoke the menu by clicking on the header of **Capex** and select the **Add Logic** command.
 
-![](/exercises/ex6/images/LCAP_64.png)
 
-Now there will be a dialog for you to enter a service entity (which we already have chosen, it is the **Capex** one) and a name for the new handler. The one that the system suggests is fine, take it all over by pressing the **Add** button:
-
-![](/exercises/ex6/images/LCAP_64-2.png)
-
-One the following screen you can specify when the new handler should be invoked. Ours should be invoked **After** there was a **Read** request for the **Capex** entity. Select these properties and then press the **Open JS Editor** button:
-
-![](/exercises/ex6/images/LCAP_64-3.png)
-
-Now a new text file is opened. It already contains the stub for our handler function. Replace the line:
-
-```Javascript
-    // Your code here
-```
-
-with:
-
-```Javascript
-    const capexs = Array.isArray(context.results) ? context.results : [context.results];
-    capexs.forEach(capex => {
-        if (capex.totalcost > 200) {
-            capex.criticality = 1;
-        } else {
-            capex.criticality = 2;
-        }
-    });
-```
 
 so that you finally see:
 
@@ -71,19 +56,6 @@ Let's have a look what happens in the code. As set up, the function is invoked a
 
 So, with this, the criticality is set according to the total cost of our Capex express.
 
-## Adjust the UI based on the Application Logic
-
-We now need to adjust our UI application making use of the values in Capex's **criticality** property. We are going to use the **totalcost** field on the UI to change its look depending on the value of the criticality.
-
-To do this, switch back to the **Home** tab. Under **User Interfaces**, click on your **My List Report** application. The **Page Map** opens, for the **List Report** page, invoke the pencil shaped icon to configure the page. Expand the **Table** and then the **Columns** entry and select the **totalcost** property.
-
-Look for the **Criticality** box under the properties of **totalcost**. We can use it to display the criticality of the totalcost. If you expand the dropdown here, you find a list of the property of the **Capex** entity. Choose the criticality one. Note, the criticality functionality is called like we have called our service entity's property, but we could have chosen any other name for the property as well.
-
-![](/exercises/ex6/images/LCAP_66.png)
-
-After a couple of seconds after you have selected the **critiality** property, a new **Criticality Representation** box appears. Here we can configure how the criticality is visually represented, with just a color, with an addition icon or not at all. In our case, we want to add an icon as well to a color change, so choose the **With Icon** entry
-
-![](/exercises/ex6/images/LCAP_67.png)
 
 ## Preview the Application
 
