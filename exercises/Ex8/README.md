@@ -38,19 +38,17 @@ In the **'changeUrgencyDueToSubject.js'** file, after the comment Your code here
 
 const incident = request.data;
 
-{
 
 if (incident.title?.toLowerCase().includes("urgent")) {
 
-      incident.urgency = { 
-      
-        code: "H",
-        
+      incident.urgency = {      
+        code: "H",        
         descr: "High"
         
-      };}
-      
+      };
 }
+      
+
 
 ![](/exercises/Ex8/images/logiccode.png)
 
