@@ -46,19 +46,11 @@ if (incident.title?.toLowerCase().includes("urgent")) {
 }
 ```      
 
+so that you finally see:
 
 ![](/exercises/Ex8/images/logiccode.png)
 
-so that you finally see:
-
-![](/exercises/ex6/images/LCAP_65.png)
-
 Save the file.
-
-Let's have a look what happens in the code. As set up, the function is invoked after the was a read request for the **Capex** entity. The request could for example be created as an OData GET request from the browser. The CAP framework invokes our custom handler and passes the data into it, that it has just retrieved from the data base. It might be one or more entities. Our code looks into the data, it looks whether **totalcost** is greater than 200, if so, it sets our new **criticality** property to 1 otherwise to 2.
-
-So, with this, the criticality is set according to the total cost of our Capex express.
-
 
 ## Preview the Application
 
