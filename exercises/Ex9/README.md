@@ -49,18 +49,19 @@ Now we will run the the test from the terminal.
 
 From the activity bar select the hamburger icon, and choose **Terminal >New Terminal**.
 
+![](/exercises/Ex9/images/terminal.png)
 
+The terminal opens, copy the following command and, past it in the terminal, and press Enter to run the test.
 
+```
 basctl --command lcap.applicationLogic.runTest
+```
 
-From the activity bar, click  (Task Explorer).
-From the Task Explorer, click  (Create Task).
-A dialog box opens.
-Select Miscellaneous and then select test.
-From the editor that opens, click Run .
+![](/exercises/Ex9/images/rununittets.png)
+
 The test start running.
-Result
 
+![](/exercises/Ex9/images/testpass.png)
 
 
 
