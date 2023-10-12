@@ -1,8 +1,23 @@
 # Exercise 10 - Deploy your service and application
 
-In this section we will deploy the project to the Business Technology Platform (BTP).
+In this section we will deploy the project to the Business Technology Platform (BTP) Cloud Foundry environment.
 
 ## Deploy the project to BTP
+
+We already completed the environment set up:
+
+1. Enabled the Cloud Foundry environment.
+   
+3. Added an entitlement for SAP HANA Cloud.
+   
+5. Added an entitlement for SAP HANA Schemas & HDI Containers.
+   
+7. Added you as a member in a Cloud Foundry space.
+   
+After these steps are completed, you will be able to select a space and deploy an application in the SAP BTP, Cloud Foundry environment.
+
+
+
 
 Switch back to the **Home** tab.
 
