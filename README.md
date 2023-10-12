@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called AD161 - Build Full-Stack Applications with Pro-Code Tools
+This repository contains the material for the SAP TechEd 2023 session called AD161 - Build Full-Stack Applications with Pro-Code Tools
 
 ## Overview
 
