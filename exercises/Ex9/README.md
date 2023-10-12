@@ -51,7 +51,7 @@ From the activity bar select the hamburger icon, and choose **Terminal >New Term
 
 ![](/exercises/Ex9/images/terminal.png)
 
-The terminal opens, copy the following command and, past it in the terminal, and press Enter to run the test.
+The terminal opens, copy the following command and, paste it in the terminal, and press Enter to run the test.
 
 ```
 basctl --command lcap.applicationLogic.runTest
@@ -59,7 +59,7 @@ basctl --command lcap.applicationLogic.runTest
 
 ![](/exercises/Ex9/images/rununittests.png)
 
-The test start running, and the following PASS indication should be dispalyed in the terminal.
+The test start running, and the following **PASS** indication should be dispalyed in the terminal.
 
 ![](/exercises/Ex9/images/testpass.png)
 
