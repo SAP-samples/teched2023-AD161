@@ -26,14 +26,17 @@ The requirements to follow the exercises in this repository can be found in the 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started - Preparation](exercises/ex0/README.md)
-- [Exercise 1 - Create a data model with the SAP Business Application Studio ](exercises/ex1/README.md)
-- [Exercise 1.5 - Reference an S/4 HANA Cloud Service in your eata model ](exercises/ex1.5/README.md)
-- [Exercise 2 - Add some sample data ](exercises/ex2/README.md)
-- [Exercise 3 - Create a service ](exercises/ex3/README.md)
-- [Exercise 4 - Create a list report UI application ](exercises/ex4/README.md)
-- [Exercise 5 - Preview your service and application ](exercises/ex5/README.md)
-- [Exercise 6 - Add application logic to the application ](exercises/ex6/README.md)
-- [Exercise 7 - Deploy your service and application ](exercises/ex7/README.md)
+- [Exercise 1 - Create a Project ](exercises/Ex1/README.md)
+- [Exercise 2 - Create a data model with the SAP Business Application Studio ](exercises/Ex2/README.md)
+- [Exercise 3 - Reference an S/4 HANA Cloud Service in your data model ](exercises/Ex3/README.md)
+- [Exercise 4 - Add some sample data ](exercises/Ex4/README.md)
+- [Exercise 5 - Create a service ](exercises/Ex5/README.md)
+- [Exercise 6 - Preview your service and application ](exercises/Ex6/README.md)
+- [Exercise 7 - Create a list report UI application ](exercises/Ex7/README.md)
+- [Exercise 8 - Add application logic to the application ](exercises/Ex8/README.md)
+- [Exercise 9 - Add application unit test to the application ](exercises/Ex9/README.md)
+- [Exercise 10 - Deploy your service and application ](exercises/Ex10/README.md)
+- [Exercise 11 - Integrate the application to Work Zone ](exercises/Ex11/README.md)- 
 
 ## How to obtain support
 
