@@ -14,8 +14,24 @@ We already completed the environment set up:
    
 7. Added you as a member in a Cloud Foundry space.
    
-After these steps are completed, you will be able to select a space and deploy an application in the SAP BTP, Cloud Foundry environment.
+Since these steps are completed, you will be able to select a space and deploy an application in the SAP BTP, Cloud Foundry environment.
 
+The deployment is composed of 3 steps that are available from the **Task Explorer**:
+
+1. Build an application.
+   
+3. Log in to the target space in the Cloud Foundry environment.
+   
+3. Deploy the application.
+   
+To start the deployment, perform the following steps:
+From the activity bar, click icon **Task Explorer**.
+
+Expand the Deploy section, select Deploy incident_management, and click .
+A build starts and then the Cloud Foundry Sign In and Targets editor opens.
+Enter your username and password and click Sign in.
+In the Cloud Foundry Target section, select your organization and space and click Apply.
+The deployment starts and progress can be tracked in the Terminal.
 
 
 
