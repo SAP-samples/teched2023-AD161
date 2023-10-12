@@ -18,13 +18,12 @@ Now we will **import** data from a file to **A_BusinessPartner** entity.
 Using a local text editor, create a local file called `customers.txt`.
 Add the following content to the file and save it locally:
 
+```
 BusinessPartner,FirstName,LastName
-
 1001036,Daniel,Watts
-
 1001038,Stormy,Weathers
-
 1001039,Sunny,Sunshine
+```
 
 Rename your local file to `customers.csv`.
 From the editor, select **A_BusinessPartner** and click **Import**.
@@ -37,15 +36,13 @@ Now we will **import** data from a file to **Incidents** entity.
 Using a local text editor, create a local file called `incidents.txt`.
 Add the following content to the file and save it locally:
 
+```
 ID,customer_ID,title,urgency_code,status_code
-
 3b23bb4b-4ac7-4a24-ac02-aa10cabd842c,8fc8231b-f6d7-43d1-a7e1-725c8e988d18,Inverter not functional,H,C
-
 3a4ede72-244a-4f5f-8efa-b17e032d01ee,feb04eac-f84f-4232-bd4f-80a178f24a17,No current on a sunny day,H,N
-
 3ccf474c-3881-44b7-99fb-59a2a4668418,feb04eac-f84f-4232-bd4f-80a178f24a17,Strange noise when switching off Inverter,M,N
-
 3583f982-d7df-4aad-ab26-301d4a157cd7,2b87f6ca-28a2-41d6-8c69-ccf16aa6389d,Solar panel broken,H,I
+```
 
 Rename your local file to `incidents.csv`.
 
@@ -60,15 +57,13 @@ As a last step, we will import data from a file to **Conversations** entity.
 Using a local text editor, create a local file called `conversations.txt`.
 Add the following content to the file and save it locally:
 
+```
 ID,incidents_ID,timestamp,author,message
-
 2b23bb4b-4ac7-4a24-ac02-aa10cabd842c,3b23bb4b-4ac7-4a24-ac02-aa10cabd842c,1995-12-17T03:24:00Z,Harry John,Can you please check if battery connections are fine?
-
 2b23bb4b-4ac7-4a24-ac02-aa10cabd843c,3a4ede72-244a-4f5f-8efa-b17e032d01ee,1995-12-18T04:24:00Z,Emily Elizabeth,Can you please check if there are any loose connections?
-
 9583f982-d7df-4aad-ab26-301d4a157cd7,3583f982-d7df-4aad-ab26-301d4a157cd7,2022-09-04T12:00:00Z,Sunny Sunshine, please check why the solar panel is broken
-
 9583f982-d7df-4aad-ab26-301d4a158cd7,3ccf474c-3881-44b7-99fb-59a2a4668418,2022-09-04T13:00:00Z,Bradley Flowers,What exactly is wrong?
+```
 
 Rename your local file to `conversations.csv`.
 
