@@ -60,8 +60,23 @@ From the left handed activity bar, click icon **Run Configurations**.
 
 From the **Run Configurations** view, click icon **Run Module**.
 
+![](/exercises/Ex8/images/runconfiguration.png)
+
+A preview of the application opens, and the **Incidents** tile is on the on the left-hand side.
+
+Click the **Incidents** tile.
+The list of incidents opens in a new tab.
+
+Click the **Strange noise when switching off Inverter incident**, which has **Medium** urgency, and click **Edit**.
+
+Add **Urgent** text to the beginning of the **Title** and click **Save**.
+
+Go back to the list of incidents and see that the Urgency changes to **High**.
+
+![](/exercises/Ex8/images/testlogic.png)
+
 
 ## Summary
-We have now added application logic to the application. We have learned that using the low code tools, one can switch to normal textual editors to change / add code.
+We have now added application logic to the application. 
 
-Continue to - [Exercise 7](../ex7/README.md)
+Continue to - [Exercise 9](../Ex9/README.md)
