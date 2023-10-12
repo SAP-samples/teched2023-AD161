@@ -71,7 +71,7 @@ Click the **Strange noise when switching off Inverter incident**, which has **Me
 
 Add **Urgent** text to the beginning of the **Title** and click **Save**.
 
-Go back to the list of incidents and see that the Urgency changes to **High**.
+Go back to the list of incidents and see that the **Urgency** changed to **High**.
 
 ![](/exercises/Ex8/images/testlogic.png)
 
