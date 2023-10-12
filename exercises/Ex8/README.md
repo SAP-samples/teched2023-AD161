@@ -52,10 +52,13 @@ so that you finally see:
 
 Save the file.
 
-## Preview the Application
-
 We have now finished configuring the application and we can preview it again.
 
+## Preview the Application
+
+From the left handed activity bar, click icon **Run Configurations**. 
+
+Click the default run configuration: Run incident_managementXXX-1.
 Go back to the **Home** tab and on the **Preview** button in the upper right part of the screen, select **With Live Data**. As before after a couple of seconds the **Project Preview** page comes up. Click on the **My List Report** application again. It should come up as before. Click on its **Create** button above the empty list.
 
 Fill out the form, pick any *BusinessPartner** from the value help and any **Category** from the dropdown and fill in a **description** of your choice. Make sure that for this first request you choose a value for **totalcost** which is *smaller* than the threshold in our application handler code, so smaller than **200**
