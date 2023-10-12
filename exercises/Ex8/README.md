@@ -36,18 +36,15 @@ Click **Open Code Editor > Application Logic**.
 The application logic handler file opens.
 In the **'changeUrgencyDueToSubject.js'** file, after the comment Your code here, add the following content:
 
+```
 const incident = request.data;
-
-
 if (incident.title?.toLowerCase().includes("urgent")) {
-
       incident.urgency = {      
         code: "H",        
-        descr: "High"
-        
+        descr: "High"        
       };
 }
-      
+```      
 
 
 ![](/exercises/Ex8/images/logiccode.png)
