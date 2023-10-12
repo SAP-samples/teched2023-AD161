@@ -4,12 +4,11 @@ The unit test checks that the urgency is raised to high according to the inciden
 
 ## Create a Test for Updating the Urgency from an Incident's Title
 
-
-From the CDS Graphical Modeler, select the Incidents entity and click  (Application Logic) to display the existing application logic.
 From the **Application Logic Editor**, select **changeUrgencyDueToSubject** and click **Open Code Editor > Unit Test**.
 
+![](/exercises/Ex8/images/unittestcreate.png)
 
-In the 'changeUrgencyDueToSubject-test.js' file, after the Your code here comment , add the following content:
+In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here** comment , add the following content:
 
 ```
   let draftId, incidentId;
@@ -39,7 +38,13 @@ In the 'changeUrgencyDueToSubject-test.js' file, after the Your code here commen
   // Clean up 
   const responseDelete = await DELETE(`/service/incident_managementXXX/Incidents(ID=${incidentId},IsActiveEntity=true)`);
   expect(responseDelete.status).to.eql(204);
- ```       
+ ```
+Save the file.
+
+
+
+
+
 From the activity bar, click  (Task Explorer).
 From the Task Explorer, click  (Create Task).
 A dialog box opens.
