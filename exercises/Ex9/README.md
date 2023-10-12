@@ -6,7 +6,7 @@ The unit test checks that the urgency is raised to high according to the inciden
 
 From the **Application Logic Editor**, select **changeUrgencyDueToSubject** and click **Open Code Editor > Unit Test**.
 
-![](/exercises/Ex8/images/unittestcreate.png)
+![](/exercises/Ex9/images/unittestcreate.png)
 
 In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here** comment , add the following content:
 
@@ -41,7 +41,7 @@ In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here*
  ```
 Save the file.
 
-
+![](/exercises/Ex9/images/testcode.png)
 
 
 
