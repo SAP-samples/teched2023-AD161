@@ -1,48 +1,34 @@
 # Exercise 8 - Add Application Logic to the Application
+In this excercise we will add a logic of automatic urgency determination.
+Customer may forget to select the urgency when creting an incident, so whenever an "urgent" appears in the title the incident will automaticaly marked as urgent.
 
-## The additional Scenario
+## Update Incident from Incident's Title
 
-While we already have a running CRUD application, we want to improve it now.
-We would like to get a visual hint that the criticality of a request is high depending on the total cost of the request. This should be shown in the list of Capex requirements like this:
+From the **Storyboard**, select the **ProcessorService** and click **Open in Graphical Modeler**.
+The CDS Graphical Modeler opens.
 
-![](/exercises/ex6/images/LCAP_60.png)
+Select the **Incidents** entity and click icon (Add Logic).
 
-In order to do achieve this, we need to do several things, most prominently to add some application logic to the project.
+The Add Application Logic dialog box opens.
+From the dialog box:
+For the Service Entity field, make sure that the ProcessorService.incidents value is selected.
+For the Name field, enter changeUrgencyDueToSubject for the value.
+Click Add.
+The application logic editor opens.
+From the CONFIGURATION tab of the application logic editor, select the following options:
+In the Phase section, select Before.
+In the Standard Event section, select both, Create and Update.
+Click Open Code Editor > Application Logic.
+The application logic handler file opens.
+In the 'changeUrgencyDueToSubject.js' file, after the comment Your code here, add the following content:
 
-## The Code behind the Scenes
-
-To create the project up to this point you have not seen any code, everything was built using visual editors. However, under the hood code is created using the technologies that are part of the low code perspective of the Business Application Studio. In this project it is CAP and Fiori elements. There is also the Mobile Development Kit (MDK) that is not covered in this hands on.
-
-For all these technologies whenever you change something in the visual editors, the code is created. The code that is created is very much the code that a developer could have written using just the text editors. There is **no additional or different metatdata** created.
-
-In fact you can see the code. And what's more you can decide at any point in the project that from now on you'd rather carry on with textual editors adding more code / changing the generated code. With this is becomes possible not only to use the low code tools to create complete applications but also to jump start any kind of development that involves CAP, Fiori elements or MDK. You can use the visual tools to a certain point of your liking, where you think the tools support what you want to do in an optimal way and then switch to the code. Get the straight forward things done really easily and fast and if the editors do not provide enough functionality to do the final 20% of the resulting applications, one can switch to the code editors and finish it there.
-
-How do switch to the code? Let's do this now.
-
-Press the button in the left sidebar at the very top, then choose **View** and **Explorer** as entries
-
-![](/exercises/ex6/images/LCAP_61.png)
-
-Now a new side pane opens at the left and it contains the file structure of our project. You can see a **db** and a **srv** folder there, both are standard CAP folders that hold the data models and the services respectively. There is also the **app** folder which holds our Fiori elements UI application, if there are more than one and additional MDK applications you can also find them in this folder.
-
-![](/exercises/ex6/images/LCAP_62.png)
-
-Let's open the file **schema.cds** in the **db** folder. You can now see a text file which reflects the data models for Capex and Category that we have created using the graphical modeler. This is code in the Core Data Service (CDS) format and you could now edit it and enhance it. For CDS files this even works in both directions. You can either change the CDS file and the change is reflected in the graphical modeler and vice versa. Being able to edit in both direction doesn't work for all file types (e.g. not for Javascript files) but as a general rule you can always at any point leave the graphical editors, switch to the file structure and from then on code in text editors.
-
-## Add a new Property to the Data Model
-
-In order to control the crtiticality of a Capex registration entry on the UI, we need a new property. To get it, on the **Home** page, under **Data Models** press on the **Capex** entry. In the Data Modeler, by pressing on the header area of the **Capex** entity, bring up the menu and press the pencil like icon to be able to add the properties of the entity. Add a property called **criticality** of type **Integer** to the data model:
-
-![](/exercises/ex6/images/LCAP_63.png)
-
-Press **Update** to save the change. The property is now added to the data model and because our **Capex** service entity also projects from the **Capex** data model 1:1 it is also automatically part of the service entity.
-
-Note, we have added the new property to our data base. As the property is only needed to control the UI and as you will see in a later step is calculated at runtime, there is really no need to add it to the data base. There are also options to add it as a calculation field to a service only, but for simplicity reasons we still add it to the data base.
-
-
-
-## Add an Application Logic Handler to the project
-
+const incident = request.data;
+if (incident.title?.toLowerCase().includes("urgent")) {
+      incident.urgency = { 
+        code: "H",
+        descr: "High"
+      };
+}
 Now we need to add the logic part. 
 For this, on the **Home** page, in the **Service** tile choose the **Capex**  again. On the graphical modeler, invoke the menu by clicking on the header of **Capex** and select the **Add Logic** command.
 
