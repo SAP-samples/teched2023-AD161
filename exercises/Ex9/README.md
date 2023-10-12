@@ -8,7 +8,7 @@ From the **Application Logic Editor**, select **changeUrgencyDueToSubject** and 
 
 ![](/exercises/Ex9/images/unittestcreate.png)
 
-In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here** comment , add the following content:
+In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here** comment , add the following content.
 
 ```
   let draftId, incidentId;
@@ -39,11 +39,19 @@ In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here*
   const responseDelete = await DELETE(`/service/incident_managementXXX/Incidents(ID=${incidentId},IsActiveEntity=true)`);
   expect(responseDelete.status).to.eql(204);
  ```
+Replace 4 placeholders occurrences **XXX** in the copied code with your project suffix used.
+
 Save the file.
 
 ![](/exercises/Ex9/images/testcode.png)
 
+Now we will run the the test from the terminal.
 
+From the activity bar select the hamburger icon, and choose **Terminal >New Terminal**.
+
+
+
+basctl --command lcap.applicationLogic.runTest
 
 From the activity bar, click  (Task Explorer).
 From the Task Explorer, click  (Create Task).
