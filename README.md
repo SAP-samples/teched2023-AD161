@@ -8,14 +8,11 @@ This repository contains the material for the SAP TechEd 2023 session called AD1
 
 ## Overview
 
-In this session you will learn how to use SAP Build Code with the SAP SAP Business Application Studio (BAS) to rapidly develop apps on SAP Business
-Technology Platform (SAP BTP). You will learn how to build a full blow CRUD application including backend services and a UI application in a matter of minutes with only visual editors. You will connect the application to an SAP S/4HANA API. Learn how to easily switch to code, work on from there to create additional business logic for your service to finally make the application available on BTP with a "one click deployment"
+In this session, you will learn how to use SAP Build Code with the SAP Business Application Studio to develop apps rapidly on SAP Business Technology Platform (SAP BTP). You will learn how to build a full-blown CRUD application, including backend services and a UI application, in a matter of minutes with only visual editors. You will connect the application to an SAP S/4HANA API. You will learn how to easily switch to code, and continue working from there to create additional business logic for your service to finally make the application available on BTP with a "one-click deployment"
 
 ## The Use Case
 
-In this session we will create an application for Incidents Management.
-
-To achieve this, we will create a new backend service using the Cloud Application Programming Model (CAP), and a web application based on Fiori elements with which users can create Incidents.
+In this session, we will create an application for Incident Management. To achieve this, we will create a new backend service using the Cloud Application Programming Model (CAP), and a web application based on Fiori elements with which users can create Incidents.
 
 ## Requirements
 
