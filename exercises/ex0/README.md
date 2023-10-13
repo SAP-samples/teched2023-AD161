@@ -1,7 +1,7 @@
 # Preparation
 
 Let's start the exercise and see whether everything is ready to go.
-Please make sure you have all the necessary prerequisites listed below. If not, please raise your voice during the meeting so that we can assist you early in the session.
+Please make sure you have all the necessary prerequisites listed below. If not, please raise your voice during the session so that we can assist you early in the session.
 
 ## Prerequisites
 Please keep the following links and resources available:
@@ -11,7 +11,7 @@ Please keep the following links and resources available:
 https://lcapteched-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby
 1. Your user is assigned to you by the moderator of the tutorial. It has the format **lowcodeuser+XXX@gmail.com where XXX is a number**.
 1. To get the password for this user, open this [application](https://lcapteched.launchpad.cfapps.eu10.hana.ondemand.com/lcapUserList.UserListUsers-0.0.1/index.html). The user and the password for this application will be told to you by the moderator of the workshop
-1. **In almost every chapter of this tutorial there is a reference to the number XXX from your user, so a 3 digit number like 001. Make sure that you remember it well.** It is important as we will use these numbers, where every user has a different one, in order to create different names for applications and other artifacts. As we will deploy all the the artifacts to the same Business Technology Platform account, it is important that they all differ in the names and identifiers, so there are no clashes
+1. **In almost every chapter of this tutorial there is a reference to the number XXX from your user, so a 3-digit number like 001. Make sure that you remember it well.** It is important as we will use these numbers, where every user has a different one, in order to create different names for applications and other artifacts. As we will deploy all the the artifacts to the same Business Technology Platform account, it is important that they all differ in the names and identifiers, so there are no clashes.
 
 ## General troubleshooting
 
