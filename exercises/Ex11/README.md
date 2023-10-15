@@ -77,6 +77,8 @@ Your application is launched in a site.
 
 This concludes this hands on.  In just a few chapters without having to code, you have created an OData service based on CAP and a corresponding UI application based on SAP Fiori elements and you have deployed it to SAP's Business Technology Platform. Your application complies to standard designs and comes with a lot of functionality out of the box.
 
+You can continue to an optional exercise to integrate the application to WorkZone - [Exercise 11](../Ex11/README.md)
+
 There are a lot of features of the low code perspective in BAS that we haven't covered in this workshop. So, for completeness let's have a look what you could have also done on top:
 - Use authentications for different user roles
     - The service in our project is set up that it can be used for any CRUD operation by users that have a user and password for the corresponding BTP sub-account. However, this is not always what's wanted. While some users might only have read access to our applications others can read and write
@@ -86,4 +88,3 @@ There are a lot of features of the low code perspective in BAS that we haven't c
     - You can then not only push your changes to the central Git repo but also allow others to collaborate on the project by sharing the project with them
     - In case of conflicts when several people work on the same project, there are simplified processes to overcome this
 - Create a mobile first application with MDK
-
