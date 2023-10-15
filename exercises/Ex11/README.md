@@ -63,7 +63,7 @@ The application can now be viewed by everyone.
 
 ![](/exercises/Ex11/images/everyone.png)
 
-From the left-side panel, click icon **Site Directory**.
+From the left-side panel, click icon **Site Directory**, select **Teched2023** tile.
 Click icon **Go to site**.
 
 ![](/exercises/Ex11/images/site.png)
@@ -75,7 +75,7 @@ Your application is launched in a site.
 
 ## Summary
 
-This concludes this hands on. In just a few chapters without having to code, you have created an OData service based on CAP and a corresponding UI application based on SAP Fiori elements and you have deployed it to SAP's Business Technology Platform. Your application complies to standard designs and comes with a lot of functionality out of the box.
+This concludes this hands on.  In just a few chapters without having to code, you have created an OData service based on CAP and a corresponding UI application based on SAP Fiori elements and you have deployed it to SAP's Business Technology Platform. Your application complies to standard designs and comes with a lot of functionality out of the box.
 
 There are a lot of features of the low code perspective in BAS that we haven't covered in this workshop. So, for completeness let's have a look what you could have also done on top:
 - Use authentications for different user roles
@@ -86,6 +86,4 @@ There are a lot of features of the low code perspective in BAS that we haven't c
     - You can then not only push your changes to the central Git repo but also allow others to collaborate on the project by sharing the project with them
     - In case of conflicts when several people work on the same project, there are simplified processes to overcome this
 - Create a mobile first application with MDK
-- Integrate your project with CI-CD using the BTP continuous integration service
-
 
