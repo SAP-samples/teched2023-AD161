@@ -1,4 +1,4 @@
-# Exercise 10 - Deploy your service and application
+# Exercise 9 - Deploy your service and application
 
 In this section we will deploy the project to the Business Technology Platform (BTP) Cloud Foundry environment.
 
@@ -79,7 +79,7 @@ It looks very much like the preview page from last chapter. Indeed it is almost 
 
 This concludes this hands on. In just a few chapters without having to code, you have created an OData service based on CAP and a corresponding UI application based on SAP Fiori elements and you have deployed it to SAP's Business Technology Platform. Your application complies to standard designs and comes with a lot of functionality out of the box.
 
-You can continue to an optional exercise to integrate the application to WorkZone - [Exercise 11](../Ex11/README.md)
+You can continue to an optional exercise to add unit test and integrate the application to WorkZone - [Exercise 10](../Ex9/README.md)
 
 There are a lot of features of the low code perspective in BAS that we haven't covered in this workshop. So, for completeness let's have a look what you could have also done on top:
 - Use authentications for different user roles
