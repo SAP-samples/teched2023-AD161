@@ -37,11 +37,11 @@ Using a local text editor, create a local file called `incidents.txt`.
 Add the following content to the file and save it locally:
 
 ```
-ID,customer_ID,title,urgency_code,status_code
-3b23bb4b-4ac7-4a24-ac02-aa10cabd842c,8fc8231b-f6d7-43d1-a7e1-725c8e988d18,Inverter not functional,H,C
-3a4ede72-244a-4f5f-8efa-b17e032d01ee,feb04eac-f84f-4232-bd4f-80a178f24a17,No current on a sunny day,H,N
-3ccf474c-3881-44b7-99fb-59a2a4668418,feb04eac-f84f-4232-bd4f-80a178f24a17,Strange noise when switching off Inverter,M,N
-3583f982-d7df-4aad-ab26-301d4a157cd7,2b87f6ca-28a2-41d6-8c69-ccf16aa6389d,Solar panel broken,H,I
+ID,title,urgency_code,customer_BusinessPartner
+3b23bb4b-4ac7-4a24-ac02-aa10cabd842c,Inverter not functional,H,1001036
+3a4ede72-244a-4f5f-8efa-b17e032d01ee,No current on a sunny day,H,1001038
+3ccf474c-3881-44b7-99fb-59a2a4668418,Strange noise when switching off Inverter,M,1001039
+3583f982-d7df-4aad-ab26-301d4a157cd7,Solar panel broken,H,1001039
 ```
 
 Rename your local file to `incidents.csv`.
