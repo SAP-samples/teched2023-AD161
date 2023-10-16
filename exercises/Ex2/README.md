@@ -77,18 +77,18 @@ The entity is updated with the new annotations.
 
 ![](/exercises/Ex2/images/ConversationsAnnotations.png)
 
-## Exercise 2.4 Add UrgencyCode Enum
+## Exercise 2.4 Add the UrgencyCode Enum
 
 In the CDS Graphical Modeler, click **+** and then select **Add Enum** from the dropdown list.
 Change the tile's title to **UrgencyCode**.
 
 ![](/exercises/Ex2/images/UrgencyCodeEnum.png)
 
-If not already open, click (Show Details) icon to open the **UrgencyCode** editor on the right-hand side.
+If it is not already open, click the **Show Details** icon icon to open the **UrgencyCode** editor on the right-hand side.
 
 In the UrgencyCode editor, click the **Properties** tab.
 1. Select the **String** radio button.
-2. Click **+** (Add property)   
+2. Click **+** (Add property).   
 3. For the **Enum Symbol** column, enter **High**.
 4. For the **Enum Value** column, enter **H**.
 5. Click **+** (Add property).   
@@ -102,16 +102,16 @@ The UrgencyCode entity is updated with the new properties.
 
 ![](/exercises/Ex2/images/UrgencyCodeProperties.png)
 
-## Exercise 2.5 Add Urgency Entity
-Create the Urgency entity based on the UrgencyCode Enum, and add CodeList aspect.
+## Exercise 2.5 Add the Urgency Entity
+Create the Urgency entity based on the UrgencyCode Enum, and add the CodeList aspect.
 
 In the CDS Graphical Modeler, click **Add Entity**.
 Change the tile's title to **Urgency**.
-Again, the **ID** property is created for you. This time however we will change it.
+Again, the **ID** property is created for you. However, this time we will change it.
 
 ![](/exercises/Ex2/images/UrgencyEntity.png)
 
-Click icon (Show Details), a new Urgency editor opens on the right-hand side.
+Click on the **Show Details** icon. A new Urgency editor opens on the right-hand side.
 In the Urgency editor, click the **Properties** tab.
 
 1. Change the **ID** property to code.
@@ -123,11 +123,11 @@ The entity is updated with the new property.
 ![](/exercises/Ex2/images/UrgencyProperties.png)
 
 
-## Exercise 2.6 Add Entity Relationship
+## Exercise 2.6 Add the Entity Relationship
 
 Create associations between Incidents to Conversations and Urgency. An incident includes urgency, and multiple conversations.
 
-1. Select the **Incidents entity** and click (Add Relationship) icon.
+1. Select the **Incidents** entity and click the **Add Relationship** icon.
 2. An arrow appears. Drag the arrow to the **Conversations** entity.
 The **New Relationship** dialog box opens.
 In the dialog box, fill in the following values:
@@ -140,7 +140,7 @@ The Incidents entity is updated with the new relationship to Conversations.
 
 ![](/exercises/Ex2/images/IncidentsConversationsRelationship.png)
 
-1. Select the Incidents entity and click (Add Relationship) icon.
+1. Select the Incidents entity and click the **Add Relationship** icon.
 2. An arrow appears. Drag the arrow to the **Urgency** entity.
 The **New Relationship** dialog box opens.
 In the dialog box, fill in the following values:
@@ -155,6 +155,6 @@ The Incidents entity is updated with the new relationship to Urgency.
 
 ## Summary
 
-You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be later used to be deployed to the SAP HANA database we will use. Note that you have not seen any CAP related commands or syntax.
+You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be used later to be deployed to the SAP HANA database that we will use. Note that you have not seen any CAP related commands or syntax.
 
-Continue to - [Exercise 3](../Ex3/README.md)
+Continue to [Exercise 3](../Ex3/README.md).
