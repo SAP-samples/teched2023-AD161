@@ -1,4 +1,4 @@
-# Exercise 9 - Add Application Logic to the Application
+# Exercise 10 - Add Unit Test to the Application
 In this excercise we will add a unit test for automatic urgency determination.
 The unit test checks that the urgency is raised to high according to the incident’s title.
 
@@ -67,4 +67,4 @@ The test start running, and the following **PASS** indication should be dispalye
 ## Summary
 We have now added unit test to the application. 
 
-Continue to - [Exercise 10](../Ex10/README.md)
+Continue to - [Exercise 11](../Ex10/README.md)
