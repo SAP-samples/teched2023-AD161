@@ -131,10 +131,10 @@ Create associations between Incidents to Conversations and Urgency. An incident 
 2. An arrow appears. Drag the arrow to the **Conversations** entity.
 The **New Relationship** dialog box opens.
 In the dialog box, fill in the following values:
-1. For **Type**, select **Composition**.
-2. For **Multiplicity**, select **To-Many**.
-3. For the rest of the fields, leave the default values.
-4. Click **Create**.
+   1. For **Type**, select **Composition**.
+   2. For **Multiplicity**, select **To-Many**.
+   3. For the rest of the fields, leave the default values.
+   4. Click **Create**.
    
 The Incidents entity is updated with the new relationship to Conversations.
 
