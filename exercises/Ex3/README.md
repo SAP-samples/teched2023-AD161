@@ -26,15 +26,14 @@ Return to the **Storyboard**. After a couple of seconds the new service is displ
 
 From the **Storyboard**, under **Data Models**, click **Open in Graphical Modeler** to get back to the graphical modeler.
 
-Here invoke the **Add Relationship** function on **Incidents** again.
+From the **Incidents** entity, click  the **Add Relationship** icon.
+Drag the end of line of the relationship to an empty space on the canvas and click the mouse button.
 
 ![](/exercises/Ex3/images/addbprelationship.png)
 
-This is to create a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in another namespace than our own Incidents entity.
+This creates a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in a different namespace than our own Incidents entity.
 
-Therefore, drag the end of line of the relationship to an empty space on the canvas and click the mouse button.
-
-A new dialog will come up. From the dropdown choose **Target Entity Type** **API_BUSINESS_PARTNER-A_BusinessPartner**. Change the suggested **Property Name** to **customer**. Leave all the other suggestions (**Association** and **To-One**) as they are and press **Create**
+A new dialog will come up. From the dropdown choose **Target Entity Type** **API_BUSINESS_PARTNER-A_BusinessPartner**. Change the suggested **Property Name** to **customer**. Leave all the other suggestions (**Association** and **To-One**) as they are and press **Create**.
 
 ![](/exercises/Ex3/images/incidentcustomerrelationship.png)
 
@@ -45,6 +44,6 @@ You will now see the final data model:
 
 ## Summary
 
-You've now added a reference to incidents data model a customer relationship from a service in an S/4HANA Cloud backend system.
+You've now added a reference to incidents data model a customer relationship from a service in an SAP S/4HANA Cloud backend system.
 
-Continue to - [Exercise 4](../Ex4/README.md)
+Continue to [Exercise 4](../Ex4/README.md).
