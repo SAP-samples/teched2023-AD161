@@ -67,4 +67,4 @@ The test start running, and the following **PASS** indication should be dispalye
 ## Summary
 We have now added unit test to the application. 
 
-Continue to - [Exercise 11](../Ex10/README.md)
+Continue to - [Exercise 11](../Ex11/README.md)
