@@ -1,30 +1,32 @@
-# Exercise 2 - Create a Data Model with CDS Graphical Modeler
+# Exercise 2 - Create a Data Model with the CDS Graphical Modeler
 
-In this exercise, we will use the new low-code perspective in the SAP Business Application Studio to create a service that persists our business data and exposes the data as an OData service for our consuming applications later on.
+In this exercise, we will use the new low-code perspective in SAP Business Application Studio to create a service that persists our business data and exposes the data as an OData service for our consuming applications later on.
 We will also test the service and see whether it runs or not.
-## Exercise 2.1 Import CodeList to Data Model
+## Exercise 2.1 Import CodeList to the Data Model
 
 In the storyboard, click on an entity under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
 
-From the CDS Graphical Modeler editor's top right toolbar, click the (Show Details) icon.
-Click the **Import** tab, click **+** (Import from other models) and select **Common Types**.
-From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other defaults.
+From the CDS Graphical Modeler editor's top right toolbar, click the empty canvas or on the **Show Details** icon.
 
-The data type is imported to the model, it will be used later as a property in Urgency entity.
+Click the **Import** tab, click **+** (Import from other models) and select **Common Types**.
+From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other default options.
+
+The data type is imported to the model. It will be used later as a property in the Urgency entity.
 
 ![](/exercises/Ex2/images/ImportCodeList.png)
 
-## Exercise 2.2 Add Incidents Entity
+## Exercise 2.2 Add the Incidents Entity
 Create the Incidents entity including its properties and annotations.
 
 In the CDS Graphical Modeler, click **Add Entity**.
 Change the tile's title to **Incidents**.
-Note that the ID property as a key is already created for you for convenience reasons. One can choose to keep it or change / delete it, we keep it.
+Note that the ID property as a key is already created for you for convenience. 
+We leave it as is.
 ![](/exercises/Ex2/images/Incidents.png)
 
-Click icon (Show Details), a new Incidents editor opens on the right-hand side.
+Click the **Show Details** icon. A new Incidents editor opens on the right-hand side.
 In the Incidents editor, click the **Properties** tab, and then Click **+** (Add property).
-For the **Name** column, enter the value **title**.
+For the **Name** column, enter **title** for the value.
 For the rest of the columns, leave the default values.
 
 The entity is updated with the new property.
@@ -33,28 +35,30 @@ The entity is updated with the new property.
 
 In the Incidents editor, click the **Annotations** tab.
 Click  **+** (Add) next to the title.
-1. For the **Annotation Target**, select **title** from the dropdown-list.
+1. For the **Annotation Target**, select **title** from the dropdown list.
 2. For the **Annotation Value**, enter **Title**.
    
 The entity is updated with the new annotations.
 
 ![](/exercises/Ex2/images/IncidentsAnnotation.png)
 
-## Exercise 2.3 Add Conversations Entity
+## Exercise 2.3 Add the Conversations Entity
 Create the Conversations entity including its properties, annotations, and aspects.
 
 In the CDS Graphical Modeler, click **Add Entity**.
 Change the tile's title to **Conversations**.
 ![](/exercises/Ex2/images/ConversationsEntity.png)
 
-Click icon (Show Details), a new Conversations editor opens on the right-hand side.
+Click the **Show Details** icon. A new Conversations editor opens on the right-hand side.
 In the Conversations editor, click the **Properties** tab.
 
-Click **+** (Add property):
-1. For the **Name** column, enter the value **timestamp**, for the **Type** column, enter **DateTime**.
+Click **+** (Add property) for each of the fields below:
+1. For the **Name** column, enter **timestamp**. For the **Type** column, enter **DateTime**.
+For the rest of the columns, leave the default values
 2. For the **Name** column, enter **author**.
+For the rest of the columns, leave the default values
 3. For the **Name** column, enter **message**.
-4. For the rest of the columns, leave the default values.
+For the rest of the columns, leave the default values.
 
 The entity is updated with the new properties.
 
