@@ -53,5 +53,5 @@ In the next step, we will create a data model.
 
 You've now created an incident management project with a default Processor service that is ready for modeling, based on CAP (Cloud Application Programming model).
 
-Continue to - [Exercise 2](../Ex2/README.md).
+Continue to [Exercise 2](../Ex2/README.md).
 
