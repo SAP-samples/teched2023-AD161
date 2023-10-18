@@ -1,4 +1,4 @@
-# Exercise 10 - Add Unit Test to the Application
+# Exercise 10 [Optional] - Add Unit Test to the Application
 In this excercise we will add a unit test for automatic urgency determination.
 The unit test checks that the urgency is raised to high according to the incident’s title.
 
