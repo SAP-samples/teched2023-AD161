@@ -30,21 +30,21 @@ For the **UI Application Template**, select **List Report Page** and click **Nex
 
 For the **Data Objects**, select the following values:
 
-For **Main entity**	select **Incidents**.
-For **Navigation entity** select **None**.
+For **Main entity**,	select **Incidents**.
+For **Navigation entity**, select **None**.
 Click **Finish**.
 
 ![](/exercises/Ex7/images/dataobjects.png)
 
-And there you go, with just 4 steps you have created a complete UI app on top of your service entity. After some seconds you will see the new UI app showing up in the **UI Applications** tile on the **Storyboard** tab. After some more seconds an editor pops up to the side which shows the pages that are generated for the UI app, the so-called **Page Map**.
+And there you go, with just 4 steps you have created a complete UI app on top of your service entity. After a few seconds, the new UI app is displayed in the **UI Applications** tile of the **Storyboard** tab. After some more seconds, the **Page Map** editor pops up on the side, which shows the pages that are generated for the UI app.
 
 ![](/exercises/Ex7/images/UIInStoryboard.png)
 
-We now have a fully functional list report and and object page. Both pages are automatically populated with all the fields from our Incidents service entity apart from the ones that don't make sense: the ID field which contains a UUID is not included, as showing UUIDs to humans is not a good user experience.
+We now have a fully functional list report and an object page. Both pages are automatically populated with all the fields from our Incidents service entity, except for the ones that don't make sense. For example, the ID field that contains a UUID is not included, since showing UUIDs does not make a good user experience.
 
-While we could now already start testing our UI application and would get a nice application, we will optimize the UI at a couple of places.
+While we could now already start testing our UI application and would get a nice application, we will first optimize the UI in a couple of places.
 
-## Adjust the List Page of your UI Application
+## Adjust the List Page of Your UI Application
 
 From the Page Map editor, select the **List Report** tile and click the pencil icon **Configure Page**.
 
