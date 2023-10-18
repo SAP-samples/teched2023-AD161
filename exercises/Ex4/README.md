@@ -34,7 +34,10 @@ The data is added.
 ![](/exercises/Ex4/images/bpsampledata.png)  
 
 Now we will **import** data from a file to **Incidents** entity.
-Using a local text editor, create a local file called `incidents.txt`.
+
+Open the ![Incidents](/exercises/Ex4/csv/incidents.csv) file, and click the **Download** icon.
+
+Alternatively, using a local text editor, create a local file named `incidents.csv`.
 Add the following content to the file and save it locally:
 
 ```
@@ -45,8 +48,6 @@ ID,title,urgency_code,customer_BusinessPartner
 3583f982-d7df-4aad-ab26-301d4a157cd7,Solar panel broken,H,1001039
 ```
 
-Rename your local file to `incidents.csv`.
-
 From the editor, select **Incidents** and click **Import**.
 From the file selection dialog box that opens, select the 'incidents.csv' file that you created.
 The data is added.
@@ -54,7 +55,10 @@ The data is added.
 ![](/exercises/Ex4/images/incidentssample.png) 
 
 For the last step, we will import data from a file to the **Conversations** entity.
-Using a local text editor, create a local file called `conversations.txt`.
+
+Open the ![Conversations](/exercises/Ex4/csv/conversations.csv) file, and click the **Download** icon.
+
+Alternatively, using a local text editor, create a local file named `conversations.csv`.
 Add the following content to the file and save it locally:
 
 ```
@@ -64,8 +68,6 @@ ID,incidents_ID,timestamp,author,message
 9583f982-d7df-4aad-ab26-301d4a157cd7,3583f982-d7df-4aad-ab26-301d4a157cd7,2022-09-04T12:00:00Z,Sunny Sunshine, please check why the solar panel is broken
 9583f982-d7df-4aad-ab26-301d4a158cd7,3ccf474c-3881-44b7-99fb-59a2a4668418,2022-09-04T13:00:00Z,Bradley Flowers,What exactly is wrong?
 ```
-
-Rename your local file to `conversations.csv`.
 
 From the editor, select **Conversations** and click **Import**.
 From the file selection dialog box that opens, select the 'conversations.csv' file that you created.
