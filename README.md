@@ -32,8 +32,8 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 7 -  Create a list report UI application ](exercises/Ex7/README.md)
 - [Exercise 8 -  Add application logic to the application ](exercises/Ex8/README.md)
 - [Exercise 9 -  Deploy your service and application ](exercises/Ex10/README.md)
-- [Exercise 10 - Add application unit test to the application ](exercises/Ex9/README.md)
-- [Exercise 11 - Integrate the application to Work Zone ](exercises/Ex11/README.md)- 
+- [Exercise 10 (Optional) - Add application unit test to the application ](exercises/Ex9/README.md)
+- [Exercise 11 (Optional) - Integrate the application to Work Zone ](exercises/Ex11/README.md)- 
 
 ## How to obtain support
 
