@@ -20,8 +20,6 @@ The requirements to follow the exercises in this repository can be found in the 
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started - Preparation](exercises/ex0/README.md)
 - [Exercise 1 -  Create a Project ](exercises/Ex1/README.md)
 - [Exercise 2 -  Create a data model with the SAP Business Application Studio ](exercises/Ex2/README.md)
