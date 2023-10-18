@@ -12,7 +12,7 @@ In this session, you will learn how to use SAP Build Code with the SAP Business 
 
 ## The Use Case
 
-In this session, we will create an application for Incident Management. To achieve this, we will create a new backend service using the Cloud Application Programming Model (CAP), and a web application based on Fiori elements with which users can create Incidents.
+In this session, we will create an application for Incident Management. To achieve this, we will create a new backend service using the Cloud Application Programming Model (CAP), and a web application based on Fiori elements with which users can manage Incidents.
 
 ## Requirements
 
