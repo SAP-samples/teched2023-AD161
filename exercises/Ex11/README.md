@@ -12,9 +12,8 @@ We already completed in advance the following steps in the SAP BTP cockpit for t
   
 ## Check the running service and UI after deplyomemnt
 
-Click the following URL to launch SAP Build Work Zone, standard edition:
+Copy the following URL to a new browser tab and launch SAP Build Work Zone, standard edition:
 
-![Work Zone](https://lcapteched.dt.launchpad.cfapps.eu10.hana.ondemand.com)
 ```
 https://lcapteched.dt.launchpad.cfapps.eu10.hana.ondemand.com
 ```
