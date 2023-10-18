@@ -20,7 +20,7 @@ The requirements to follow the exercises in this repository can be found in the 
 
 - [Getting Started - Preparation](exercises/ex0/README.md)
 - [Exercise 1 -  Create a Project ](exercises/Ex1/README.md)
-- [Exercise 2 -  Create a Data Model with the CDS Graphical Modeler ](exercises/Ex2/README.md)
+- [Exercise 2 -  Create a Data Model ](exercises/Ex2/README.md)
 - [Exercise 3 -  Reference an S/4 HANA Cloud Service in your data model ](exercises/Ex3/README.md)
 - [Exercise 4 -  Add Sample Data ](exercises/Ex4/README.md)
 - [Exercise 5 -  Create a Service ](exercises/Ex5/README.md)
