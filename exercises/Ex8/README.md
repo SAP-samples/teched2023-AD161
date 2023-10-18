@@ -79,4 +79,4 @@ Go back to the list of incidents and see that the **Urgency** changed to **High*
 ## Summary
 We have now added application logic to the application. 
 
-Continue to - [Exercise 9](../Ex9/README.md)
+Continue to - [Exercise 9](../Ex10/README.md)
