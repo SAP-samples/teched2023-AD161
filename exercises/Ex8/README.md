@@ -1,6 +1,6 @@
 # Exercise 8 - Add Application Logic to the Application
-In this excercise we will add a logic of automatic urgency determination.
-Customer may forget to select the urgency when creting an incident, so whenever an "urgent" appears in the title the incident will automaticaly marked as urgent.
+In this exercise, we will add a logic of automatic urgency determination.
+Customers may forget to select the urgency when creating an incident, so whenever an "urgent" appears in the title the incident will automatically marked as urgent.
 
 ## Update Incident from Incident's Subject
 
