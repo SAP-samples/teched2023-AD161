@@ -1,4 +1,4 @@
-# Exercise 9 - Deploy your service and application
+# Exercise 9 - Deploy Your Application
 
 In this section, we will deploy the project to the Business Technology Platform (BTP), Cloud Foundry environment.
 
