@@ -18,6 +18,8 @@ Now we will **import** data from a file to **A_BusinessPartner** entity.
 
 Open the ![Customers](/exercises/Ex4/csv/customers.csv) file, and click the **Download** icon.
 
+<a href="/exercises/Ex4/csv/customers.csv" download>Click to Download</a>
+
 Alternatively, using a local text editor, create a local file named `customers.csv`.
 Add the following content to the file and save it locally:
 ```
