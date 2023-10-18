@@ -23,7 +23,7 @@ The requirements to follow the exercises in this repository can be found in the 
 - [Exercise 2 -  Create a Data Model ](exercises/Ex2/README.md)
 - [Exercise 3 -  Reference an S/4HANA Cloud Service in Your Data Model ](exercises/Ex3/README.md)
 - [Exercise 4 -  Add Sample Data ](exercises/Ex4/README.md)
-- [Exercise 5 -  Create a Service ](exercises/Ex5/README.md)
+- [Exercise 5 -  Create a Service (API)](exercises/Ex5/README.md)
 - [Exercise 6 -  Preview Your Service ](exercises/Ex6/README.md)
 - [Exercise 7 -  Create a List Report UI Application ](exercises/Ex7/README.md)
 - [Exercise 8 -  Add application logic to the application ](exercises/Ex8/README.md)
