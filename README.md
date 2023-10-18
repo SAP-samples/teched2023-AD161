@@ -25,11 +25,11 @@ The requirements to follow the exercises in this repository can be found in the 
 - [Exercise 4 -  Add Sample Data ](exercises/Ex4/README.md)
 - [Exercise 5 -  Create a Service ](exercises/Ex5/README.md)
 - [Exercise 6 -  Preview Your Service ](exercises/Ex6/README.md)
-- [Exercise 7 -  Create a list report UI application ](exercises/Ex7/README.md)
+- [Exercise 7 -  Create a List Report UI Application ](exercises/Ex7/README.md)
 - [Exercise 8 -  Add application logic to the application ](exercises/Ex8/README.md)
-- [Exercise 9 -  Deploy your service and application ](exercises/Ex10/README.md)
+- [Exercise 9 -  Deploy Your Aplication ](exercises/Ex10/README.md)
 - [Exercise 10 (Optional) - Add application unit test to the application ](exercises/Ex9/README.md)
-- [Exercise 11 (Optional) - Integrate the application to Work Zone ](exercises/Ex11/README.md)- 
+- [Exercise 11 (Optional) - Integrate the Application to Work Zone ](exercises/Ex11/README.md)- 
 
 ## How to obtain support
 
