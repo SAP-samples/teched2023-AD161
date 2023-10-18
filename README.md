@@ -16,7 +16,7 @@ In this session, we will create an application for Incident Management. To achie
 
 ## Requirements
 
-The requirements to follow the exercises in this repository can be found in the [Getting Started](exercises/ex0/) section below.
+The requirements to follow the exercises in this repository can be found in the [Getting Started - Preperation](exercises/ex0/) section below.
 
 ## Exercises
 
