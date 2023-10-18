@@ -34,7 +34,7 @@ Click **Open Code Editor > Application Logic**.
 ![](/exercises/Ex8/images/applicationlogiceditor.png)
 
 The application logic handler file opens.
-In the **'changeUrgencyDueToSubject.js'** file, after the comment Your code here, add the following content:
+In the **'changeUrgencyDueToSubject.js'** file, after the comment "//Your code here", add the following content:
 
 ```
 const incident = request.data;
