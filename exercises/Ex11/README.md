@@ -14,7 +14,7 @@ We already completed in advance the following steps in the SAP BTP cockpit for t
 
 Click the following URL to launch SAP Build Work Zone, standard edition:
 
-![](https://lcapteched.dt.launchpad.cfapps.eu10.hana.ondemand.com)
+![Work Zone](https://lcapteched.dt.launchpad.cfapps.eu10.hana.ondemand.com)
 ```
 https://lcapteched.dt.launchpad.cfapps.eu10.hana.ondemand.com
 ```
