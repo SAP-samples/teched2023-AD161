@@ -1,4 +1,4 @@
-# Exercise 7 - Create a List Report UI Application based on Fiori elements
+# Exercise 7 - Create a List Report UI Application
 
 After the creation of the service with several entities, we will create a list report with an object page based on the Fiori elements technology.
 
