@@ -1,8 +1,8 @@
-# Exercise 4 - Add some sample data
+# Exercise 4 - Add Sample Data
 
 We will now populate our data model with some sample data so that we can test our service. Note, that even though it says sample data, the data can be of two types:
-- fixed values that are part of your application and should be deployed along with the application. An example could be the data for **Urgency** if there is only a fixed set of urgencies that cannot be changed
-- sample data that is really only used to test the services and applications that you create and that should not be part of a productive deployment
+- Fixed values that are part of your application and should be deployed along with the application. An example could be the data for **Urgency** if there is only a fixed set of urgencies that cannot be changed
+- Sample data that is only used to test the services and applications that you create and that should not be part of a productive deployment.
 
 Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity and select **Add Sample Data**.
 The Sample Data Editor opens.
@@ -15,7 +15,7 @@ In the descr field, enter Low, Medium and High accordingly.
 ![](/exercises/Ex4/images/urgencysampledata.png)  
 
 Now we will **import** data from a file to **A_BusinessPartner** entity.
-Using a local text editor, create a local file called `customers.txt`.
+Using a local text editor, create a local file named `customers.txt`.
 Add the following content to the file and save it locally:
 
 ```
@@ -52,7 +52,7 @@ The data is added.
 
 ![](/exercises/Ex4/images/incidentssample.png) 
 
-As a last step, we will import data from a file to **Conversations** entity.
+For the last step, we will import data from a file to the **Conversations** entity.
 Using a local text editor, create a local file called `conversations.txt`.
 Add the following content to the file and save it locally:
 
@@ -74,7 +74,7 @@ The data is added.
 
 ## Summary
 
-We have now added some sample data to two data models that we can later use to test the service we are going to create.
+We have now added some sample data to two data models that we can use later to test the service that we will create.
 
-Continue to - [Exercise 5](../Ex5/README.md)
+Continue to [Exercise 5](../Ex5/README.md)
 
