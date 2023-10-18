@@ -1,7 +1,7 @@
 # Exercise 4 - Add some sample data
 
 We will now populate our data model with some sample data so that we can test our service. Note, that even though it says sample data, the data can be of two types:
-- fixed values that are part of you application and should be deployed along with the application. An example could be the data for **Urgency** if there is only a fixed set of urgencies that cannot be changed
+- fixed values that are part of your application and should be deployed along with the application. An example could be the data for **Urgency** if there is only a fixed set of urgencies that cannot be changed
 - sample data that is really only used to test the services and applications that you create and that should not be part of a productive deployment
 
 Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity and select **Add Sample Data**.
