@@ -1,4 +1,4 @@
-# Exercise 11 - Integrate with SAP Build Work Zone
+# Exercise 11 [Optional] - Integrate with SAP Build Work Zone
 
 In the following steps you will add the deployed HTML5 application to a site created in SAP Build Work Zone, standard edition.
 
