@@ -16,11 +16,12 @@ In the descr field, enter Low, Medium and High accordingly.
 
 Now we will **import** data from a file to **A_BusinessPartner** entity.
 
-Using a local text editor, create a local file named `customers.txt`.
-Add the following content to the file and save it locally:
-
-Open the file below, and press download on the upper right.
+Open the Customers file 
 ![Customers](/exercises/Ex4/csv/customers.csv)  
+and press download.
+
+Alternatively, Using a local text editor, create a local file named `customers.csv`.
+Add the following content to the file and save it locally:
 ```
 BusinessPartner,FirstName,LastName
 1001036,Daniel,Watts
@@ -28,7 +29,6 @@ BusinessPartner,FirstName,LastName
 1001039,Sunny,Sunshine
 ```
 
-Rename your local file to `customers.csv`.
 From the editor, select **A_BusinessPartner** and click **Import**.
 From the file selection dialog box that opens, select the 'customers.csv' file that you created.
 The data is added.
