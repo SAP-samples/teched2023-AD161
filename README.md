@@ -29,7 +29,7 @@ The requirements to follow the exercises in this repository can be found in the 
 - [Exercise 8 -  Add Application Logic to the Application ](exercises/Ex8/README.md)
 - [Exercise 9 -  Deploy Your Aplication ](exercises/Ex10/README.md)
 - [Exercise 10 (Optional) - Add Unit Test to the Application ](exercises/Ex9/README.md)
-- [Exercise 11 (Optional) - Integrate the Application to Work Zone ](exercises/Ex11/README.md)- 
+- [Exercise 11 (Optional) - Integrate with SAP Build Work Zone ](exercises/Ex11/README.md)- 
 
 ## How to obtain support
 
