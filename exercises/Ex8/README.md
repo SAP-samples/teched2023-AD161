@@ -1,13 +1,13 @@
 # Exercise 8 - Add Application Logic to the Application
 In this exercise, we will add a logic of automatic urgency determination.
-Customers may forget to select the urgency when creating an incident, so whenever an "urgent" appears in the title the incident will automatically marked as urgent.
+Customers may forget to select the urgency when creating an incident, so whenever an "Urgent" appears in the title, the incident will automatically be marked as urgent.
 
-## Update Incident from Incident's Subject
+## Update Incident from the Incident's Subject
 
-From the **Storyboard**, select the **ProcessorService** and click **Open in Graphical Modeler**.
+From the **Storyboard**, select the **ProcessorService**, and click **Open in Graphical Modeler**.
 The CDS Graphical Modeler opens.
 
-Select the **Incidents** entity and click icon **Add Logic**.
+Select the **Incidents** entity and click the **Add Logic** icon.
 
 ![](/exercises/Ex8/images/addapplicationlogic.png)
 
@@ -27,7 +27,7 @@ From the **CONFIGURATION** tab of the application logic editor, select the follo
 
 In the **Phase** section, select **Before**.
 
-In the **Standard Event** section, select both, **Create** and **Update**.
+In the **Standard Event** section, select **Create** and **Update**.
 
 Click **Open Code Editor > Application Logic**.
 
@@ -46,30 +46,30 @@ if (incident.title?.toLowerCase().includes("urgent")) {
 }
 ```      
 
-so that you finally see:
+The outcome should look like this:
 
 ![](/exercises/Ex8/images/logiccode.png)
 
 Save the file.
 
-We have now finished configuring the application and we can preview it again.
+We have now finished configuring the application and we can preview it.
 
 ## Preview the Application
 
-From the left handed activity bar, click icon **Run Configurations**. 
+From the activity bar on the left of the page, click the **Run Configurations** icon. 
 
-From the **Run Configurations** view, click icon **Run Module**.
+From the **Run Configurations** view, click the **Run Module** icon.
 
 ![](/exercises/Ex8/images/runconfiguration.png)
 
-A preview of the application opens, and the **Incidents** tile is on the on the left-hand side.
+A preview of the application opens, showing the **Incidents** tile on the left.
 
 Click the **Incidents** tile.
 The list of incidents opens in a new tab.
 
-Click the **Strange noise when switching off Inverter incident**, which has **Medium** urgency, and click **Edit**.
+Click the **Strange noise when switching off Inverter incident**, which has **Medium** urgency, and then click **Edit**.
 
-Add **Urgent** text to the beginning of the **Title** and click **Save**.
+Add the word **Urgent** to the beginning of the **Title** and click **Save**.
 
 Go back to the list of incidents and see that the **Urgency** changed to **High**.
 
@@ -77,6 +77,6 @@ Go back to the list of incidents and see that the **Urgency** changed to **High*
 
 
 ## Summary
-We have now added application logic to the application. 
+We added application logic to the application. 
 
 Continue to - [Exercise 9](../Ex10/README.md)
