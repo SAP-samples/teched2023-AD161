@@ -1,4 +1,4 @@
-# Preparation
+# Getting Started - Preparation
 
 Let's start the exercise and see whether everything is ready to go.
 Please make sure you have all the necessary prerequisites listed below. If not, please raise your voice during the session so that we can assist you early in the session.
