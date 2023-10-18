@@ -15,7 +15,7 @@ This is important because we are assigning a different number to each user, and 
 
 ## General troubleshooting
 
-1. If you encounter an issue with the Low-Code perspective in SAP Business Application Studio, you can check the logs under: **File > Open > /home/user/lcap.home.2023-11-02.log** (If you encounter the issue any other day, you need to update the file name with the date of that day.)
+1. If you encounter an issue in SAP Business Application Studio, you can check the logs under: **File > Open > /home/user/lcap.home.2023-11-02.log** (If you encounter the issue any other day, you need to update the file name with the date of that day.)
 
 2. If something does not work in the editor, restart the whole workspace. To do so, open this URL: **https://lcapteched.eu10cf.applicationstudio.cloud.sap/index.html?alldevspaces=true**.  
 The Dev Space Manager appears, showing the SAP Business Application Studio dev spaces. Click the "Stop" button, and once the dev space is stopped, you can simply restart it.
