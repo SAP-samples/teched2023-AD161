@@ -20,7 +20,7 @@ In the next step you can choose the technology you want to use to create your ne
 For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
 
 Here's Some background that you can choose to skip reading:
-Both UI application types create responsive apps that can be used on mobile devices and on desktops. However, FE users would rather start with desktops and MDK apps rather with mobile. Both adhere to the templates, however in the MDK case it is a copy template that can be changed in whatever way the user wants to. FE is more restricted with respect to changes to the template, however the resulting app always adheres to the newest SAP Fiori guidelines and comes with a lot of functionality out of the box.
+Both UI application types create responsive apps that can be used on mobile devices and on desktops. However, FE users would rather start with desktops and MDK apps rather with mobile. Both adhere to the templates, however in the MDK case it is a template that can be changed in whatever way the user wants to. FE is more restricted with respect to changes to the template, however the resulting app always adheres to the newest SAP Fiori guidelines and comes with a lot of functionality out of the box.
 
 ![](/exercises/Ex7/images/templateresponsive.png)
 
