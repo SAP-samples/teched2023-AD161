@@ -49,7 +49,6 @@ Rename your local file to `incidents.csv`.
 From the editor, select **Incidents** and click **Import**.
 From the file selection dialog box that opens, select the 'incidents.csv' file that you created.
 The data is added.
-Fill the **customer** column value from the dropdown.
 
 ![](/exercises/Ex4/images/incidentssample.png) 
 
