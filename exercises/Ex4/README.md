@@ -15,9 +15,12 @@ In the descr field, enter Low, Medium and High accordingly.
 ![](/exercises/Ex4/images/urgencysampledata.png)  
 
 Now we will **import** data from a file to **A_BusinessPartner** entity.
+
 Using a local text editor, create a local file named `customers.txt`.
 Add the following content to the file and save it locally:
 
+Open the file below, and press download on the upper right.
+![Customers](/exercises/Ex4/csv/customers.csv)  
 ```
 BusinessPartner,FirstName,LastName
 1001036,Daniel,Watts
