@@ -1,10 +1,10 @@
 # Exercise 7 - Create a List Report UI Application
 
-After the creation of the service with several entities, we will create a list report with an object page based on the Fiori elements technology.
+After creating a service with several entities, we will now create a list report with an object page, based on the SAP Fiori elements technology.
 
-## Create a new UI Application
+## Create a New UI Application
 
-Go back to the **Storyboard** tab in the SAP Business Application Studio.
+Go back to the **Storyboard** tab in SAP Business Application Studio.
 From **UI Applications** in the storyboard, click + (Add UI).
 A UI Application wizard opens.
 
@@ -15,12 +15,12 @@ Click **Next**.
 
 ![](/exercises/Ex7/images/UIApplicationDetails.png)
 
-In the next step you can choose the technology you want to use to create your new UI app. You have a choice between "template based, responsive application" representing Fiori elements (FE) and "Mobile centric, freestyle application" representing the Mobile Development Kit (MDK).
+In the next step you can choose the technology you want to use to create your new UI app. You have a choice between a Template-based, responsive application" representing SAP Fiori elements (FE) and a "Mobile-centric, freestyle application" representing the Mobile Development Kit (MDK).
 
 For the **UI Application Type**, select **Template-Based, Responsive Application**, and click **Next**.
 
-Some background that you can choose to skip reading:
-Both create responsive apps that can be used on mobile devices and on desktops, however it is fair to say that with FE users rather start with desktops and MDK apps rather with mobile. Both adhere to templates, however in the MDK case it is a copy template that can be changed in whatever way the user wants to. FE is more restricted with respect to changes to the template, however the resulting app always adheres to the newest Fiori guidelines and comes with a lot of functionality out of the box.
+Here's Some background that you can choose to skip reading:
+Both UI application types create responsive apps that can be used on mobile devices and on desktops. However, FE users would rather start with desktops and MDK apps rather with mobile. Both adhere to the templates, however in the MDK case it is a copy template that can be changed in whatever way the user wants to. FE is more restricted with respect to changes to the template, however the resulting app always adheres to the newest SAP Fiori guidelines and comes with a lot of functionality out of the box.
 
 ![](/exercises/Ex7/images/templateresponsive.png)
 
