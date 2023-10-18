@@ -122,6 +122,13 @@ The entity is updated with the new property.
 
 ![](/exercises/Ex2/images/UrgencyProperties.png)
 
+In the Urgency editor, click the **Aspects** tab.
+
+Select the **sap.common.CodeList** aspect checkbox.
+
+The entity is updated with the new aspect.
+
+![](/exercises/Ex2/images/UrgencyAspect.png)
 
 ## Exercise 2.6 Add the Entity Relationship
 
