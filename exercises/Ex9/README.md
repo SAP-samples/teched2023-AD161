@@ -4,6 +4,13 @@ The unit test checks that the urgency is raised to **high** according to the inc
 
 ## Create a Test for Updating the Urgency from an Incident's Title
 
+From the **Storyboard**, select the **ProcessorService**, and click **Open in Graphical Modeler**.
+The CDS Graphical Modeler opens.
+
+Select the **Incidents** entity and click the **Add Logic** icon.
+
+![](/exercises/Ex8/images/addapplicationlogic.png)
+
 From the **Application Logic Editor**, select **changeUrgencyDueToSubject**, and then click **Open Code Editor > Unit Test**.
 
 ![](/exercises/Ex9/images/unittestcreate.png)
