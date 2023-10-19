@@ -32,7 +32,7 @@ Click **Content Explorer**, and then click the **HTML5 Apps** tile.
 
 Search for the **incidentmanagementXXX** application where **XXX** corresponds to your project suffix.
 
-Verify that the **ID** column ends with XXX, and then select the checkbox.
+Verify that the **ID** column ends with **XXX.Incidents**, and then select the checkbox.
 Click **Add**.
 
 The application is added to your **HTML5 Apps** content.
