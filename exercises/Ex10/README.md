@@ -62,7 +62,7 @@ In this page:
 - Click **Apply**.
 
 The deployment starts and progress can be tracked in the Terminal.
-It takes several minutes for the application to be deployed.
+It takes **several minutes** for the application to be deployed.
 
 ## Check the running service and UI after deplyomemnt
 
