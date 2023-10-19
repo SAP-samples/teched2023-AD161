@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2023 session called AD1
 
 ## Overview
 
-In this session, you will learn how to use SAP Build Code with SAP Business Application Studio to develop apps rapidly on SAP Business Technology Platform (SAP BTP). You will learn how to build a full-blown CRUD application, including backend services and a UI application in a matter of minutes, using only visual editors. You will connect the application to an SAP S/4HANA API. You will learn how to easily switch to code, and continue working from there to create additional business logic for your service to finally make the application available on BTP with a "one-click deployment".
+In this session, you will learn how to use SAP Build Code with SAP Business Application Studio to develop apps rapidly on the SAP Business Technology Platform (SAP BTP). You will learn how to build a full-blown CRUD application, including backend services and a UI application in a matter of minutes, using only visual editors. You will connect the application to an SAP S/4HANA API. You will learn how to easily switch to code, and continue working from there to create additional business logic for your service to finally make the application available on BTP with a "one-click deployment".
 
 ## The Use Case
 
@@ -14,7 +14,7 @@ In this session, we will create an application for Incident Management. To achie
 
 ## Requirements
 
-The requirements to follow the exercises in this repository can be found in the [Getting Started - Preperation](exercises/ex0/) section below.
+The requirements to follow the exercises in this repository can be found in the [Getting Started - Preparation](exercises/ex0/) section below.
 
 ## Exercises
 
@@ -34,7 +34,7 @@ The requirements to follow the exercises in this repository can be found in the 
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. 
-Otherwise, you may request support by opening a new issue in the Issues tab. [Issues](../../issues) tab.
+Otherwise, you may request support by opening a new issue in the [Issues](../../issues) tab.
 
 ## License
 Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
