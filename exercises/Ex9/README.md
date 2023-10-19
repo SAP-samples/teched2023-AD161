@@ -7,9 +7,9 @@ The unit test checks that the urgency is raised to **high** according to the inc
 From the **Storyboard**, select the **ProcessorService**, and click **Open in Graphical Modeler**.
 The CDS Graphical Modeler opens.
 
-Select the **Incidents** entity and click the **Add Logic** icon.
+Select the **Incidents** entity and click the **Application Logic**.
 
-![](/exercises/Ex8/images/addapplicationlogic.png)
+![](/exercises/Ex9/images/addunittestlogic.png)
 
 From the **Application Logic Editor**, select **changeUrgencyDueToSubject**, and then click **Open Code Editor > Unit Test**.
 
