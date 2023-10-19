@@ -30,7 +30,9 @@ Click **Content Explorer**, and then click the **HTML5 Apps** tile.
 
 ![](/exercises/Ex11/images/contentexplorer.png)
 
-Search for the **incidentmanagementXXX** application where **XXX** corresponds to your project suffix, and then select the checkbox.
+Search for the **incidentmanagementXXX** application where **XXX** corresponds to your project suffix.
+
+Verify that the **ID** column ends with XXX, and then select the checkbox.
 Click **Add**.
 
 The application is added to your **HTML5 Apps** content.
