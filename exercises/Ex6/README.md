@@ -60,6 +60,12 @@ This time you will get a lot more data than before. Also the names are different
 
 ![](/exercises/Ex6/images/customerliveresults.png)  
 
+Go to SAP Business Application Studio, press the **Stop Preview** button.
+
+![](/exercises/Ex6/images/stoppreview.png)  
+
+
+
 ## Summary
 We have now previewed our service without any deployment.
 
