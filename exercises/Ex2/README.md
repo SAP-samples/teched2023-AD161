@@ -4,7 +4,7 @@ In this exercise, we will use the new high productivity tools in SAP Business Ap
 
 ## Exercise 2.1 Import CodeList to the Data Model
 
-In the storyboard, click on an entity under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
+In the storyboard, click on **teched** under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
 
 From the CDS Graphical Modeler editor's top right toolbar, click the empty canvas or on the **Show Details** icon.
 
