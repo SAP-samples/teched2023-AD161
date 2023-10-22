@@ -31,7 +31,7 @@ Name your project
 ```
 incident_managementXXX
 ```
-Where XXX is the user number that was assigned to you. Please make sure that you recieved a user number that was assigned to you by the speakers / moderators. Don't make up your own number to avoid clashes with the deployments of others. If your user number is **007** your project name should be **incident_management007**
+Where XXX is the user number that was assigned to you. Please make sure that you received a user number that was assigned to you by the speakers / moderators. Don't make up your own number to avoid clashes with the deployments of others. If your user number is **007** your project name should be **incident_management007**
 
 Fill in the fields as shown below:
 1. **Namespace**	teched
