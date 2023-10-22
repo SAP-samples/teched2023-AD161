@@ -48,8 +48,6 @@ In the **'test-changeUrgencyDueToSubject.js'** file, after the **Your code here*
  ```
 Replace  **XXX** in the 4 placeholders in the copied code with your project's suffix.
 
-Save the file.
-
 ![](/exercises/Ex9/images/testcode.png)
 
 Now we will run the the test from the terminal.
