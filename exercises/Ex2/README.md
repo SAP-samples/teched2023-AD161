@@ -25,8 +25,11 @@ We leave it as is.
 ![](/exercises/Ex2/images/Incidents.png)
 
 Click the **Show Details** icon. A new Incidents editor opens on the right-hand side.
+
 In the Incidents editor, click the **Properties** tab, and then Click **+** (Add property).
+
 For the **Name** column, enter **title** for the value.
+
 For the rest of the columns, leave the default values.
 
 The entity is updated with the new property.
@@ -34,7 +37,9 @@ The entity is updated with the new property.
 ![](/exercises/Ex2/images/IncidentsProperties.png)
 
 In the Incidents editor, click the **Annotations** tab.
+
 Click  **+** (Add) next to the title.
+
 1. For the **Annotation Target**, select **title** from the dropdown list.
 2. For the **Annotation Value**, enter **Title**.
    
