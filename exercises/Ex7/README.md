@@ -128,7 +128,7 @@ Now we will add the **Conversations** section next to the **General Information*
 Select **Sections**, click + (Add Sections), and select **Add Table Section**.
 
 In the dialog box that opens, perform the following steps:
-Fill in **Conversations** as the **Label**, click **Apply**.
+Fill in **Conversations** as the **Label** and press **Enter**.
 Select **conversations** as the **Value Source**.
 Click **Add**.
 
