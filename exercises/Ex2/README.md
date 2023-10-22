@@ -89,7 +89,7 @@ Change the tile's title to **UrgencyCode**.
 
 ![](/exercises/Ex2/images/UrgencyCodeEnum.png)
 
-If it is not already open, click the **Show Details** icon icon to open the **UrgencyCode** editor on the right-hand side.
+If it is not already open, click the **Show Details** icon to open the **UrgencyCode** editor on the right-hand side.
 
 In the UrgencyCode editor, click the **Properties** tab.
 1. Select the **String** radio button.
