@@ -81,7 +81,7 @@ This concludes this hands on. In just a few chapters, and without writing code, 
 
 You can continue to optional exercises to add unit tests and integrate the application to SAP Build Work Zone - [Exercise 10](../Ex9/README.md)
 
-There are a lot of features of the low-code perspective in BAS that we haven't covered in this workshop. So, for the sake of completeness, let's have a look what else you could have done:
+High productivity tools in BAS have many more capabilities that were not covered in this workshop. So, for the sake of completeness, let's have a look what else you could have done:
 - Use authentications for different user roles
     - The service in our project is set up so that it can be used for any CRUD operation by users that have a user and password for the corresponding BTP sub-account. However, this is not always what you want. While some users might only have read access to our applications, others can read and write.
     - To support such scenarios, one can define authorizations for the service entities and assign different privileges for the different user roles. These roles then have to be assigned to users by an administrator after deployment.
