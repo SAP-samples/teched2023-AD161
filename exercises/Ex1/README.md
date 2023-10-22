@@ -10,6 +10,8 @@ A login page is opened, enter the credentials provided to you for the session.
 
 You should see the central entry point for SAP Build development in SAP BTP.
 
+The "lobby"may already contain multiple projects created in this account.
+
 ![](/exercises/Ex1/images/Lobby.png)
 
 Click the **Create** button and select the **Build an Application** tile. 
@@ -36,7 +38,9 @@ Fill in the fields as shown below:
 2. **Service Name**	Processor
    
 You can provide any descriptive text that you want.  
-Confirm by clicking **Create**.
+Confirm by clicking **Create**. 
+
+The project creation may last 2-3 minutes.
 
 ![](/exercises/Ex1/images/FullStack.png)
 
