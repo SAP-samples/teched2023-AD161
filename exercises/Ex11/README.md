@@ -4,7 +4,7 @@ In the following steps, you will add the deployed HTML5 application to a site cr
 
 ## Prerequisites
 
-We have already performed the following steps in the SAP BTP cockpit for the relevant subaccount:
+We have already performed the following steps in the SAP BTP cockpit for you:
 - Added an entitlement to SAP Build Work Zone, standard edition.
 - Created a subscription to SAP Build Work Zone, standard edition.
 - Assigned the `Launchpad_Admin` role collection.
