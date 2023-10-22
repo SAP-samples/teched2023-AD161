@@ -6,6 +6,8 @@ Open your browser and launch the landing page, the "lobby", using the following 
 ```URL
 https://lcapteched-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby
 ```
+A login page is opened, enter the credentials provided to you for the session.
+
 You should see the central entry point for SAP Build development in SAP BTP.
 
 ![](/exercises/Ex1/images/Lobby.png)
