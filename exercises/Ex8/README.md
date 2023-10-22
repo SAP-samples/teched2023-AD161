@@ -50,7 +50,6 @@ The outcome should look like this:
 
 ![](/exercises/Ex8/images/logiccode.png)
 
-Save the file.
 
 We have now finished configuring the application and we can preview it.
 
