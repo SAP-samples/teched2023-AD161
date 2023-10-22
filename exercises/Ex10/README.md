@@ -4,7 +4,7 @@ In this section, we will deploy the project to the Business Technology Platform 
 
 ## Deploy the project to BTP
 
-We already completed the environment set up. This is what we did:
+We already completed the environment set up for you. This is what we did:
 
 * Enabled the Cloud Foundry environment.
    
