@@ -74,6 +74,7 @@ Go back to the list of incidents and see that the **Urgency** changed to **High*
 
 ![](/exercises/Ex8/images/testlogic.png)
 
+Go back to SAP Business Application Studio and click **Stop Preview** button.
 
 ## Summary
 We added application logic to the application. 
