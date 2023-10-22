@@ -1,7 +1,7 @@
 # Exercise 2 - Create a Data Model
 
-In this exercise, we will use the new low-code perspective in SAP Business Application Studio to create a service that persists our business data and exposes the data as an OData service for our consuming applications later on.
-We will also test the service and see whether it runs or not.
+In this exercise, we will use the new high productivity tools in SAP Business Application Studio to create a data model that persists our business data. You will expose the data as an OData service for our consuming applications later on.
+
 ## Exercise 2.1 Import CodeList to the Data Model
 
 In the storyboard, click on an entity under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
