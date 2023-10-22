@@ -47,7 +47,7 @@ The **A_BusinessPartner** entity appears in the CDS Graphical Modeler.
 
  ![](/exercises/Ex5/images/customersprojection.png)  
  
-Go back to the storyboard and make sure that the ProcessorService contains the 4 entities that you just added.
+Make sure that the ProcessorService contains the 4 entities that you just added.
 
  ![](/exercises/Ex5/images/processorservice.png)  
 
