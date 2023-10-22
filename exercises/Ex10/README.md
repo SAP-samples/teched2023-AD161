@@ -34,7 +34,7 @@ Expand the **Deploy** section, select **Deploy incident_managementXXX**, and the
 A build starts and the **Cloud Foundry Sign In and Targets editor** opens.
 
 - Enter the following Cloud Foundry endpoint **https://api.cf.eu10-004.hana.ondemand.com** .
-  **Important**: The system recommends the **https://api.cf.eu10.hana.ondemand.com** URL. Make sure you manually enter the **-004** part behind **eu10**.
+  **Important**: Sometimes, the system recommends the **https://api.cf.eu10.hana.ondemand.com** URL. Make sure you manually enter the **-004** part behind **eu10**.
 
 - Choose **SSO Passcode** as the authentication method.
 
