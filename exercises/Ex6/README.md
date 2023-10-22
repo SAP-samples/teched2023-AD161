@@ -15,7 +15,9 @@ From the **Run Configurations** view, click the **Run Module** icon.
 
 ![](/exercises/Ex6/images/runwithmock.png)
 
-After a couple of seconds, a new browser tab opens and a screen like this is displayed:
+After a couple of seconds, a new browser tab opens and a screen like this is displayed.
+
+If you don't get a new tab, please check whether there is a blocker running in your browser. If so, please allow the domain of the Business Application Studio to open a new tab.
 
 ![](/exercises/Ex6/images/previewlaunchpad.png) 
 
