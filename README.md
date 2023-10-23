@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD267)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD161)
+
 # AD161 - Build Full-Stack Applications with SAP Build Code Tools
 
 ## Description
