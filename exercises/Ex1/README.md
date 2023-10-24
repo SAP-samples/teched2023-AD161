@@ -22,6 +22,10 @@ On the next screen, select the **SAP Build Code** tile.
 
 ![](/exercises/Ex1/images/BuildCode.png)
 
+On the next screen, select the **Full-Stack Application** tile.
+
+![](/exercises/Ex1/images/buildfstile.png)
+
 A dialog appears where you can enter the following name for your project. As we plan to deploy our project, it is important to stick to the naming convention here.  
 
 
