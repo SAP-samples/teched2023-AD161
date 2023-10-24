@@ -4,10 +4,29 @@ After the creation of the data model (persistence layer) we will now select what
 
 ## Create New Service Entities
 
+We will add 4 entities to the service: Customers, Incidents, Conversations and Urgency.
+
 Go back to the **Storyboard** tab in SAP Business Application Studio.
 
 In the **Storyboard**, from the Services tile, click the **ProcessorService** and select **Open in Graphical Modeler**.
 The CDS Graphical Modeler opens.
+
+From the toolbar, click **Add Entity** and click **Entity1**.
+The **New Projection** dialog box opens.
+Select the **A_BusinessPartner** entity, clear the **Enable draft editing** checkbox if not already cleared, and click **OK**.
+The **A_BusinessPartner** entity appears in the CDS Graphical Modeler.
+
+1. **IMPORTANT**: Change the name of the **A_BusinessPartner** entity to **Customers**.
+2. Click the **Show Details** icon, and select the **Projection** tab.
+3. Clear **all properties**, and select the following properties:
+   
+   a. BusinessPartner
+    
+   b. FirstName
+   
+   c. LastName
+
+ ![](/exercises/Ex5/images/customersprojection.png)  
 
 From the toolbar, click **Add Entity** and click **Entity1**.
 The **New Projection** dialog box opens.
@@ -29,23 +48,6 @@ Select the **Urgency** entity, clear the **Enable draft editing** checkbox, and 
 The Urgency entity appears in the CDS Graphical Modeler.
 
 ![](/exercises/Ex5/images/urgencyprojection.png)
-
-From the toolbar, click **Add Entity** and click **Entity1**.
-The **New Projection** dialog box opens.
-Select the **A_BusinessPartner** entity, clear the **Enable draft editing** checkbox if not already cleared, and click **OK**.
-The **A_BusinessPartner** entity appears in the CDS Graphical Modeler.
-
-1. **IMPORTANT**: Change the name of the **A_BusinessPartner** entity to **Customers**.
-2. Click the **Show Details** icon, and select the **Projection** tab.
-3. Clear **all properties**, and select the following properties:
-   
-   a. BusinessPartner
-    
-   b. FirstName
-   
-   c. LastName
-
- ![](/exercises/Ex5/images/customersprojection.png)  
  
 Make sure that the ProcessorService contains the 4 entities that you just added.
 
