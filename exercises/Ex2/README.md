@@ -167,6 +167,6 @@ The Incidents entity is updated with the new relationship to Urgency.
 
 ## Summary
 
-You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be used later to deploy to the SAP HANA database that we will use. Note that you have not seen any CAP-related commands or syntax.
+You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be used later be deployed to the SAP HANA database that we will use. Note that you have not seen any CAP-related commands or syntax.
 
 Continue to [Exercise 3](../Ex3/README.md).
