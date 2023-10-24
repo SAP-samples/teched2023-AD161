@@ -54,8 +54,7 @@ In the CDS Graphical Modeler, click **Add Entity**.
 Change the tile's title to **Conversations**.
 ![](/exercises/Ex2/images/ConversationsEntity.png)
 
-Click the **Show Details** icon. A new Conversations editor opens on the right-hand side.
-In the Conversations editor, click the **Properties** tab.
+In the **Conversations** editor, click the **Properties** tab. (If the editor is not already open, click the **Show Details** icon on the entity.)
 
 Click **+** (Add property) for each of the fields below:
 1. For the **Name** column, enter **timestamp**. For the **Type** column, enter **DateTime**.
