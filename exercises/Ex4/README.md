@@ -1,20 +1,19 @@
 # Exercise 4 - Add Sample Data
 
-We will now populate our data model with some sample data so that we can test our service. Note, that even though it says sample data, the data can be of two types:
+We will now populate our data model with some sample data so that we can test our service. Note that even though it says sample data, the data can be of two types:
 - Fixed values that are part of your application and should be deployed along with the application. An example could be the data for **Urgency** if there is only a fixed set of urgencies that cannot be changed
 - Sample data that is only used to test the services and applications that you create and that should not be part of a productive deployment.
 
-Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity and select **Add Sample Data**.
+Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity, and select **Add Sample Data**.
 The Sample Data Editor opens.
 
-From the editor, select **Urgency**.
 Change the **Mock Data** switch to **Off** and enter 3 as the number of rows.
 Click **Add**:
-In the descr field, enter Low, Medium and High accordingly.
+In the **descr** field, enter Low, Medium and High accordingly.
 
 ![](/exercises/Ex4/images/urgencysampledata.png)  
 
-Now we will **import** data from a file to **A_BusinessPartner** entity.
+Now we will import data from a file to the **A_BusinessPartner** entity.
 
 Open the ![Customers](/exercises/Ex4/csv/customers.csv) file, and click the **Download** icon.
 
@@ -33,7 +32,7 @@ The data is added.
 
 ![](/exercises/Ex4/images/bpsampledata.png)  
 
-Now we will **import** data from a file to **Incidents** entity.
+Now we will import data from a file to **Incidents** entity.
 
 Open the ![Incidents](/exercises/Ex4/csv/incidents.csv) file, and click the **Download** icon.
 
