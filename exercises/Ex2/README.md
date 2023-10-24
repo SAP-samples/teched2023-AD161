@@ -8,17 +8,17 @@ In the storyboard, click on **teched** under the **Data Models** tile, and click
 
 From the CDS Graphical Modeler editor's **double click** on the empty canvas, or from the top right toolbar click on the **Show Details** icon.
 
-Click the **Import** tab, click **+** (Import from other models) and select **Common Types**.
+Click the **Import** tab, click **+** (Import from other models), and select **Common Types**.
 From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other default options.
 
-The data type is imported to the model. It will be used later as a property in the Urgency entity.
+The data type is imported to the model. It will be used later as a property in the **Urgency** entity.
 
 ![](/exercises/Ex2/images/ImportCodeList.png)
 
 ## Exercise 2.2 Add the Incidents Entity
-Create the Incidents entity including its properties and annotations.
+Create the **Incidents** entity including properties and annotations.
 
-In the CDS Graphical Modeler, click **Add Entity**.
+In the CDS Graphical Modeler, click **Add Entity**, and then click on the canvas.
 Change the tile's title to **Incidents**.
 Note that the ID property as a key is already created for you for convenience. 
 We leave it as is.
@@ -26,7 +26,7 @@ We leave it as is.
 
 Click the **Show Details** icon. A new Incidents editor opens on the right-hand side.
 
-In the Incidents editor, click the **Properties** tab, and then Click **+** (Add property).
+In the Incidents editor, click the **Properties** tab, and then click **+** (Add property).
 
 For the **Name** column, enter **title** for the value.
 
@@ -38,7 +38,7 @@ The entity is updated with the new property.
 
 In the Incidents editor, click the **Annotations** tab.
 
-Click  **+** (Add) next to the title.
+Click  **+** (Add) next to the **title** row.
 
 1. For the **Annotation Target**, select **title** from the dropdown list.
 2. For the **Annotation Value**, enter **Title**.
@@ -48,9 +48,9 @@ The entity is updated with the new annotations.
 ![](/exercises/Ex2/images/IncidentsAnnotation.png)
 
 ## Exercise 2.3 Add the Conversations Entity
-Create the Conversations entity including its properties, annotations, and aspects.
+Create the **Conversations** entity including its properties, annotations, and aspects.
 
-In the CDS Graphical Modeler, click **Add Entity**.
+In the CDS Graphical Modeler, click **Add Entity**, and then click on the canvas.
 Change the tile's title to **Conversations**.
 ![](/exercises/Ex2/images/ConversationsEntity.png)
 
@@ -69,21 +69,22 @@ The entity is updated with the new properties.
 ![](/exercises/Ex2/images/ConversationsProperties.png)
 
 In the Conversation editor, click the **Annotations** tab.
-Click **+** (Add) next to the **author**.
-1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
-2. For the **Annotation Value**, select **$user** from the dropdown list.
+
    
 Click **+** (Add) next to the **timestamp**.
 1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
 2. For the **Annotation Value**, select **$now** from the dropdown list.
 
+Click **+** (Add) next to the **author** row.
+1. For the **Annotation Target**, select **cds.on.insert** from the dropdown list.
+2. For the **Annotation Value**, select **$user** from the dropdown list.
 The entity is updated with the new annotations.
 
 ![](/exercises/Ex2/images/ConversationsAnnotations.png)
 
 ## Exercise 2.4 Add the UrgencyCode Enum
 
-In the CDS Graphical Modeler, click **+** and then select **Add Enum** from the dropdown list.
+In the CDS Graphical Modeler, click **+**, select **Add Enum** from the dropdown list, and then click on the canvas. 
 Change the tile's title to **UrgencyCode**.
 
 ![](/exercises/Ex2/images/UrgencyCodeEnum.png)
@@ -92,15 +93,14 @@ If it is not already open, click the **Show Details** icon to open the **Urgency
 
 In the UrgencyCode editor, click the **Properties** tab.
 1. Select the **String** radio button.
-2. Click **+** (Add property).   
-3. For the **Enum Symbol** column, enter **High**.
-4. For the **Enum Value** column, enter **H**.
-5. Click **+** (Add property).   
-6. For the **Enum Symbol** column, enter **Medium**.
-7. For the **Enum Value** column, enter **M**.
-8. Click **+** (Add property).   
-9. For the **Enum Symbol** column, enter **Low**.
-10. For the **Enum Value** column, enter **L**.
+2. For the **Enum Symbol** column, enter **High**.
+3. For the **Enum Value** column, enter **H**.
+4. Click **+** (Add enum symbol).   
+5. For the **Enum Symbol** column, enter **Medium**.
+6. For the **Enum Value** column, enter **M**.
+7. Click **+** (Add enum symbol).   
+8. For the **Enum Symbol** column, enter **Low**.
+9. For the **Enum Value** column, enter **L**.
     
 The UrgencyCode entity is updated with the new properties.
 
@@ -136,7 +136,7 @@ The entity is updated with the new aspect.
 
 ## Exercise 2.6 Add the Entity Relationship
 
-Create associations between Incidents to Conversations and Urgency. An incident includes urgency, and multiple conversations.
+Create associations between **Incidents** and both **Conversations** and **Urgency**. An incident includes urgency, and multiple conversations.
 
 1. Select the **Incidents** entity and click the **Add Relationship** icon.
 2. An arrow appears. Drag the arrow to the **Conversations** entity.
@@ -167,6 +167,6 @@ The Incidents entity is updated with the new relationship to Urgency.
 
 ## Summary
 
-You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be used later to be deployed to the SAP HANA database that we will use. Note that you have not seen any CAP related commands or syntax.
+You've now created a data model including persistence in CAP (Cloud Application Programming model) that can be used later to deploy to the SAP HANA database that we will use. Note that you have not seen any CAP-related commands or syntax.
 
 Continue to [Exercise 3](../Ex3/README.md).
