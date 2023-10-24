@@ -16,7 +16,7 @@ The "lobby"may already contain multiple projects created in this account.
 
 Click the **Create** button and select the **Build an Application** tile. 
 
-!![](/exercises/Ex1/images/BuildApplication.png)
+![](/exercises/Ex1/images/BuildApplication.png)
 
 On the next screen, select the **SAP Build Code** tile.
 
