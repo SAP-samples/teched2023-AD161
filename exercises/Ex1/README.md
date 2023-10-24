@@ -14,7 +14,7 @@ The "lobby"may already contain multiple projects created in this account.
 
 ![](/exercises/Ex1/images/Lobby.png)
 
-Click the **Create** button and select the **Build an Application** tile. 
+Click **Create** and select the **Build an Application** tile. 
 
 ![](/exercises/Ex1/images/BuildApplication.png)
 
@@ -48,7 +48,7 @@ The project creation may last 2-3 minutes.
 
 ![](/exercises/Ex1/images/FullStack.png)
 
-From the list of projects, select incident_managementXXX and navigate to the storyboard in SAP Business Application Studio.
+From the list of projects, select **incident_managementXXX** and navigate to the storyboard in SAP Business Application Studio.
 ![](/exercises/Ex1/images/ProjectLink.png)
 
 After SAP Business Application Studio has created your environment, you should see a screen like this. (Depending on whether your dev space has already started, this might take several minutes to open.)
