@@ -44,6 +44,6 @@ You will now see the final data model:
 
 ## Summary
 
-You've now added a reference to incidents data model a customer relationship from a service in an SAP S/4HANA Cloud backend system.
+You have now added an external reference to the SAP S/4HANA Cloud backend system and connected it to your Incidents data model.
 
 Continue to [Exercise 4](../Ex4/README.md).
