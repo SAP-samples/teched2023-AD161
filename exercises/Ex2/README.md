@@ -6,7 +6,7 @@ In this exercise, we will use the new high productivity tools in SAP Business Ap
 
 In the storyboard, click on **teched** under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
 
-From the CDS Graphical Modeler editor's top right toolbar, click the empty canvas or on the **Show Details** icon.
+From the CDS Graphical Modeler editor's **double click** on the empty canvas, or from the top right toolbar click on the **Show Details** icon.
 
 Click the **Import** tab, click **+** (Import from other models) and select **Common Types**.
 From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other default options.
