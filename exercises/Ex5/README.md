@@ -35,7 +35,7 @@ The **New Projection** dialog box opens.
 Select the **A_BusinessPartner** entity, clear the **Enable draft editing** checkbox if not already cleared, and click **OK**.
 The **A_BusinessPartner** entity appears in the CDS Graphical Modeler.
 
-1. Change the name of the **A_BusinessPartner** entity to **Customers**.
+1. **IMPORTANT**: Change the name of the **A_BusinessPartner** entity to **Customers**.
 2. Click the **Show Details** icon, and select the **Projection** tab.
 3. Clear **all properties**, and select the following properties:
    
