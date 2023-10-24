@@ -12,7 +12,9 @@ In the **Storyboard**, from the Services tile, click the **ProcessorService** an
 The CDS Graphical Modeler opens.
 
 From the toolbar, click **Add Entity** and click **Entity1**.
+
 The **New Projection** dialog box opens.
+
 Select the **A_BusinessPartner** entity, clear the **Enable draft editing** checkbox if not already cleared, and click **OK**.
 The **A_BusinessPartner** entity appears in the CDS Graphical Modeler.
 
@@ -29,21 +31,27 @@ The **A_BusinessPartner** entity appears in the CDS Graphical Modeler.
  ![](/exercises/Ex5/images/customersprojection.png)  
 
 From the toolbar, click **Add Entity** and click **Entity1**.
+
 The **New Projection** dialog box opens.
+
 Select the **Incidents entity**, make sure that the **Enable draft editing** checkbox is selected, and click **OK**.
 The Incidents entity appears in the CDS Graphical Modeler.
 
 ![](/exercises/Ex5/images/incidentsprojection.png)
 
 From the toolbar, click **Add Entity** and click **Entity1**.
+
 The **New Projection** dialog box opens.
+
 Select the **Conversations** entity, clear the **Enable draft editing** checkbox, and click **OK**.
 The Conversations entity appears in the CDS Graphical Modeler.
 
 ![](/exercises/Ex5/images/conversationsprojections.png)
 
 From the toolbar, click **Add Entity** and click **Entity1**.
+
 The **New Projection** dialog box opens.
+
 Select the **Urgency** entity, clear the **Enable draft editing** checkbox, and click **OK**.
 The Urgency entity appears in the CDS Graphical Modeler.
 
