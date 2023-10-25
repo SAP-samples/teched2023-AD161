@@ -75,11 +75,11 @@ For example, **https://<myaccount>.launchpad.cfapps.<myregion>.hana.ondemand.com
 Click the **Incidents** tile to open the application with a list of incidents.
 
 It looks very much like the preview page from the last chapter. Indeed, it is almost the same page, but now everything is deployed and runs in the BTP account. <br>
-You can click on the service links on the right and/or on the UI application.
+
 
 ## Summary
 
-This concludes this hands on. In just a few chapters, and without writing code, you have created an OData service based on CAP and a corresponding UI application based on SAP Fiori elements, which you then deployed to the SAP Business Technology Platform. Your application complies to standard designs and comes with a lot of functionality out-of-the-box.
+This concludes this hands-on. In just a few chapters, and without writing code, you have created an OData service based on CAP and a corresponding UI application based on SAP Fiori elements, which you then deployed to the SAP Business Technology Platform. Your application complies to standard designs and comes with a lot of functionality out-of-the-box.
 
 You can continue to optional exercises to add unit tests and integrate the application to SAP Build Work Zone - [Exercise 10](../Ex9/README.md)
 
