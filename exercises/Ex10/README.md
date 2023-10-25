@@ -24,7 +24,8 @@ Deployment is composed of 3 steps that are available from the **Task Explorer**:
    
 3. Deploy the application.
    
-To start deployment:
+To start deployment:<br>
+
 From the activity bar, click the **Task Explorer** icon.
 
 Expand the **Deploy** section, select **Deploy incident_managementXXX**, and then click the **Run** icon.
@@ -33,12 +34,12 @@ Expand the **Deploy** section, select **Deploy incident_managementXXX**, and the
 
 A build starts and the **Cloud Foundry Sign In and Targets editor** opens.
 
-- Enter the following Cloud Foundry endpoint **https://api.cf.eu10-004.hana.ondemand.com** .
-  **Important**: Sometimes, the system recommends the **https://api.cf.eu10.hana.ondemand.com** URL. Make sure you manually enter the **-004** part behind **eu10**.
+- Enter the following Cloud Foundry endpoint **https://api.cf.eu10-004.hana.ondemand.com** .<br>
+  **Important**: Sometimes, the system recommends the **https://api.cf.eu10.hana.ondemand.com** URL. Make sure you manually enter the **-004** part behind **eu10**.<br>
 
-- Choose **SSO Passcode** as the authentication method.
+- Choose **SSO Passcode** as the authentication method.<br>
 
-- Press the **Open a new browser page to generate your SSO passcode** link.
+- Press the **Open a new browser page to generate your SSO passcode** link.<br>
 
 ![](/exercises/Ex10/images/logincf.png)  
 
@@ -66,14 +67,15 @@ It takes **several minutes** for the application to be deployed.
 
 ## Check the running service and UI after deplyomemnt
 
-Once Deploy is complete, copy or click on the URL that appears at the end of the Terminal logs under **Project OverviewURL**.
+Once Deploy is complete, copy or click on the URL that appears at the end of the Terminal logs under **Project OverviewURL**.<br>
 For example, **https://<myaccount>.launchpad.cfapps.<myregion>.hana.ondemand.com/lcapincident_managementXXX.incident_managementLaunchpad-1.0.0**
 
 ![](/exercises/Ex10/images/linktoapp.png)
 
 Click the **Incidents** tile to open the application with a list of incidents.
 
-It looks very much like the preview page from the last chapter. Indeed, it is almost the same page, but now everything is deployed and runs in the BTP account. You can click on the service links on the right and/or on the UI application.
+It looks very much like the preview page from the last chapter. Indeed, it is almost the same page, but now everything is deployed and runs in the BTP account. <br>
+You can click on the service links on the right and/or on the UI application.
 
 ## Summary
 
