@@ -4,12 +4,13 @@ We will now populate our data model with some sample data so that we can test ou
 - Fixed values that are part of your application and should be deployed along with the application. An example could be the data for **Urgency** if there is only a fixed set of urgencies that cannot be changed
 - Sample data that is only used to test the services and applications that you create and that should not be part of a productive deployment.
 
-Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity, and select **Add Sample Data**.
+Go to the **Storyboard** and from the **Data Models** tile, click the **Urgency** entity, and select **Add Sample Data**.<br>
 The Sample Data Editor opens.
 
-Change the **Mock Data** switch to **Off** and enter 3 as the number of rows.
-Click **Add**:
-In the **descr** field, enter Low, Medium and High accordingly.
+Change the **Mock Data** switch to **Off** and enter 3 as the number of rows.<br>
+Click **Add**.<br>
+Leave the **name** field empty.<br>
+In the **descr** field, enter Low, Medium and High for each row respectively.
 
 ![](/exercises/Ex4/images/urgencysampledata.png)  
 
@@ -17,7 +18,7 @@ Now we will import data from a file to the **A_BusinessPartner** entity.
 
 Open the ![Customers](/exercises/Ex4/csv/customers.csv) file, and click the **Download** icon.
 
-Alternatively, using a local text editor, create a local file named `customers.csv`.
+Alternatively, using a local text editor, create a local file named `customers.csv`.<br>
 Add the following content to the file and save it locally:
 ```
 BusinessPartner,FirstName,LastName
@@ -26,8 +27,8 @@ BusinessPartner,FirstName,LastName
 1001039,Sunny,Sunshine
 ```
 
-From the editor, select **A_BusinessPartner** and click **Import**.
-From the file selection dialog box that opens, select the 'customers.csv' file that you created.
+From the editor, select **A_BusinessPartner** and click **Import**.<br>
+From the file selection dialog box that opens, select the 'customers.csv' file that you created.<br>
 The data is added.
 
 ![](/exercises/Ex4/images/bpsampledata.png)  
@@ -47,17 +48,17 @@ ID,title,urgency_code,customer_BusinessPartner
 3583f982-d7df-4aad-ab26-301d4a157cd7,Solar panel broken,H,1001039
 ```
 
-From the editor, select **Incidents** and click **Import**.
-From the file selection dialog box that opens, select the 'incidents.csv' file that you created.
+From the editor, select **Incidents** and click **Import**.<br>
+From the file selection dialog box that opens, select the 'incidents.csv' file that you created.<br>
 The data is added.
 
 ![](/exercises/Ex4/images/incidentssample.png) 
 
-For the last step, we will import data from a file to the **Conversations** entity.
+For the last step, we will import data from a file to the **Conversations** entity.<br>
 
-Open the ![Conversations](/exercises/Ex4/csv/conversations.csv) file, and click the **Download** icon.
+Open the ![Conversations](/exercises/Ex4/csv/conversations.csv) file, and click the **Download** icon.<br>
 
-Alternatively, using a local text editor, create a local file named `conversations.csv`.
+Alternatively, using a local text editor, create a local file named `conversations.csv`.<br>
 Add the following content to the file and save it locally:
 
 ```
@@ -68,8 +69,8 @@ ID,incidents_ID,timestamp,author,message
 9583f982-d7df-4aad-ab26-301d4a158cd7,3ccf474c-3881-44b7-99fb-59a2a4668418,2022-09-04T13:00:00Z,Bradley Flowers,What exactly is wrong?
 ```
 
-From the editor, select **Conversations** and click **Import**.
-From the file selection dialog box that opens, select the 'conversations.csv' file that you created.
+From the editor, select **Conversations** and click **Import**.<br>
+From the file selection dialog box that opens, select the 'conversations.csv' file that you created.<br>
 The data is added.
 
 ![](/exercises/Ex4/images/conversationssample.png) 
