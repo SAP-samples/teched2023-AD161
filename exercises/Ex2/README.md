@@ -1,14 +1,14 @@
 # Exercise 2 - Create a Data Model
 
-In this exercise, we will use the new high productivity tools in SAP Business Application Studio to create a data model that persists our business data. You will expose the data as an OData service for our consuming applications later on.
+In this exercise, we will use the new high productivity tools in SAP Business Application Studio to create a data model that persists our business data. You will expose the data as an OData service that we will use in our applications later on.
 
 ## Exercise 2.1 Import CodeList to the Data Model
 
 In the storyboard, click on **teched** under the **Data Models** tile, and click **Open in Graphical Modeler**. The CDS Graphical Modeler opens.
 
-From the CDS Graphical Modeler editor's **double click** on the empty canvas, or from the top right toolbar click on the **Show Details** icon.
+From the CDS Graphical Modeler editor, click on the **Show Details** icon.
 
-Click the **Import** tab, click **+** (Import from other models), and select **Common Types**.
+Click the **Import** tab, click **+** (Import from other models), and select **Common Types**.<br>
 From the dialog box, select the **sap.common.CodeList** checkbox, and leave the other default options.
 
 The data type is imported to the model. It will be used later as a property in the **Urgency** entity.
@@ -18,19 +18,18 @@ The data type is imported to the model. It will be used later as a property in t
 ## Exercise 2.2 Add the Incidents Entity
 Create the **Incidents** entity including properties and annotations.
 
-In the CDS Graphical Modeler, click **Add Entity**, and then click on the canvas.
-Change the tile's title to **Incidents**.
-Note that the ID property as a key is already created for you for convenience. 
+In the CDS Graphical Modeler, click **Add Entity**, and then click on the canvas.<br>
+Change the tile's title to **Incidents**.<br>
+Note that the ID property as a key is already created for you for convenience. <br>
 We leave it as is.
 ![](/exercises/Ex2/images/Incidents.png)
 
 Click the **Show Details** icon. A new Incidents editor opens on the right-hand side.
 
-In the Incidents editor, click the **Properties** tab, and then click **+** (Add property).
+In the **Incidents** editor, click the **Properties** tab, and then click **+** (Add property).
 
-For the **Name** column, enter **title** for the value.
-
-For the rest of the columns, leave the default values.
+1. For the **Name** column, enter **title** for the value.
+2. For the rest of the columns, leave the default values.
 
 The entity is updated with the new property.
 
@@ -50,7 +49,7 @@ The entity is updated with the new annotations.
 ## Exercise 2.3 Add the Conversations Entity
 Create the **Conversations** entity including its properties, annotations, and aspects.
 
-In the CDS Graphical Modeler, click **Add Entity**, and then click on the canvas.
+In the CDS Graphical Modeler, click **Add Entity**, and then click on the canvas.<br>
 Change the tile's title to **Conversations**.
 ![](/exercises/Ex2/images/ConversationsEntity.png)
 
@@ -84,7 +83,7 @@ The entity is updated with the new annotations.
 
 ## Exercise 2.4 Add the UrgencyCode Enum
 
-In the CDS Graphical Modeler, click **+**, select **Add Enum** from the dropdown list, and then click on the canvas. 
+In the CDS Graphical Modeler, click **+**, select **Add Enum** from the dropdown list, and then click on the canvas.<br> 
 Change the tile's title to **UrgencyCode**.
 
 ![](/exercises/Ex2/images/UrgencyCodeEnum.png)
@@ -109,17 +108,17 @@ The UrgencyCode entity is updated with the new properties.
 ## Exercise 2.5 Add the Urgency Entity
 Create the Urgency entity based on the UrgencyCode Enum, and add the CodeList aspect.
 
-In the CDS Graphical Modeler, click **Add Entity**.
-Change the tile's title to **Urgency**.
+In the CDS Graphical Modeler, click **Add Entity**.<br>
+Change the tile's title to **Urgency**.<br>
 Again, the **ID** property is created for you. However, this time we will change it.
 
 ![](/exercises/Ex2/images/UrgencyEntity.png)
 
-Click on the **Show Details** icon. A new Urgency editor opens on the right-hand side.
+Click on the **Show Details** icon. A new Urgency editor opens on the right-hand side.<br>
 In the Urgency editor, click the **Properties** tab.
 
 1. Change the **ID** property to code.
-3. Change the **UUID** type, to the previously created **UrgencyCode**.
+2. Change the **UUID** type, to the previously created **UrgencyCode**.
 3. For the rest of the columns, leave the default values.
 
 The entity is updated with the new property.
@@ -138,16 +137,16 @@ The entity is updated with the new aspect.
 
 Create associations between **Incidents** and both **Conversations** and **Urgency**. An incident includes urgency, and multiple conversations.
 
-1. Select the **Incidents** entity and click the **Add Relationship** icon.
-2. An arrow appears. Drag the arrow to the **Conversations** entity.
-The **New Relationship** dialog box opens.
+1. Select the **Incidents** entity and click the **Add Relationship** icon. An arrow appears. 
+2. Drag the arrow to the **Conversations** entity.
+The **New Relationship** dialog box opens.<br>
 In the dialog box, fill in the following values:
    1. For **Type**, select **Composition**.
    2. For **Multiplicity**, select **To-Many**.
    3. For the rest of the fields, leave the default values.
    4. Click **Create**.
    
-The Incidents entity is updated with the new relationship to Conversations.
+The **Incidents** entity is updated with the new relationship to **Conversations**.
 
 ![](/exercises/Ex2/images/IncidentsConversationsRelationship.png)
 
@@ -161,7 +160,7 @@ In the dialog box, fill in the following values:
    4. For the rest of the fields, leave the default values.
    5. Click **Create**.
    
-The Incidents entity is updated with the new relationship to Urgency.
+The **Incidents** entity is updated with the new relationship to **Urgency**.
 
 ![](/exercises/Ex2/images/IncidentsUrgencyRelationship.png)
 
