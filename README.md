@@ -8,9 +8,20 @@ This repository contains the material for the SAP TechEd 2023 session called AD1
 
 ## Overview
 
+### SAP Build Code
+
+Last year, SAP launched SAP Build to empower business experts to construct applications, implement automations and compose business sites. This year, the Build family is being expanded to offer a powerful shortcut for cloud application development with the introduction of SAP Build Code.
+
+![](images/img-build-code-architecture.png)
+
+SAP Build Code unifies essential application development tools such as SAP Business Application Studio, SAP Cloud Application Programming Model (CAP), SAPUI5, SAP Mobile Services, and SAP Document Management Services. It is powered by the generative AI copilot, Joule, and enables interoperability with ABAP Cloud. Additionally, it facilitates seamless collaboration with SAP Build's low-code solutions and provides robust governance and lifecycle management features.
+
+![](images/img-build-code-benefits.png)
+
+### SAP Build Code
 In this session, you will learn how to use SAP Build Code with SAP Business Application Studio to develop apps rapidly on the SAP Business Technology Platform (SAP BTP). You will learn how to build a full-blown CRUD application, including backend services and a UI application in a matter of minutes, using only visual editors. You will connect the application to an SAP S/4HANA API. You will learn how to easily switch to code, and continue working from there to create additional business logic for your service to finally make the application available on BTP with a "one-click deployment".
 
-## The Use Case
+### Exercise Overview
 
 In this session, we will create an application for Incident Management. To achieve this, we will create a new backend service using the Cloud Application Programming Model (CAP), and a web application based on Fiori elements with which users can manage incidents.
 
