@@ -1,5 +1,5 @@
 # Exercise 10 [Optional] - Add Unit Test to the Application
-In this excercise we will add a unit test for automatic urgency determination.
+In this excercise, we will add a unit test for automatic urgency determination.
 The unit test checks that the urgency is raised to **high** according to the incident’s title.
 
 ## Create a Test for Updating the Urgency from an Incident's Title
@@ -7,7 +7,7 @@ The unit test checks that the urgency is raised to **high** according to the inc
 From the **Storyboard**, select the **ProcessorService**, and click **Open in Graphical Modeler**.
 The CDS Graphical Modeler opens.
 
-Select the **Incidents** entity and click the **Application Logic**.
+Select the **Incidents** entity and click the **Application Logic** icon next to the entity's title.
 
 ![](/exercises/Ex9/images/addunittestlogic.png)
 
@@ -56,7 +56,7 @@ From the activity bar, select the hamburger icon, and then choose **Terminal > N
 
 ![](/exercises/Ex9/images/terminal.png)
 
-The Terminal opens. 
+The Terminal opens. <br>
 Copy the following command, paste it in the terminal, and press **Enter** to run the test.
 
 ```
