@@ -1,6 +1,6 @@
 # Exercise 1 - Create a Project
 
-In this exercise, we will create an incident_management project in the new low-code perspective in SAP Business Application Studio.
+In this exercise, we will create an **incident_management** project in the new low-code perspective in SAP Business Application Studio.
 
 Open your browser and launch the landing page, the "lobby", using the following URL:
 ```URL
@@ -10,7 +10,7 @@ A login page is opened, enter the credentials provided to you for the session.
 
 You should see the central entry point for SAP Build development in SAP BTP.
 
-The "lobby"may already contain multiple projects created in this account.
+The "lobby" may already contain multiple projects created in this account.
 
 ![](/exercises/Ex1/images/Lobby.png)
 
@@ -22,7 +22,7 @@ On the next screen, select the **SAP Build Code** tile.
 
 ![](/exercises/Ex1/images/BuildCode.png)
 
-On the next screen, select the **Full-Stack Application** tile.
+Then, select the **Full-Stack Application** tile.
 
 ![](/exercises/Ex1/images/buildfstile.png)
 
@@ -31,15 +31,11 @@ A dialog appears where you can enter the following name for your project. As we 
 
 **DO NOT USE YOUR OWN PROJECT NAME**  
 
-Name your project   
-```
-incident_managementXXX
-```
-Where XXX is the user number that was assigned to you. Please make sure that you received a user number that was assigned to you by the speakers / moderators. Don't make up your own number to avoid clashes with the deployments of others. If your user number is **007** your project name should be **incident_management007**
+You must name your project `incident_managementXXX`, where XXX is the user number that was assigned to you. Please make sure that you received a user number that was assigned to you by the speakers/moderators. Don't make up your own number to avoid clashes with the deployments of others. If your user number is **007** your project name should be **incident_management007**
 
 Fill in the fields as shown below:
-1. **Namespace**	teched
-2. **Service Name**	Processor
+1. **Namespace**:	teched
+2. **Service Name**:	Processor
    
 You can provide any descriptive text that you want.  
 Confirm by clicking **Create**. 
@@ -61,7 +57,7 @@ In the next step, we will create a data model.
 
 ## Summary
 
-You've now created an incident management project with a default Processor service that is ready for modeling, based on CAP (Cloud Application Programming model).
+You've now created an incident management project with a default **Processor** service that is ready for modeling, based on CAP (Cloud Application Programming model).
 
 Continue to [Exercise 2](../Ex2/README.md).
 
