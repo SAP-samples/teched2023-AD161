@@ -12,8 +12,8 @@ There, you can see the **SAP System** node. Technically, it contains destination
 
 Expand **SAP System > lcapteched**, and select **API_BUSINESS_PARTNER**.
 
-You can now see the details of the chosen service, its entities, the properties for each entity, and general data about the service.
-Click **Add External Data Model** in the upper-right corner of the screen.
+You can now see the details of the chosen service, its entities, the properties for each entity, and general data about the service.<br>
+Click **Add External Data Model** in the upper-right corner of the screen.<br>
 This adds the chosen service to you project.
 
 ![](/exercises/Ex3/images/businesspartner.png)
@@ -26,24 +26,27 @@ Return to the **Storyboard**. After a couple of seconds, the new service is disp
 
 From the **Storyboard**, under **Data Models**, select an entity and click **Open in Graphical Modeler** to get back to the graphical modeler.
 
-From the **Incidents** entity, click  the **Add Relationship** icon.
+From the **Incidents** entity, click  the **Add Relationship** icon.<br>
 Drag the end of line of the relationship to an empty space on the canvas and click the mouse button.
 
 ![](/exercises/Ex3/images/addbprelationship.png)
 
 This creates a new association to a Business Partner entity. However, we don't see the Business Partner on the canvas. This is because it is in a different namespace than our own Incidents entity.
 
-A new dialog appears. From the **Target Entity** dropdown list, select **API_BUSINESS_PARTNER-A_BusinessPartner**. Change the suggested **Property Name** to **customer**. Leave all the other suggestions (**Association** and **To-One**) as they are and click **Create**.
+A new dialog appears.<br>
+1. From the **Target Entity** dropdown list, select **API_BUSINESS_PARTNER-A_BusinessPartner**. <br>
+2. Change the suggested **Property Name** to **customer**. <br>
+3. Leave all the other suggestions (**Association** and **To-One**) as they are, and click **Create**.
 
 ![](/exercises/Ex3/images/incidentcustomerrelationship.png)
 
-You will now see the final data model:
+You can now see the final data model:
 
 ![](/exercises/Ex3/images/bprelationshipcreated.png)
 
 
 ## Summary
 
-You have now added an external reference to the SAP S/4HANA Cloud backend system and connected it to your **Incidents** data model.
+You have added an external reference to the SAP S/4HANA Cloud backend system and connected it to your **Incidents** data model.
 
 Continue to [Exercise 4](../Ex4/README.md).
