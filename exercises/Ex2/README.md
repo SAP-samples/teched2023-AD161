@@ -118,7 +118,7 @@ Again, the **ID** property is created for you. However, this time we will change
 Click on the **Show Details** icon. A new Urgency editor opens on the right-hand side.
 In the Urgency editor, click the **Properties** tab.
 
-1. Change the **ID** property to code.
+1. Change the **ID** property to **code**.
 3. Change the **UUID** type, to the previously created **UrgencyCode**.
 3. For the rest of the columns, leave the default values.
 
