@@ -34,7 +34,7 @@ From the toolbar, click **Add Entity**, and click **Entity1**.
 
 The **New Projection** dialog box opens.
 
-Select the **teched.Incidents** entity, make sure that the **Enable draft editing** checkbox is selected, and click **OK**.
+Select the **teched.Incidents** entity, make sure that the **Enable draft editing** checkbox is selected, and click **OK**.<br>
 The **Incidents** entity appears in the CDS Graphical Modeler.
 
 ![](/exercises/Ex5/images/incidentsprojection.png)
@@ -43,7 +43,7 @@ From the toolbar, click **Add Entity** and click **Entity1**.
 
 The **New Projection** dialog box opens.
 
-Select the **teched.Conversations** entity, clear the **Enable draft editing** checkbox, and click **OK**.
+Select the **teched.Conversations** entity, clear the **Enable draft editing** checkbox, and click **OK**.<br>
 The **Conversations** entity appears in the CDS Graphical Modeler.
 
 ![](/exercises/Ex5/images/conversationsprojections.png)
@@ -52,7 +52,7 @@ From the toolbar, click **Add Entity** and click **Entity1**.
 
 The **New Projection** dialog box opens.
 
-Select the **teched.Urgency** entity, clear the **Enable draft editing** checkbox, and click **OK**.
+Select the **teched.Urgency** entity, clear the **Enable draft editing** checkbox, and click **OK**.<br>
 The **Urgency** entity appears in the CDS Graphical Modeler.
 
 ![](/exercises/Ex5/images/urgencyprojection.png)
