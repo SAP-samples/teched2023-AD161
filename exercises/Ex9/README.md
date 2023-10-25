@@ -56,7 +56,7 @@ From the activity bar, select the hamburger icon, and then choose **Terminal > N
 
 ![](/exercises/Ex9/images/terminal.png)
 
-The Terminal opens. <br>
+The terminal opens. <br>
 Copy the following command, paste it in the terminal, and press **Enter** to run the test.
 
 ```
