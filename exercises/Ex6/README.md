@@ -22,10 +22,10 @@ After a couple of seconds, a new browser tab opens and a screen like the one bel
 ![](/exercises/Ex6/images/previewlaunchpad.png) 
 
 
-You can see a preview of the service including the **ProcessorService** in the list of services on the right-hand side.
-From the **Customers** row, click the **View as code** icon to preview the list of customers with the sample data.
+You can see a preview of the service including the **ProcessorService** in the list of services on the right-hand side.<br>
+From the **Customers** row, click the **View as code** icon to preview the list of customers with the sample data.<br>
 
-The **Customers** sample data is displayed.
+The **Customers** sample data is displayed.<br>
 The data is queried and exposed using OData V4. Please note that this service is run from an in-memory database that is automatically opened for you during the preview, so any modification to the data will not persist.
 
 ![](/exercises/Ex6/images/customermockresults.png)  
@@ -33,7 +33,8 @@ The data is queried and exposed using OData V4. Please note that this service is
 
 ## Preview with Live Data
 
-Switch back to the tab that has SAP Business Application Studio with your project. We will now look at the second version of the preview, which uses live data. This time, the data for the business partner is actually fetched from the SAP S/4HANA Cloud system instead of from sample data.
+Switch back to the tab that has SAP Business Application Studio with your project.<br>
+We will now look at the second version of the preview, which uses live data. This time, the data for the business partner is actually fetched from the SAP S/4HANA Cloud system instead of from sample data.
 
 To get there, first click the **Stop Preview** button.
 
@@ -41,7 +42,7 @@ To get there, first click the **Stop Preview** button.
 
 From the activity bar, open the **Run Configurations** view.
 
-Click the **API_BUSINESS_PARTNER** run configuration.
+Click the **API_BUSINESS_PARTNER** run configuration.<br>
 In the **OData** section of the editor that opens, **Live Data** is selected.
 
 From the **Run Configurations** view, click the **Run Module** icon.
@@ -54,9 +55,9 @@ After a couple of seconds, a new browser tab opens and a screen like this is dis
 
 > Note: If you don't get a new tab, please check whether there is a blocker running in your browser. If so, please allow the SAP Business Application Studio domain to open a new tab.
 
-A preview of the service opens and the **ProcessorService** appears in the list of services on the right-hand side.
-From the **Customers** row, click the **View as code** icon to preview the list of customers.
-This time you will get a lot more data than before. Also, the names are different. This is the real business partner data from the SAP S/4HANA backend.
+A preview of the service opens and the **ProcessorService** appears in the list of services on the right-hand side.<br>
+From the **Customers** row, click the **View as code** icon to preview the list of customers.<br>
+This time you will get a lot more data than before. Also, the names are different. This is the real business partner data from the SAP S/4HANA backend.<br>
 
 ![](/exercises/Ex6/images/customerliveresults.png)  
 
