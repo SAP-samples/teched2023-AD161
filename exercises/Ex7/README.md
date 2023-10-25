@@ -4,9 +4,9 @@ After creating a service with several entities, we will now create a list report
 
 ## Create a New UI Application
 
-Go back to the **Storyboard** tab in SAP Business Application Studio.
-In the **UI Applications** tab, click + (Add UI).
-The UI Application wizard opens.
+Go back to the **Storyboard** tab in SAP Business Application Studio.<br>
+In the **UI Applications** tab, click + (Add UI).<br>
+The UI Application wizard opens.<br>
 
 In the **Display Name** field, enter **Incidents**.<br>
 From the **Data Source** dropdown list, select **ProcessorService**.<br>
@@ -35,7 +35,8 @@ Click **Finish**.<br>
 
 ![](/exercises/Ex7/images/dataobjects.png)
 
-And there you go, with just 4 steps you have created a complete UI app on top of your service entity. After a few seconds, the new UI app is displayed in the **UI Applications** tile of the **Storyboard** tab. After some more seconds, the **Page Map** editor pops up on the side, showing the pages that were generated for the UI app.
+And there you go, with just 4 steps you have created a complete UI app on top of your service entity. After a few seconds, the new UI app is displayed in the **UI Applications** tile of the **Storyboard** tab.<br>
+After some more seconds, the **Page Map** editor pops up on the side, showing the pages that were generated for the UI app.
 
 ![](/exercises/Ex7/images/UIInStoryboard.png)
 
@@ -84,7 +85,7 @@ Select the **ObjectPage** tile and click the **Configure Page** pencil icon.
 
  ![](/exercises/Ex7/images/objectpage.png)
 
-Select the **Header** section. 
+Select the **Header** section. <br>
 From the **Title** dropdown list, select **title**, so that the incident title appears in the header.
 
  ![](/exercises/Ex7/images/headertitle.png)
@@ -96,7 +97,6 @@ From **General Information > Form > Fields**, select **urgency_code**.<br>
 Then, in the panel that opens on the right, in the **Label** field, change the text to **Urgency**, and then press enter.<br>
 From the **Text** dropdown list, select **urgency/descr**. <br>
 From the **Text Arrangement** dropdown list, select **Text Only**. <br>
-
 From the **Display Type** dropdown list, select **Value Help**.<br>
 
 ![](/exercises/Ex7/images/urgencycolumn.png)
