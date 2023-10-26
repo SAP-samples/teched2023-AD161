@@ -43,7 +43,7 @@ A build starts and the **Cloud Foundry Sign In and Targets editor** opens.
 
 ![](/exercises/Ex10/images/logincf.png)  
 
-This opens a new page, with a temporary passcode created for you user.
+This opens a new page, with a temporary passcode created for your user.
 
 - Press the button on the right of the password to copy it to the clipboard as indicated here:
 
@@ -65,7 +65,7 @@ In this page:
 The deployment starts and progress can be tracked in the Terminal.
 It takes **several minutes** for the application to be deployed.
 
-## Check the running service and UI after deplyomemnt
+## Check the running service and UI after deployment
 
 Once Deploy is complete, copy or click on the URL that appears at the end of the Terminal logs under **Project OverviewURL**.<br>
 For example, **https://<myaccount>.launchpad.cfapps.<myregion>.hana.ondemand.com/lcapincident_managementXXX.incident_managementLaunchpad-1.0.0**
