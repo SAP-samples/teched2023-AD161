@@ -39,9 +39,12 @@ A build starts and the **Cloud Foundry Sign In and Targets editor** opens.
 
 - Choose **SSO Passcode** as the authentication method.<br>
 
-- Press the **Open a new browser page to generate your SSO passcode** link.<br>
+- Press the **Open a new browser page to generate your SSO passcode** link.<be>
 
 ![](/exercises/Ex10/images/logincf.png)  
+
+- Next, provide the value 'lcap-platform' and choose 'Sign in with Alternative Identity Provider'
+![](/exercises/Ex10/images/GetSSO.png)  
 
 This opens a new page, with a temporary passcode created for your user.
 
